@@ -2,6 +2,7 @@
 const GetInTouch = () => {
   return (
     <div>
+      {/* Contact information */}
       <div>
         <h3>Contacts</h3>
 
