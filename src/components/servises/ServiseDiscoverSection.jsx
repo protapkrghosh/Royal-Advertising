@@ -4,7 +4,7 @@ const ServiseDiscoverSection = () => {
     return (
         <div className="hero my-32">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src="https://reflectivedesign.in/wp-content/uploads/2021/11/image-3-copyright.svg" className="" />
+          <img src="https://img.freepik.com/premium-vector/online-learning-concept-illustration-distance-education-students-learn-online-computer-sqreen-internet-technology-knowledge-e-learning-training-courses-network-service-sience-study_109722-2255.jpg?w=826" className="w-[55%]" />
           <div>
           <p className="text-third">WHO WE ARE</p>
             <h1 className="text-secendary">Are You Ready to Grow With The Best Digital Marketing Company?</h1>
