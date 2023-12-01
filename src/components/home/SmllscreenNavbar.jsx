@@ -1,7 +1,6 @@
 
 import React from "react";
 import classNames from "classnames";
-import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import HandleSmallScreenClosenavbar from "./HandleSmallScreenClosenavbar";
 
 const SmllscreenNavbar = ({isOpens, onClose, }) => {
