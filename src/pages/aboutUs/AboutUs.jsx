@@ -11,10 +11,10 @@ const AboutUs = () => {
         <Element name="AboutUs" className="element">
             <h1 className="text-primary text-center ">About Us</h1>
             <ReflectiveDesign></ReflectiveDesign>
-           <AboutUSSwipers />
             <ClientsAndProjects></ClientsAndProjects>
-            <GoalsAndServices></GoalsAndServices>
+           <AboutUSSwipers />
             <CorporateServices></CorporateServices>
+            <GoalsAndServices></GoalsAndServices>
         </Element>
     );
 };
