@@ -21,7 +21,6 @@ const Home = () => {
         </div>
       </div>
       <Faq />
-
       <ContactUs />
     </Element>
 
