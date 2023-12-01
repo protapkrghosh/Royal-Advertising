@@ -9,7 +9,7 @@ const ContactForm = () => {
         <div>
           <div>
             <p className='uppercase font-semibold'>Contact Us</p>
-            <p className='text-6xl font-bold mt-3'>Have <br /> Questions? Get <br /> in Touch!</p>
+            <p className='text-primary font-bold mt-3'>Have <br /> Questions? Get <br /> in Touch!</p>
             <p className='text-[18px] text-[#787C8B] mb-6 mt-10'>Get in touch with us for all your digital <br /> marketing needs. Our team of experts is ready <br /> to help you reach your online goals.</p>
           </div>
 

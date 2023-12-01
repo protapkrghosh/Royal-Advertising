@@ -1,54 +1,87 @@
-
+import { IoIosArrowRoundForward } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
-  const mediaImage = "https://i.ibb.co/bdsBJHn/wave-3.png";
-
-  const mediaBg = {
-    backgroundImage: `url(${mediaImage})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: "cover",
-    backgroundPosition: "top",
-    
-  };
+  const mediaImage = "https://i.ibb.co/z2QnSQg/wave.png";
+  const footerText = "text-lg text-gray-300 tracking-wide mb-5";
+  const footerHead = "text-xl font-bold mb-5";
+  const footerLinks = "flex flex-col gap-y-3 text-gray-300 text-lg";
 
   const footerStyle = {
-    ...mediaBg,
-    height: "1100px", // Adjust the height as needed
+    backgroundImage: `url(${mediaImage})`,
   };
 
   return (
-    <div style={footerStyle} className="relative">
-        <footer className="footer p-10 absolute text-white top-[700px] left-0">
-      <aside>
-        <p className="text-xl font-bold">Office</p>
-        <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
-        <p>Plot No.10, Pratap Nagar, Tedhi Pulia Ring Road, Vikas Nagar, Lucknow, Uttar Pradesh – 226022</p>
-        <p>info@refletivedesign.in</p>
-        <p>+91-8858230920 +91-8858130920</p>
-      </aside>
-      <nav>
-        <header className="footer-title">Visit Us</header>
-        <a className="link link-hover">Home</a>
-        <a className="link link-hover">About Us</a>
-        <a className="link link-hover">Portfolio</a>
-        <a className="link link-hover">Contacts</a>
-        <a className="link link-hover">Blogs</a>
-      
-      </nav>
-      <nav>
-        <header className="footer-title font-bold">Our Services</header>
-        <a className="link link-hover">About us</a>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
-        <a className="link link-hover">Press kit</a>
-      </nav>
-      <nav>
-        <header className="footer-title">Newsletter</header>
-        <a className="link link-hover">Terms of use</a>
-        <a className="link link-hover">Privacy policy</a>
-        <a className="link link-hover">Cookie policy</a>
-      </nav>
-    </footer>
+    <div style={footerStyle} className="relative bg-no-repeat bg-cover bg-center h-[1700px] lg:h-[600px]">
+      <footer className="mt-32 absolute text-white bottom-0 lg:left-80 flex flex-col justify-center lg:w-[1300px] mx-auto p-5 lg:p-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8">
+          <div>
+            <p className={footerHead}>Office</p>
+            <p className={footerText}>
+              ACME Industries Ltd.
+              <br />
+              Providing reliable tech since 1992 <br />
+              Plot No.10, Pratap Nagar, Tedhi Pulia Ring Road, Vikas Nagar,
+              Lucknow, Uttar Pradesh – 226022
+            </p>
+            <p className={footerText}>info@refletivedesign.in</p>
+            <p className={footerText}>+91-8858230920 +91-8858130920</p>
+          </div>
+          <div>
+            <header className={footerHead}>Visit Us</header>
+            <div className={footerLinks}>
+              <a className="link link-hover">Home</a>
+              <a className="link link-hover">Services</a>
+              <a className="link link-hover">About Us</a>
+              <a className="link link-hover">Portfolio</a>
+              <a className="link link-hover">Contacts</a>
+              <a className="link link-hover">Blogs</a>
+            </div>
+          </div>
+          <div>
+            <header className={footerHead}>Our Services</header>
+            <div className={footerLinks}>
+              <a className="link link-hover">Social Media Marketing</a>
+              <a className="link link-hover">SEO</a>
+              <a className="link link-hover">Graphic Designing</a>
+              <a className="link link-hover">Website Designing</a>
+              <a className="link link-hover">3D Walkthrough</a>
+              <a className="link link-hover">Video Editing & Animation</a>
+            </div>
+          </div>
+          <div>
+            <header className={footerHead}>Newsletter</header>
+            <div className={footerLinks}>
+              <div className="flex gap-5 items-center">
+                <input
+                  type="text"
+                  placeholder="Type here"
+                  className="input input-ghost w-full max-w-xs bg-white"
+                />
+                <div className="bg-[#F51843] p-3 rounded-full text-3xl font-semibold">
+                <IoIosArrowRoundForward></IoIosArrowRoundForward>
+                </div>
+                  
+              </div>
+              <div>
+                {/* <input type="checkbox" checked="" className="checkbox" /> */}
+                <p>
+                  I agree the <a href="#" className="underline">Privacy Policy</a>
+                </p>
+              </div>
+              <div className="flex items-center gap-x-3 text-3xl mt-5">
+                <FaFacebookF></FaFacebookF>
+                <FaInstagram></FaInstagram>
+                <FaTwitter></FaTwitter>
+                <FaLinkedin></FaLinkedin>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
