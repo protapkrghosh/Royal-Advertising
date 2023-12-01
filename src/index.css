@@ -18,6 +18,22 @@
   @apply text-white bg-[#8F6DFF] hover:bg-[##6E48E8] border-0 rounded-full px-8 py-4 font-bold
 }
 
-.inputField:focus {
-  border: none;
+.btn-link {
+  @apply text-white bg-[#8F6DFF] hover:bg-[##6E48E8] border-0 rounded-full px-8 py-4 font-bold
+}
+
+.text-primary {
+  @apply text-7xl font-bold text-[#070234]
+}
+
+.text-secendary {
+  @apply text-5xl font-bold text-[#070234]
+}
+
+.text-third {
+  @apply text-xl text-[#787C8B] my-4
+}
+
+.text-forth {
+  @apply text-2xl text-[#070234] my-2
 }
