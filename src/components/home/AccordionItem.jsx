@@ -22,7 +22,7 @@ const AccordionItem = ({ id, title, content, activeItem, setActiveItem }) => {
                     </span>
                     <p className='lg:font-bold'>{title}</p>
                 </button>
-            </h1> {/* Modify this line */}
+            </h1> 
             <div
                 id={id}
                 className={`transition-max-h duration-300 ease-in-out overflow-hidden ${isOpen ? 'max-h-[500px]' : 'max-h-0'}`}
