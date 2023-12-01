@@ -5,7 +5,7 @@ import AccordionItem from "./AccordionItem";
 const Faq = () => {
     const [activeItem, setActiveItem] = useState(null);
     return (
-        <div className="hero min-h-screen ">
+        <div className="hero ">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className="md:w-[50%] md:mb-72">
                     <img src="https://reflectivedesign.in/wp-content/uploads/2021/11/image-3-copyright.svg" className="" />
