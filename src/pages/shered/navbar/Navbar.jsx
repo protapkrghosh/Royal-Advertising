@@ -5,10 +5,11 @@ import { navdata } from "../../../data/data";
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [activeTab, setActiveTab] = useState(null);
-    console.log(isOpen);
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
+
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
     const handleSetActive = (to) => {
         setActiveTab(to);
