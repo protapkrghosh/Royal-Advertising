@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
-const AboutUsSwiper = () => {
+const Companies = () => {
   const companiesLogos = [
     "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-6-150x150.png",
     "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-7-150x150.png",
@@ -43,4 +43,4 @@ const AboutUsSwiper = () => {
   );
 };
 
-export default AboutUsSwiper;
+export default Companies;

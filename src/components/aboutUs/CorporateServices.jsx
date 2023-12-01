@@ -70,7 +70,7 @@ const CorporateServices = () => {
   ];
 
   return (
-    <div className="text-center my-12">
+    <div className="text-center mb-[100px]">
       <h6 className="font-semibold tracking-wider mb-5">CORPORATE SERVICE</h6>
       <h3 className="text-4xl font-bold mb-6">Why Us</h3>
       <p className="text-gray-500 font-semibold tracking-wide text-lg">

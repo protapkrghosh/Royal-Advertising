@@ -1,7 +1,7 @@
 import React from 'react';
 import { Element } from "react-scroll";
 import ReflectiveDesign from '../../components/aboutUs/ReflectiveDesign';
-import AboutUsSwiper from '../../components/aboutUs/aboutUsSwiper';
+import AboutUsSwiper from '../../components/aboutUs/Companies';
 import ClientsAndProjects from '../../components/aboutUs/ClientsAndProjects';
 import GoalsAndServices from '../../components/aboutUs/GoalsAndServices';
 import CorporateServices from '../../components/aboutUs/CorporateServices';

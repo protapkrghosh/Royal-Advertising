@@ -2,7 +2,7 @@ import React from "react";
 
 const ReflectiveDesign = () => {
   return (
-    <div className="hero min-h-screen max-w-[1320px] mx-auto my-12">
+    <div className="hero min-h-screen max-w-[1320px] mx-auto">
       <div className="hero-content flex flex-col lg:flex-row justify-between">
         <div className="md:w-[50%]">
           <img

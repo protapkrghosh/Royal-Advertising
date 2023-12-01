@@ -3,7 +3,7 @@ import Services from './Services';
 
 const GoalsAndServices = () => {
     return (
-        <div className='max-w-[1300px] mx-auto flex justify-between my-12'>
+        <div className='max-w-[1300px] mx-auto flex justify-between mb-[100px]'>
             <Services></Services>
             <div className='w-[50%]'>
                 <h6 className='font-semibold tracking-widest mb-4'>WHO WE ARE</h6>
