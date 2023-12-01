@@ -22,7 +22,7 @@ const ServisesDiscription = () => {
             <p className='text-third '>{servise.discription}</p>
             <div className='flex items-center   mx-auto w-full gap-2'>
             <p
-              className={` opacity-0 transition-opacity duration-300 text-[#070234] md:ml-20 ml-24 font-bold ${hoveredIndex === index ? 'opacity-100 && translate-x-0' : ''}`}
+              className={` opacity-0 transition-opacity duration-300 text-[#070234] md:ml-20 ml-24 hover:ml-28 font-bold ${hoveredIndex === index ? 'opacity-100 && translate-x-0' : ''}`}
             >
              Read More
             </p>
