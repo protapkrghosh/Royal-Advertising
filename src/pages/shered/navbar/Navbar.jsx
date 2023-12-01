@@ -11,26 +11,26 @@ const Navbar = () => {
 
 
     return (
-        <nav className="md:fixed md:top-0 md:w-full md:z-50">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className=" md:top-0 md:w-full bg-white">
+            <div className="w-11/12 mt-4 mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
                         <Link
                             to="home"
                             smooth={true}
                             duration={1000}
-                            className=" text-3xl hover:text-white cursor-pointer"
+                            className="cursor-pointer"
                         >
                             <img src="https://reflectivedesign.in/wp-content/uploads/2023/03/reflective-design-logo_1.png" className="h-14 w-40" alt="" />
                         </Link>
                     </div>
-                    <div className="hidden md:flex">
-                        <div className="ml-4 flex items-center space-x-4">
+                    <div className="hidden md:flex ">
+                        <div className="ml-4 flex items-center gap-12">
                             <Link
                                 to="home"
                                 smooth={true}
                                 duration={1000}
-                                className="text-slate-800 hover:border-b-2 cursor-pointer"
+                                className="text-[#080337] font-bold  hover:border-b-2 cursor-pointer"
                             >
                                 Home
                             </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
                                 to="about"
                                 smooth={true}
                                 duration={1000}
-                                className=" hover:border-b-2 cursor-pointer"
+                                className=" text-[#080337] font-bold  hover:border-b-2 cursor-pointer"
                             >
                                 About Us
                             </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
                                 to="projects"
                                 smooth={true}
                                 duration={1000}
-                                className=" hover:border-b-2 cursor-pointer"
+                                className="text-[#080337] font-bold  hover:border-b-2 cursor-pointer"
                             >
                                 Services
                             </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
                                 to="skills"
                                 smooth={true}
                                 duration={1000}
-                                className=" hover:border-b-2 cursor-pointer"
+                                className="text-[#080337] font-bold  hover:border-b-2 cursor-pointer"
                             >
                                 Work
                             </Link>
@@ -62,10 +62,19 @@ const Navbar = () => {
                                 to="contact"
                                 smooth={true}
                                 duration={1000}
-                                className=" hover:border-b-2 cursor-pointer"
+                                className=" text-[#080337] font-bold  hover:border-b-2 cursor-pointer"
                             >
                                 Contacts
                             </Link>
+                            <Link
+                                to="contact"
+                                smooth={true}
+                                duration={1000}
+                                className=" btn-navbar ml-5"
+                            >
+                                Lets Talks
+                            </Link>
+
                         </div>
                     </div>
                     <div className="md:hidden flex items-center">
