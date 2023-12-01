@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiseBanner = () => {
     return (
-        <div className="hero min-h-screen">
+        <div className="hero my-20">
             <div className="hero-content flex-col lg:flex-row">
                 <img src="https://reflectivedesign.in/wp-content/uploads/2021/11/image-2-copyright.svg" className="transition-transform duration-300 transform hover:-translate-x-2" />
                 <div>
