@@ -1,0 +1,55 @@
+.technology{
+    font-size: 22px;
+}
+
+.skills{
+    width: 100%;
+    padding: 0 20px;
+}
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.skill-bar{
+    height: 6px;
+    background-color: #282828;
+    border-radius: 10px;
+}
+.skill-per{
+    height: 6px;
+    background-color: #F72F57;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 4.5s 1;
+}
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translate(50%);
+}
+.skill-per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
