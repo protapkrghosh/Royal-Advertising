@@ -1,6 +1,6 @@
 
 
-const Gelary = () => {
+const Homesd = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Gelary = () => {
     );
 };
 
-export default Gelary;
+export default Homesd;

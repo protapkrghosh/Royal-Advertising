@@ -5,8 +5,7 @@ import Faq from "../../components/home/Faq";
 import AboutUs from "../aboutUs/AboutUs";
 import ContactUs from "../contactUs/ContactUs";
 import Servises from "../servises/Servises";
-import Services from "../../components/aboutUs/Services";
-
+import Images from "../../components/home/Images";
 
 const Home = () => {
   return (
@@ -27,7 +26,7 @@ const Home = () => {
       </div>
       <AboutUs />
       <Servises />
-      <Services />
+      <Images />
       <Faq />
       <ContactUs />
     </Element>
