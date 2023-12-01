@@ -22,9 +22,7 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-  const handleNavItemClick = () => {
-    setIsOpen(false); 
-  };
+ 
 
   return (
     <nav className="md:top-0 md:w-full bg-white relative z-10">
