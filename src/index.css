@@ -2,38 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn-primary {
-  @apply text-white bg-[#8F6DFF] hover:bg-[#6E48E8] border-0 rounded-full px-8 py-4 font-bold
-}
-
-.btn-secondary {
-  @apply text-white bg-[#0C0367] hover:bg-[#291E97] border-0 rounded-full px-8 py-4 font-bold
-}
-
-.btn-navbar {
-  @apply text-white bg-[#FF2E57] hover:bg-[#F51843] border-0 rounded-full px-8 font-bold py-3
-}
-
-.btn-discover {
-  @apply text-white bg-[#8F6DFF] hover:bg-[##6E48E8] border-0 rounded-full px-8 py-4 font-bold
-}
-
-.btn-link {
-  @apply text-white bg-[#8F6DFF] hover:bg-[##6E48E8] border-0 rounded-full px-8 py-4 font-bold
-}
-
-.text-primary {
-  @apply text-7xl font-bold text-[#070234]
-}
-
-.text-secendary {
-  @apply text-5xl font-bold text-[#070234]
-}
-
-.text-third {
-  @apply text-xl text-[#787C8B] my-4
-}
-
-.text-forth {
-  @apply text-2xl text-[#070234] my-2
-}
+.btn-primary{
+    @apply   text-white bg-[#8F6DFF] hover:bg-[#6E48E8] border-0 rounded-full px-8 py-4 font-bold
+  }
+.btn-secondary{
+    @apply   text-white bg-[#0C0367] hover:bg-[#291E97] border-0 rounded-full px-8 py-4 font-bold
+  }
+.btn-navbar{
+    @apply   text-white bg-[#FF2E57] hover:bg-[#F51843] border-0 rounded-full px-8 font-bold py-3  
+  }
+.btn-discover{
+    @apply  text-white bg-[#8F6DFF] hover:bg-[##6E48E8] border-0 rounded-full px-8 py-4 font-bold
+  }
+.btn-link{
+    @apply  text-white bg-[#8F6DFF] hover:bg-[##6E48E8] border-0 rounded-full px-8 py-4 font-bold
+  }
+.text-primary{
+    @apply text-4xl lg:text-7xl font-bold text-[#070234]
+  }
+.text-secendary{
+    @apply text-4xl lg:text-5xl font-bold text-[#070234]
+  }
+.text-third{
+    @apply text-xl text-[#787C8B] my-4
+  }
+.text-forth{
+    @apply text-2xl text-[#070234] my-2
+  }

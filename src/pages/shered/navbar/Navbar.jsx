@@ -1,12 +1,15 @@
-// Navbar.js
+
 import React, { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { navdata } from "../../../data/data";
 import Sidebar from "../../../components/home/Sidebar";
+import SmllscreenNavbar from "../../../components/home/SmllscreenNavbar";
+import HandleSmallScreenClosenavbar from "../../../components/home/HandleSmallScreenClosenavbar";
 
 const Navbar = () => {
   const [isOpens, setIsOpens] = useState(false);
   const [activeTab, setActiveTab] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleSetActive = (to) => {
     setActiveTab(to);
@@ -16,6 +19,13 @@ const Navbar = () => {
     setIsOpens(!isOpens);
   };
 
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+  const handleNavItemClick = () => {
+    setIsOpen(false); 
+  };
+
   return (
     <nav className="md:top-0 md:w-full bg-white relative z-10">
       <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
@@ -23,7 +33,7 @@ const Navbar = () => {
           <button
             type="button"
             onClick={toggleSidebar}
-            className=" focus:outline-none mr-4 hidden  md:flex items-center"
+            className="focus:outline-none mr-4 hidden md:flex items-center"
           >
             <svg
               className="h-6 w-6 fill-current"
@@ -59,7 +69,7 @@ const Navbar = () => {
                 to={nav.item}
                 smooth={true}
                 duration={500}
-                className={`hover:text-[#080337]  text-[#080337] font-bold  hover:border-b-2 cursor-pointer border-[#080337] ${activeTab === nav.item ? ' border-b-2 border-[#080337]' : ''}`}
+                className={`hover:text-[#080337] text-[#080337] font-bold hover:border-b-2 cursor-pointer border-[#080337] ${activeTab === nav.item ? ' border-b-2 border-[#080337]' : ''}`}
                 onClick={() => handleSetActive(nav.item)}
                 spy={true}
               >
@@ -70,9 +80,9 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={1000}
-              className=" btn-navbar ml-5"
+              className="btn-navbar ml-5"
             >
-              Lets Talks
+              Lets Talk
             </ScrollLink>
           </div>
         </div>
@@ -80,15 +90,15 @@ const Navbar = () => {
         <div className="md:hidden flex items-center">
           <button
             type="button"
-            onClick={toggleSidebar}
-            className="hover:text-white focus:outline-none focus:text-white"
+            onClick={toggleMenu}
+            className="  focus:outline-none"
           >
             <svg
               className="h-6 w-6 fill-current"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
-              {isOpens ? (
+              {isOpen ? (
                 <path
                   fillRule="evenodd"
                   clipRule="evenodd"
@@ -105,7 +115,22 @@ const Navbar = () => {
           </button>
         </div>
       </div>
+
+      {isOpen && (
+        <div className="md:hidden">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <HandleSmallScreenClosenavbar
+              isOpens={isOpens}
+              onClose={toggleMenu}
+              activeTab={activeTab}
+              handleSetActive={handleSetActive} // Ensure you are passing handleSetActive here
+            />
+          </div>
+        </div>
+      )}
+
       {isOpens && <Sidebar isOpens={isOpens} onClose={toggleSidebar} />}
+      {isOpen && <SmllscreenNavbar isOpens={isOpen} onClose={toggleMenu} />}
     </nav>
   );
 };

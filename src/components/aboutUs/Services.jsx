@@ -3,7 +3,7 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="w-[40%]">
+    <div className="lg:w-[40%] px-5 lg:px-0">
       <div className="skill">
         <div className="skill-name">Graphic Design</div>
         <div className="skill-bar">
