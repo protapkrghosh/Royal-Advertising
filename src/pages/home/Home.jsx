@@ -1,10 +1,10 @@
 import { Element } from "react-scroll";
 import Faq from "../../components/home/Faq";
+import Servises from "../servises/Servises";
 
 
 const Home = () => {
     return (
-
         <Element name="Home" className="element">
             <div className="hero min-h-screen ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
@@ -20,6 +20,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Servises />
             <Faq />
         </Element>
 
