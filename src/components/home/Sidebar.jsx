@@ -1,6 +1,5 @@
-// Sidebar.js
-import React from "react";
-// import classNames from "classnames";
+
+import classNames from "classnames";
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 const Sidebar = ({ isOpens, onClose }) => {
   const sidebarClasses = classNames("sidebar", {
