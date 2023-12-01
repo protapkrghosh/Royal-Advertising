@@ -6,6 +6,7 @@ import AboutUs from "../aboutUs/AboutUs";
 import ContactUs from "../contactUs/ContactUs";
 import Servises from "../servises/Servises";
 import Services from "../../components/aboutUs/Services";
+import Gelary from "../../components/home/Gelary";
 
 
 const Home = () => {
@@ -27,7 +28,7 @@ const Home = () => {
       </div>
       <AboutUs />
       <Servises />
-      <Services />
+      <Gelary />
       <Faq />
       <ContactUs />
     </Element>
