@@ -5,9 +5,6 @@ import Faq from "../../components/home/Faq";
 import AboutUs from "../aboutUs/AboutUs";
 import ContactUs from "../contactUs/ContactUs";
 import Servises from "../servises/Servises";
-import Services from "../../components/aboutUs/Services";
-import Gelary from "../../components/home/Gelary";
-
 
 const Home = () => {
   return (
@@ -15,7 +12,7 @@ const Home = () => {
       <div className="hero mt-20 mb-32">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="md:w-[50%]">
-            <img src="https://reflectivedesign.in/wp-content/uploads/2021/11/image-1-copyright.svg" className="" />
+            <img src="https://media.licdn.com/dms/image/C4D12AQHAZlGS1J5GxA/article-cover_image-shrink_720_1280/0/1619039280830?e=2147483647&v=beta&t=Ojh3HWpt151vFbdT1kkTxLp-sKl2ljxgib4rQgfVLeY" className="transition-transform duration-300 transform hover:-translate-x-2" />
           </div>
           <div className="md:w-[50%]">
             <h1 className="text-7xl font-bold text-[#070234]">Best Digital <br /> Marketing <br /> Company <br /> in Lucknow!
@@ -28,7 +25,6 @@ const Home = () => {
       </div>
       <AboutUs />
       <Servises />
-      <Gelary />
       <Faq />
       <ContactUs />
     </Element>

@@ -4,7 +4,7 @@ const ServiseBanner = () => {
     return (
         <div className="hero my-20">
             <div className="hero-content flex-col lg:flex-row">
-                <img src="https://reflectivedesign.in/wp-content/uploads/2021/11/image-2-copyright.svg" className="transition-transform duration-300 transform hover:-translate-x-2" />
+          <img src="https://assets-global.website-files.com/5e39e2dd596498734262599d/5eb458ec53714559e4103dd3_People.png" className="transition-transform duration-300 transform hover:-translate-x-2 w-[50%]" />
                 <div>
                     <p className="text-third">WHO WE ARE</p>
                     <h1 className="text-secendary">Our Experts are Ready to Help</h1>
