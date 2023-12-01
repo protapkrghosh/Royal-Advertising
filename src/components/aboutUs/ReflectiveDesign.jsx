@@ -6,8 +6,8 @@ const ReflectiveDesign = () => {
       <div className="hero-content flex flex-col lg:flex-row justify-between">
         <div className="md:w-[50%]">
           <img
-            src="https://reflectivedesign.in/wp-content/uploads/2023/03/363Z_31_2-2048x1844.png"
-            className=""
+            src="https://getautomized.com/wp-content/uploads/2021/04/OBJECTS-2.png"
+            className="w-[90%]"
           />
         </div>
 
