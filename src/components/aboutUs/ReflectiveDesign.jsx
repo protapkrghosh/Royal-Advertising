@@ -13,7 +13,7 @@ const ReflectiveDesign = () => {
 
         <div className="md:w-[40%]">
             <h6 className="font-semibold">ABOUT REFLECTIVE DESIGN</h6>
-          <h1 className="text-6xl font-bold text-[#070234]">
+          <h1 className="text-primary font-bold text-[#070234]">
             We Help Your Digital Business Grow
           </h1>
           <p className="py-6 text-slate-500 text-lg">

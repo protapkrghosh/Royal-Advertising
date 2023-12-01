@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const CorporateServices = () => {
   const responsive =
-    "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[1300px] mx-auto my-12";
-  const heading = "text-3xl font-bold tracking-wider mb-4";
+    "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 lg:w-[1300px] mx-auto my-12 px-2 lg:px-0";
+  const heading = "text-2xl lg:text-3xl font-bold lg:tracking-wider mb-4";
   const para = "text-gray-400 tracking-wide text-lg";
 
   const firstDatas = [
@@ -71,8 +71,8 @@ const CorporateServices = () => {
 
   return (
     <div className="text-center mb-[100px]">
-      <h6 className="font-semibold tracking-wider mb-5">CORPORATE SERVICE</h6>
-      <h3 className="text-4xl font-bold mb-6">Why Us</h3>
+      <h6 className="font-semibold tracking-wider mb-2 lg:mb-5">CORPORATE SERVICE</h6>
+      <h3 className="text-5xl font-bold mb-6">Why Us</h3>
       <p className="text-gray-500 font-semibold tracking-wide text-lg">
         We appreciate your trust greatly! Our clients choose us and our products
         because they know we're the best.

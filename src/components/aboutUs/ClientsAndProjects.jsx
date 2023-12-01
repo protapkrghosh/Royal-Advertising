@@ -5,7 +5,7 @@ const ClientsAndProjects = () => {
     const className = "text-xl font-semibold mb-1"
   return (
     <div className='bg-[#0C0833] text-white my-[100px]'>
-      <div className='max-w-[1320px] mx-auto flex justify-between text-center py-12'>
+      <div className='max-w-[1320px] mx-auto flex flex-col lg:flex-row gap-y-12 justify-between text-center py-12'>
         <div>
           <p className={className}>Total Experience</p>
           <CountUp
@@ -15,7 +15,7 @@ const ClientsAndProjects = () => {
             separator=" "
             decimal=","
             suffix="+"
-            className='text-6xl font-bold'
+            className='text-4xl lg:text-6xl  font-bold'
           >
           </CountUp>
         </div>
@@ -28,7 +28,7 @@ const ClientsAndProjects = () => {
             separator=" "
             decimal=","
             suffix="+"
-            className='text-6xl font-bold'
+            className='text-4xl lg:text-6xl  font-bold'
           >
           </CountUp>
         </div>
@@ -41,7 +41,7 @@ const ClientsAndProjects = () => {
             separator=" "
             decimal=","
             suffix="+"
-            className='text-6xl font-bold'
+            className='text-4xl lg:text-6xl  font-bold'
           >
           </CountUp>
         </div>
@@ -54,7 +54,7 @@ const ClientsAndProjects = () => {
             separator=" "
             decimal=","
             suffix="+"
-            className='text-6xl font-bold'
+            className='text-4xl lg:text-6xl  font-bold'
           >
           </CountUp>
         </div>

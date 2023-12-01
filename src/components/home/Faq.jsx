@@ -5,13 +5,12 @@ import AccordionItem from "./AccordionItem";
 const Faq = () => {
     const [activeItem, setActiveItem] = useState(null);
     return (
-        <div className="hero ">
+        <div className="hero mb-20">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <div className="md:w-[50%] md:mb-72">
+                <div className="md:w-[50%]">
                     <img src="https://reflectivedesign.in/wp-content/uploads/2021/11/image-3-copyright.svg" className="" />
                 </div>
-                <div className=" md:w-[60%] h-[400px] md:h-[900px]  py-5 md:py-[150px] px-5 md:px-[60px]">
-
+                <div className="md:w-[60%] py-5 px-5 md:px-[60px]">
                     <div>
                         <AccordionItem
                             id="collapseOne"
