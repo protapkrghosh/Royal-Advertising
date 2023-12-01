@@ -1,6 +1,7 @@
 import { Element } from "react-scroll";
 import Faq from "../../components/home/Faq";
 import ContactUs from "../contactUs/ContactUs";
+import Servises from "../servises/Servises";
 
 const Home = () => {
     return (
@@ -21,7 +22,7 @@ const Home = () => {
                 </div>
             </div>
             <Faq />
-
+            <Servises />
             <ContactUs />
         </Element>
 
