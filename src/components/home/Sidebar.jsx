@@ -20,7 +20,7 @@ const Sidebar = ({ isOpens, onClose }) => {
         </div>
        <div>
        <img
-              src="https://reflectivedesign.in/wp-content/uploads/2023/03/reflective-design-logo_1.png"
+              src="https://b2h9h9q9.rocketcdn.me/wp-content/uploads/2020/11/vishal-mega-mart-Franchise-Logo.png"
               className="h-12 w-36"
               alt=""
             />
