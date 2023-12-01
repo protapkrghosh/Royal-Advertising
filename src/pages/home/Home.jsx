@@ -1,5 +1,7 @@
 import { Element } from "react-scroll";
 import Faq from "../../components/home/Faq";
+import AboutUs from "../aboutUs/AboutUs";
+
 import ContactUs from "../contactUs/ContactUs";
 import Servises from "../servises/Servises";
 
@@ -24,6 +26,7 @@ const Home = () => {
             
             <Servises />
             <Faq />
+            <AboutUs></AboutUs>
             <ContactUs />
 
         </Element>

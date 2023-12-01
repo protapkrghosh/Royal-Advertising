@@ -6,6 +6,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [activeTab, setActiveTab] = useState(null);
 
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
