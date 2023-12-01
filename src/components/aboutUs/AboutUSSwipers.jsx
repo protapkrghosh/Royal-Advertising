@@ -40,7 +40,7 @@ const AboutUSSwipers = () => {
           },
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper lg:max-w-[1265px] mx-auto"
+        className="mySwiper lg:max-w-[1265px] mx-auto mb-20"
       >
       {companiesLogos.map(
         ((companyLogo,index) => <SwiperSlide key={index}><img src={companyLogo} alt="" /></SwiperSlide>)
