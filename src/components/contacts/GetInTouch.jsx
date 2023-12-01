@@ -27,7 +27,7 @@ const GetInTouch = () => {
           </div>
           <h3 className="text-2xl font-bold my-4">Address</h3>
           <p className="text-[17px] text-[#787C8B] mb-1">Plot No.10, Pratap Nagar, Tedhi Pulia Ring Road, Vikas Nagar, Lucknow, Uttar Pradesh – 226022</p>
-          <a href="" className="text-[17px] text-[#787C8B] hover:text-[#36325D] border-b-2 border-[#787C8B] p-1">Check Location</a>
+          <a href="" className="text-[17px] text-[#787C8B] hover:text-[#36325D] border-b-2 hover:border-b-0 border-[#787C8B] p-1">Check Location</a>
         </div>
 
         {/* Get In Touch */}
