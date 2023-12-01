@@ -21,9 +21,11 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Faq />
+            
             <Servises />
+            <Faq />
             <ContactUs />
+
         </Element>
 
     );
