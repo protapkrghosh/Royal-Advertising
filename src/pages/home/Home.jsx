@@ -1,6 +1,7 @@
 import { Element } from "react-scroll";
 import Faq from "../../components/home/Faq";
-
+import ContactUs from "../contactUs/ContactUs";
+import Servises from "../servises/Servises";
 
 const Home = () => {
     return (
@@ -8,9 +9,9 @@ const Home = () => {
         <Element name="Home" className="element">
             <div className="hero min-h-screen ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                   <div className="md:w-[50%]">
-                   <img src="https://reflectivedesign.in/wp-content/uploads/2021/11/image-1-copyright.svg" className="" />
-                   </div>
+                    <div className="md:w-[50%]">
+                        <img src="https://reflectivedesign.in/wp-content/uploads/2021/11/image-1-copyright.svg" className="" />
+                    </div>
                     <div className="md:w-[50%]">
                         <h1 className="text-7xl font-bold text-[#070234]">Best Digital <br /> Marketing <br /> Company <br /> in Lucknow!
                         </h1>
@@ -21,6 +22,8 @@ const Home = () => {
                 </div>
             </div>
             <Faq />
+            <Servises />
+            <ContactUs />
         </Element>
 
     );
