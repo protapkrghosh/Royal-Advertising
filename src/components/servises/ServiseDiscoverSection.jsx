@@ -2,8 +2,7 @@
 
 const ServiseDiscoverSection = () => {
     return (
-
-        <div className="hero min-h-screen">
+        <div className="hero my-32">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src="https://reflectivedesign.in/wp-content/uploads/2021/11/image-3-copyright.svg" className="" />
           <div>

@@ -9,12 +9,6 @@ export const navdata = [
         item:"Services"
     },
     {
-        item:"Work"
-    },
-    {
-        item:"Blogs"
-    },
-    {
         item:"Contacts"
     },
 

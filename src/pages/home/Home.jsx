@@ -1,20 +1,20 @@
-import React from "react";
+
 import { Element } from "react-scroll";
 import Faq from "../../components/home/Faq";
 import AboutUs from "../aboutUs/AboutUs";
 import ContactUs from "../contactUs/ContactUs";
-import Servises from "../servises/Servises";
+import Services from "../../components/aboutUs/Services";
+
 
 const Home = () => {
   return (
     <Element name="Home" className="element">
-      <div className="hero min-h-screen ">
+      <div className="hero mt-20 mb-32">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="md:w-[50%]">
             <img src="https://reflectivedesign.in/wp-content/uploads/2021/11/image-1-copyright.svg" className="" />
           </div>
-          <div className="md:w-[50%]">
-            <h1 className="text-7xl font-bold text-[#070234]">Best Digital <br /> Marketing <br /> Company <br /> in Lucknow!
+            <h1 className="text-primary font-bold">Best Digital <br /> Marketing <br /> Company <br /> in Lucknow!
             </h1>
             <p className="py-6 text-slate-500">Give your brand a boost with our digital marketing agency. We get <br /> you a customer not just a traffic.</p>
             <button className="btn btn-primary">About Us</button>
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
       </div>
       <AboutUs />
-      <Servises />
+      <Services />
       <Faq />
       <ContactUs />
     </Element>

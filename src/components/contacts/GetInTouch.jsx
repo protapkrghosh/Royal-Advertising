@@ -5,7 +5,7 @@ const GetInTouch = () => {
     <div>
       {/* Section Heading */}
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-6xl font-bold mb-7">Contacts</h1>
+        <h1 className="text-primary font-bold mb-7">Contacts</h1>
         <IoIosArrowDown className="text-2xl" />
       </div>
 
