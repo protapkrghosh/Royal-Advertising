@@ -54,8 +54,8 @@ const Navbar = () => {
             className="cursor-pointer"
           >
             <img
-              src="https://reflectivedesign.in/wp-content/uploads/2023/03/reflective-design-logo_1.png"
-              className="h-14 w-40"
+              src="https://b2h9h9q9.rocketcdn.me/wp-content/uploads/2020/11/vishal-mega-mart-Franchise-Logo.png"
+              className="h-28 w-40"
               alt=""
             />
           </ScrollLink>
