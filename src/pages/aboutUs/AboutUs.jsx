@@ -9,6 +9,7 @@ import CorporateServices from '../../components/aboutUs/CorporateServices';
 const AboutUs = () => {
     return (
         <Element name="AboutUs" className="element">
+            <h1 className="text-primary text-center ">About Us</h1>
             <ReflectiveDesign></ReflectiveDesign>
             <AboutUsSwiper></AboutUsSwiper>
             <ClientsAndProjects></ClientsAndProjects>
