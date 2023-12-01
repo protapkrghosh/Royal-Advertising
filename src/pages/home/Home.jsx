@@ -4,8 +4,6 @@ import AboutUs from "../aboutUs/AboutUs";
 
 import ContactUs from "../contactUs/ContactUs";
 import Servises from "../servises/Servises";
-
-const Home = () => {
     return (
 
         <Element name="Home" className="element">
