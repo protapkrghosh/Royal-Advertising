@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="md:top-10 px-10 max-w-[1300px] mx-auto md:w-full bg-white relative z-10">
+    <nav className="md:top-10 px-10 max-w-[1300px] mx-auto md:w-full relative z-10">
       {/* <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <div className="flex items-center">
           <button
