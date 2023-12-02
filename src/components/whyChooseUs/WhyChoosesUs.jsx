@@ -1,8 +1,8 @@
-import React from "react";
 
-const WhyChooseUs = () => {
-  return (
-    <div class="relative w-full h-[1500px] lg:h-[450px] overflow-hidden">
+
+const WhyChoosesUs = () => {
+    return (
+        <div class="relative w-full h-[1500px] lg:h-[450px] overflow-hidden">
       <div>
         <img
           src="https://demo.7iquid.com/salepush/wp-content/uploads/2023/11/BG6.jpg"
@@ -78,7 +78,7 @@ const WhyChooseUs = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
-export default WhyChooseUs;
+export default WhyChoosesUs;
