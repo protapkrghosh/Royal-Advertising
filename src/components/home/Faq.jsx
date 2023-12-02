@@ -1,8 +1,10 @@
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
+import useAOSInit from "../../hooks/useAosInit";
 
 
 const Faq = () => {
+  useAOSInit()
   const [activeItem, setActiveItem] = useState(null);
   return (
     <div className="hero my-16">
@@ -11,7 +13,7 @@ const Faq = () => {
           <img src="https://www.digitalgenix.co.uk/wp-content/uploads/2020/11/slider1.png" className="" />
         </div>
 
-        <div className="md:w-[60%] py-5 px-5 md:px-[60px]">
+        <div data-aos="fade-right" className="md:w-[60%] py-5 px-5 md:px-[60px]">
           <div className="bgColor">
             <AccordionItem
               data-aos="fade-up"

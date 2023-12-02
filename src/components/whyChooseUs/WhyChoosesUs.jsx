@@ -1,8 +1,12 @@
+import useAOSInit from "../../hooks/useAosInit";
 
 
 const WhyChoosesUs = () => {
+  useAOSInit()
     return (
-        <div class="relative w-full h-[1500px] lg:h-[450px] overflow-hidden">
+       <div>
+        <h1 data-aos="fade-down" className='text-primary text-center mb-24'>Why Choose Us</h1>
+         <div class="relative w-full h-[1500px] lg:h-[450px] overflow-hidden">
       <div>
         <img
           src="https://demo.7iquid.com/salepush/wp-content/uploads/2023/11/BG6.jpg"
@@ -21,55 +25,55 @@ const WhyChoosesUs = () => {
         />
       </div>
 
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center flex flex-col lg:flex-row justify-between gap-y-20 lg:gap-y-0 lg:gap-x-10 hero px-10">
-        <div>
+      <div  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center flex flex-col lg:flex-row justify-between gap-y-20 lg:gap-y-0 lg:gap-x-10 hero px-10">
+        <div data-aos="fade-up">
           <img
             src="https://i.ibb.co/ys8phbX/seo-4.jpg"
             className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
             alt=""
           />
-          <h4 className="text-2xl mb-5">Comprehensive Digital Audit</h4>
+          <h4 className="text-3xl  font-bold mb-5">Comprehensive Digital Audit</h4>
           <p className="tracking-wide">
             Conducted a thorough analysis of XYZ Electronics' existing digital
             presence, identifying strengths, weaknesses, opportunities, and
             threats.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img
             src="https://i.ibb.co/GtgY2hR/marketing-set-3.jpg"
             className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
             alt=""
           />
-          <h4 className="text-2xl mb-5">Customized Strategy Development</h4>
+          <h4 className="text-3xl  font-bold mb-5">Customized Strategy Development</h4>
           <p>
             Tailored a comprehensive digital marketing strategy, encompassing
             SEO, PPC advertising, social media marketing, and content
             optimization, aligned with XYZ Electronics' business objectives.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img
             src="https://i.ibb.co/ZTnNKsT/5287968.jpg"
             className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
             alt=""
           />
           {/* result */}
-          <h4 className="text-2xl mb-5">Revamped Website and SEO Optimization</h4>
+          <h4 className="text-3xl  font-bold mb-5">Revamped Website and SEO Optimization</h4>
           <p>
             Implemented a website redesign for improved user experience and
             navigation. Conducted on-page and off-page SEO optimizations to
             enhance search engine rankings.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img
             src="https://i.ibb.co/rwMTjMm/3358839.jpg"
             className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
             alt=""
           />
           {/* success */}
-          <h4 className="text-2xl mb-5">Strategic Social Media Campaigns</h4>
+          <h4 className="text-3xl  font-bold mb-5">Strategic Social Media Campaigns</h4>
           <p>
             Launched targeted social media campaigns across platforms to
             increase brand awareness, engage the audience, and drive traffic to
@@ -78,6 +82,7 @@ const WhyChoosesUs = () => {
         </div>
       </div>
     </div>
+       </div>
     );
 };
 

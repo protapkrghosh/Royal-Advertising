@@ -2,9 +2,10 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { FaAlipay } from 'react-icons/fa';
 import { ourservises } from "../../data/data";
+import useAOSInit from '../../hooks/useAosInit';
 
 const ServisesDiscription = () => {
-
+useAOSInit()
   return (
     <div className="">
              <h1 data-aos="fade-down" className="text-primary text-center  my-10">Services We Provide</h1>
