@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+a:after {
+  display:block;
+  content: '';
+  width: inherit;
+  border-bottom: solid 2px black;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+a:hover:after { transform: scaleX(1); }
+
+a.from-left:after {
+  transform-origin: left;
+}
+
+
 .btn-primary{
     @apply   text-white bg-[#8F6DFF] hover:bg-[#6E48E8] border-0 rounded-full px-8 py-4 font-bold
   }
