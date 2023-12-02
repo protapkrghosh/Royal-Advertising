@@ -60,3 +60,6 @@ a.from-left:after {
 .text-forth{
     @apply text-2xl text-[#070234] my-2
   }
+  .text-fifth{
+    @apply text-3xl  font-bold text-[#070234]
+  }

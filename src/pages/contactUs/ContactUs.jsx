@@ -1,6 +1,5 @@
 import React from 'react';
 import { Element } from "react-scroll";
-import GetInTouch from '../../components/contacts/GetInTouch';
 import ContactForm from '../../components/contacts/ContactForm';
 
 const ContactUs = () => {

@@ -4,15 +4,19 @@ import Lottie from "lottie-react";
 
 const ContactForm = () => {
   return (
-    <div>
-      <h1 className="text-primary  mb-7 text-center">Contact Us</h1>
+    <div >
+     <div><h1 data-aos="fade-up" className="text-primary  mb-7 text-center">Contact Us</h1></div>
+     
+     
       <div className='mt-14 mb-32 w-[85%] mx-auto  p-4'>
 
-        <div className='grid grid-cols-1 md:grid-cols-2'>
-          <Lottie animationData={contact} loop={true} />
+        <div  className='grid grid-cols-1 md:grid-cols-2'>
+         <div data-aos="zoom-in-up">
+         <Lottie animationData={contact} loop={true} />
+         </div>
 
           {/* Contact Form */}
-          <div className="mt-20  ">
+          <div data-aos="fade-left" className="mt-20  ">
             <form action="">
               <div className="flex justify-center gap-3">
                 <div className="flex flex-col w-full">

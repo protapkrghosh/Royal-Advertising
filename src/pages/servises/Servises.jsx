@@ -7,7 +7,6 @@ import ServiseDiscoverSection from "../../components/servises/ServiseDiscoverSec
 const Servises = () => {
     return (
         <Element name="Services" className="element">
-            <h1 className="text-primary text-center ">Our Services</h1>
                <ServiseBanner />
                <ServisesDiscription />
                <ServiseDiscoverSection />  

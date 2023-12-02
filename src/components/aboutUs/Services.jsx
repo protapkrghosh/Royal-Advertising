@@ -1,10 +1,12 @@
 import React from "react";
 import "./Services.css";
+import useAOSInit from "../../hooks/useAosInit";
 
 const Services = () => {
+  useAOSInit()
   return (
-    <div className="lg:w-[40%] px-5 lg:px-0">
-      <div className="skill">
+    <div data-aos="fade-right"  className="lg:w-[40%] px-5 lg:px-0">
+      <div  className="skill">
         <div className="skill-name">Graphic Design</div>
         <div className="skill-bar">
           <div
