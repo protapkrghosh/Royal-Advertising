@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { navdata } from "../../../data/data";
@@ -22,10 +21,9 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
- 
 
   return (
-    <nav className="md:top-0 md:w-full bg-white relative z-10">
+    <nav className="md:top-10 px-10 max-w-[1300px] mx-auto md:w-full bg-white relative z-10">
       {/* <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <div className="flex items-center">
           <button
@@ -113,6 +111,54 @@ const Navbar = () => {
           </button>
         </div>
       </div> */}
+
+      <div className="flex justify-between items-center">
+        <div className="flex items-center gap-x-5">
+          <button
+            type="button"
+            onClick={toggleSidebar}
+            className="focus:outline-none hidden md:flex items-center"
+          >
+            <svg
+              className="h-6 w-6 fill-current"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M4 5h16v2H4V5zm0 6h16v2H4v-2zm16 4H4v2h16v-2z"
+              />
+            </svg>
+          </button>
+          <img
+            src="https://demo.7iquid.com/salepush/wp-content/uploads/2022/04/logo-1.png"
+            className="w-[200px]"
+            alt=""
+          />
+        </div>
+        <div className="flex justify-center items-center gap-x-6">
+          {navdata.map((nav, index) => (
+            <ScrollLink
+              key={index}
+              to={nav.item}
+              smooth={true}
+              duration={500}
+              className={`hover:text-[#080337] text-[#080337] font-bold cursor-pointer`}
+              onClick={() => handleSetActive(nav.item)}
+              spy={true}
+            >
+              <a href="">{nav.item}</a>
+            </ScrollLink>
+          ))}
+        </div>
+        <button
+          type="button"
+          className='nav-button'
+        >
+          Let's Talk
+        </button>
+      </div>
 
       {isOpen && (
         <div className="md:hidden">

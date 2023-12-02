@@ -3,7 +3,7 @@ import homeAnimation from "../../data/animations/homeAnimation.json"
 import { Typewriter } from 'react-simple-typewriter'
 const HomeBanner = () => {
   return (
-    <div className="hero mt-4">
+    <div className="hero mt-24">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="md:w-[50%] ">
           <Lottie animationData={homeAnimation} loop={true} />
@@ -11,10 +11,10 @@ const HomeBanner = () => {
         <div className="md:w-[50%]">
           <div className="text-primary">
             <h1 className="">
-              Best Digital Marketing Company
+            Boost Your Brand with Digital Strategies
             </h1>
             <Typewriter
-              words={['in Lucknow!']}
+               words={['Engagement', 'Visibility', 'Conversion']}
               loop={true}
               cursor
               cursorStyle='_'
