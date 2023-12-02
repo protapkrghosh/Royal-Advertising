@@ -7,6 +7,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 import { testimonialInfo } from '../../data/data'
 import { FaQuoteLeft } from "react-icons/fa";
 import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
+import { Element } from 'react-scroll';
 
 const Testimonial = () => {
   const [swiper, setSwiper] = useState(null);
@@ -24,9 +25,9 @@ const Testimonial = () => {
   }
 
   return (
-    // <Element name="testimonial" className="element">
+    <Element name="Testimonial" className="element">
       
-    // </Element>
+   
     <div className='w-[95%] md:w-[70%] mx-auto relative'>
 
       <Swiper
@@ -74,7 +75,7 @@ const Testimonial = () => {
         })}
       </Swiper>
     </div>
-
+    </Element>
   );
 };
 
