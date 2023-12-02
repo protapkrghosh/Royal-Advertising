@@ -114,23 +114,6 @@ const Navbar = () => {
 
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-x-5">
-          <button
-            type="button"
-            onClick={toggleSidebar}
-            className="focus:outline-none hidden md:flex items-center"
-          >
-            <svg
-              className="h-6 w-6 fill-current"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M4 5h16v2H4V5zm0 6h16v2H4v-2zm16 4H4v2h16v-2z"
-              />
-            </svg>
-          </button>
           <img
             src="https://demo.7iquid.com/salepush/wp-content/uploads/2022/04/logo-1.png"
             className="w-[200px]"
@@ -144,11 +127,11 @@ const Navbar = () => {
               to={nav.item}
               smooth={true}
               duration={500}
-              className={`hover:text-[#080337] text-[#080337] font-bold cursor-pointer`}
+              className={`font-bold cursor-pointer`}
               onClick={() => handleSetActive(nav.item)}
               spy={true}
             >
-              <a href="">{nav.item}</a>
+              <a href="" className="hover:text-[white] text-[white]">{nav.item}</a>
             </ScrollLink>
           ))}
         </div>
@@ -172,8 +155,6 @@ const Navbar = () => {
           </div>
         </div>
       )}
-
-      {isOpens && <Sidebar isOpens={isOpens} onClose={toggleSidebar} />}
       {isOpen && <SmllscreenNavbar isOpens={isOpen} onClose={toggleMenu} />}
     </nav>
   );

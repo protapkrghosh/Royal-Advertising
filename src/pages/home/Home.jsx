@@ -6,6 +6,7 @@ import ContactUs from "../contactUs/ContactUs";
 import Servises from "../servises/Servises";
 import Images from "../../components/home/Images";
 import HomeBanner from "../../components/home/HomeBanner";
+import Reason from "../reason/Reason";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
      <HomeBanner />
       <AboutUs />
       <Servises />
+      <Reason></Reason>
       <Images />
       <Faq />
       <ContactUs />

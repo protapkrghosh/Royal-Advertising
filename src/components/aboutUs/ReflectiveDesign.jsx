@@ -23,7 +23,7 @@ const ReflectiveDesign = () => {
               We Help Your Digital Business Grow
             </h1>
             <p className="py-6 text-slate-500 text-lg">
-              Reflective Design is a top digital marketing agency based in
+              Reflective Design is a top digital marketing 
               Lucknow, India. As the best digital marketing company in Lucknow, we
               understand the importance of businesses adapting to digital channels
               to achieve their short-term and long-term revenue, marketing, and
