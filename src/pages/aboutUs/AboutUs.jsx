@@ -8,7 +8,7 @@ import AboutUSSwipers from '../../components/aboutUs/AboutUSSwipers';
 
 const AboutUs = () => {
     return (
-        <Element name="AboutUs" className="element">
+        <Element name="About Us" className="element">
             <ReflectiveDesign></ReflectiveDesign>
             <ClientsAndProjects></ClientsAndProjects>
            <AboutUSSwipers />
