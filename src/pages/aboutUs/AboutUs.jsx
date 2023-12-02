@@ -10,10 +10,10 @@ const AboutUs = () => {
     return (
         <Element name="About Us" className="element">
             <ReflectiveDesign></ReflectiveDesign>
-           <AboutUSSwipers />
             <ClientsAndProjects></ClientsAndProjects>
-            <GoalsAndServices></GoalsAndServices>
+           <AboutUSSwipers />
             <CorporateServices></CorporateServices>
+            <GoalsAndServices></GoalsAndServices>
         </Element>
     );
 };
