@@ -41,30 +41,45 @@ a.from-left:after {
 .nav-button {
   @apply text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2
 }
-.btn-navbar{
-    @apply   text-white bg-[#FF2E57] hover:bg-[#F51843] border-0 rounded-full px-8 font-bold py-3  
-  }
-.btn-discover{
-    @apply  text-white bg-[#8F6DFF] hover:bg-[##6E48E8] border-0 rounded-full px-8 py-4 font-bold
-  }
-.btn-link{
-    @apply  text-white bg-[#8F6DFF] hover:bg-[##6E48E8] border-0 rounded-full px-8 py-4 font-bold
-  }
-.text-primary{
-    @apply text-3xl md:text-7xl font-bold text-[#070234]
-  }
-.text-banner{
-    @apply text-3xl md:text-7xl font-bold text-[#FFF]
-  }
-.text-secendary{
-    @apply text-4xl  font-bold text-[#070234]
-  }
-.text-third{
-    @apply text-xl text-[#787C8B] my-4
-  }
-.text-forth{
-    @apply text-2xl text-[#070234] my-2
-  }
-  .text-fifth{
-    @apply text-3xl  font-bold text-[#070234]
-  }
+
+.btn-navbar {
+  @apply text-white bg-[#FF2E57] hover:bg-[#F51843] border-0 rounded-full px-8 font-bold py-3
+}
+
+.btn-discover {
+  @apply text-white bg-[#8F6DFF] hover:bg-[##6E48E8] border-0 rounded-full px-8 py-4 font-bold
+}
+
+.btn-link {
+  @apply text-white bg-[#8F6DFF] hover:bg-[##6E48E8] border-0 rounded-full px-8 py-4 font-bold
+}
+
+.text-primary {
+  @apply text-3xl md:text-7xl font-bold text-[#070234]
+}
+
+.text-banner {
+  @apply text-3xl md:text-7xl font-bold text-[#FFF]
+}
+
+.text-secendary {
+  @apply text-4xl font-bold text-[#070234]
+}
+
+.text-third {
+  @apply text-xl text-[#787C8B] my-4
+}
+
+.text-forth {
+  @apply text-2xl text-[#070234] my-2
+}
+
+.text-fifth {
+  @apply text-3xl font-bold text-[#070234]
+}
+
+.bgColor h1 {
+  background: #cde1ff2f;
+  font-size: 16px;
+  margin-top: 10px;
+}
