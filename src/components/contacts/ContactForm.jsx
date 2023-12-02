@@ -32,7 +32,7 @@ const ContactForm = () => {
               <div className="flex justify-center gap-3 my-3">
                 <div className="flex flex-col w-full">
                   <label htmlFor="phone" className="text-[18px] text-[#787C8B]">Phone <span className="text-[#F51843]">*</span></label>
-                  <input type="number" id="phone" className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
+                  <input type="text" id="phone" className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
                 </div>
                 <div className="flex flex-col w-full">
                   <label htmlFor="services" className="text-[18px] text-[#787C8B]">Services <span className="text-[#F51843]">*</span></label>
