@@ -8,12 +8,14 @@ import Images from "../../components/home/Images";
 import HomeBanner from "../../components/home/HomeBanner";
 import Testimonial from "../../components/testimonial/Testimonial";
 
+
 const Home = () => {
   return (
     <Element name="Home" className="element">
      <HomeBanner />
       <AboutUs />
       <Servises />
+      <Reason></Reason>
       <Images />
       <Faq />
       <ContactUs />
