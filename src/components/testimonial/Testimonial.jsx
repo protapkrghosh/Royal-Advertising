@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Element } from "react-scroll";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -6,7 +7,7 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
 import { testimonialInfo } from '../../data/data'
 import { FaQuoteLeft } from "react-icons/fa";
-import { FaLongArrowAltLeft , FaLongArrowAltRight } from "react-icons/fa";
+import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
 
 const Testimonial = () => {
   const [swiper, setSwiper] = useState(null);
@@ -24,7 +25,11 @@ const Testimonial = () => {
   }
 
   return (
+    <Element name="Testimonial" className="element">
+      
+   
     <div className='w-[95%] md:w-[70%] mx-auto relative'>
+
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -44,7 +49,7 @@ const Testimonial = () => {
           return (
             <SwiperSlide key={index}>
               {/* Slide content */}
-              <div className='flex flex-col justify-center items-center'>
+              <div  className='flex flex-col justify-center items-center'>
                 <img src={testimonial?.img} alt="Person Image" className='w-24 rounded-full' />
                 <p className='w-[70%] mx-auto text-center text-[20px] my-10'>{testimonial?.description}</p>
                 <FaQuoteLeft className='text-4xl text-[#8F6DFF]' />
@@ -70,6 +75,7 @@ const Testimonial = () => {
         })}
       </Swiper>
     </div>
+    </Element>
   );
 };
 

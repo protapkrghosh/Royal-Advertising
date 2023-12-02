@@ -6,7 +6,7 @@ const ReflectiveDesign = () => {
  useAOSInit()
 
   return (
-    <div className="mt-48">
+    <div className="mt-20">
       <h1  data-aos="fade-up" className="text-primary text-center ">About Us</h1>
       <div className="hero my-16 max-w-[1320px] mx-auto ">
         <div className="hero-content flex flex-col lg:flex-row justify-between">

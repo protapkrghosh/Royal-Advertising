@@ -1,8 +1,10 @@
 
 import contact from "../../data/animations/Contact.json"
 import Lottie from "lottie-react";
+import useAOSInit from "../../hooks/useAosInit";
 
 const ContactForm = () => {
+  useAOSInit()
   return (
     <div >
      <div><h1 data-aos="fade-up" className="text-primary  mb-7 text-center">Contact Us</h1></div>
