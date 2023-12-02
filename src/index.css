@@ -14,7 +14,7 @@ a:after {
   display:block;
   content: '';
   width: inherit;
-  border-bottom: solid 2px black;  
+  border-bottom: solid 2px white;  
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
 }
@@ -47,6 +47,9 @@ a.from-left:after {
   }
 .text-primary{
     @apply text-3xl md:text-7xl font-bold text-[#070234]
+  }
+.text-banner{
+    @apply text-3xl md:text-7xl font-bold text-[#FFF]
   }
 .text-secendary{
     @apply text-4xl  font-bold text-[#070234]

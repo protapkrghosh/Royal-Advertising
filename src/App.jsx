@@ -6,7 +6,7 @@ import Navbar from "./pages/shered/navbar/Navbar";
 const App = () => {
   return (
     <div>
-      <Navbar />
+      
       <Home />
       <Footer />
     </div>

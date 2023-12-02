@@ -33,7 +33,7 @@ const Footer = () => {
           <div>
             <header className={footerHead}>Visit Us</header>
             <div className={footerLinks}>
-              <a className="link link-hover">Home</a>
+              <a className="link link-hover text-white">Home</a>
               <a className="link link-hover">Services</a>
               <a className="link link-hover">About Us</a>
               <a className="link link-hover">Portfolio</a>
@@ -72,7 +72,7 @@ const Footer = () => {
                   I agree the <a href="#" className="underline">Privacy Policy</a>
                 </p>
               </div>
-              <div className="flex items-center gap-x-3 text-3xl mt-5 mb-11">
+              <div className="flex items-center gap-x-3 text-3xl mt-5 mb-11 ">
                 <FaFacebookF></FaFacebookF>
                 <FaInstagram></FaInstagram>
                 <FaTwitter></FaTwitter>
