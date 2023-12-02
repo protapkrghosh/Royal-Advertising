@@ -28,7 +28,7 @@ const Testimonial = () => {
     <Element name="Testimonial" className="element">
       
    
-    <div className='w-[95%] md:w-[70%] mx-auto relative'>
+    <div className='w-[96%] md:w-[70%] mx-auto relative'>
 
       <Swiper
         slidesPerView={1}
