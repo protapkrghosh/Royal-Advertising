@@ -1,13 +1,8 @@
 import React from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
 import { CgChevronDoubleRight } from "react-icons/cg";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-
-// import required modules
-import { FreeMode, Pagination } from "swiper/modules";
 import { companiesLogos } from "../../data/data";
 import CountUp from "react-countup";
 import "./Services.css";
@@ -16,16 +11,9 @@ import shapeImg2 from "../../assets/img025.jpg"
 import shapeImg3 from "../../assets/img027.png"
 
 const ClientsAndProjects = () => {
-  // const bgPic =
-  //   "http://demo.stairthemes.com/digipub/wp-content/uploads/sites/19/2023/10/img025.jpg";
-  // const btPic =
-  //   "http://demo.stairthemes.com/digipub/wp-content/uploads/sites/19/2023/10/22.png";
-  
   const dew =
     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHByZXNlcnZlQXNwZWN0UmF0aW89J25vbmUnIG92ZXJmbG93PSd2aXNpYmxlJyBoZWlnaHQ9JzEwMCUnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nbm9uZScgc3Ryb2tlPSdibGFjaycgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0nc3F1YXJlJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnPjxwYXRoIGQ9J00wLDZjNiwwLDYsMTMsMTIsMTNTMTgsNiwyNCw2Jy8+PC9zdmc+";
-  // const kamba =
-  //   "http://demo.stairthemes.com/digipub/wp-content/uploads/sites/19/2023/10/img027.png";
-  
+
   return (
     <div className="flex justify-between gap-x-24 items-center w-9/12 mx-auto mb-16">
       <div className="w-[50%]">
@@ -93,6 +81,7 @@ const ClientsAndProjects = () => {
           </div>
         </div>
       </div>
+      
       <div className="w-[50%]">
         <div className="flex mb-10">
           <img src={dew} className=" h-[40px] w-[80px]" alt="" />
@@ -133,7 +122,7 @@ const ClientsAndProjects = () => {
               duration={4}
               separator=" "
               suffix=" +"
-               className="text-4xl font-bold"
+              className="text-4xl font-bold"
             >
             </CountUp>
             <p className="text-gray-500 mt-3">
