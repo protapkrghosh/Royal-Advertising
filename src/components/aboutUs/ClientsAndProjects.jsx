@@ -1,7 +1,9 @@
 import React from "react";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { CgChevronDoubleRight } from "react-icons/cg";
+
 
 // Import Swiper styles
 import "swiper/css";
@@ -69,6 +71,7 @@ const ClientsAndProjects = () => {
               className="absolute top-0 left-0 -mt-6 -ml-6 border-[8px] border-white rounded-2xl"
             />
           </div>
+
         </div>
 
         <div className="w-full bg-gradient-to-b from-sky-200 to-gray-200 flex justify-between p-10 rounded-[40px] mt-10">
