@@ -3,9 +3,9 @@ import homeAnimation from "../../data/animations/homeAnimation.json"
 import { Typewriter } from 'react-simple-typewriter'
 const HomeBanner = () => {
   return (
-    <div className="hero ">
+    <div className="hero mt-24">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="md:w-[50%] pb-14">
+        <div className="md:w-[50%] ">
           <Lottie animationData={homeAnimation} loop={true} />
         </div>
         <div className="md:w-[50%]">
