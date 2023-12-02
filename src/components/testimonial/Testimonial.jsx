@@ -28,6 +28,7 @@ const Testimonial = () => {
       
     // </Element>
     <div className='w-[95%] md:w-[70%] mx-auto relative'>
+
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -47,7 +48,7 @@ const Testimonial = () => {
           return (
             <SwiperSlide key={index}>
               {/* Slide content */}
-              <div className='flex flex-col justify-center items-center'>
+              <div  className='flex flex-col justify-center items-center'>
                 <img src={testimonial?.img} alt="Person Image" className='w-24 rounded-full' />
                 <p className='w-[70%] mx-auto text-center text-[20px] my-10'>{testimonial?.description}</p>
                 <FaQuoteLeft className='text-4xl text-[#8F6DFF]' />

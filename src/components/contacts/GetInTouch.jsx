@@ -1,6 +1,8 @@
 import { IoIosArrowDown } from "react-icons/io";
+import useAOSInit from "../../hooks/useAosInit";
 
 const GetInTouch = () => {
+  useAOSInit()
   return (
     <div >
       {/* Section Heading */}

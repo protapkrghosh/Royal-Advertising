@@ -39,10 +39,10 @@ const HomeBanner = () => {
       <Navbar />
 
       {/* Content */}
-      <div className="hero mt-24 relative">
-        <div className="hero-content flex-col lg:flex-row-reverse justify-center items-center" style={{ zIndex: 1 }}>
+      <div  className="hero mt-24 relative">
+        <div  className="hero-content flex-col lg:flex-row-reverse justify-center items-center" style={{ zIndex: 1 }}>
           <div>
-            <div className='text-5xl text-white font-bold text-center mt-[200px]'>
+            <div  className='text-5xl text-white font-bold text-center mt-[150px]'>
                 <p>Boost Your Brand with <br /> Digital Strategies</p>
               <Typewriter
                 words={['Engagement', 'Visibility', 'Conversion']}
