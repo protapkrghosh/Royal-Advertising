@@ -7,18 +7,18 @@
     padding: 0 20px;
 }
 .skill-name{
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 600;
     text-transform: uppercase;
-    margin: 20px 0;
+    /* margin: 20px 0; */
 }
 .skill-bar{
-    height: 16px;
+    height: 13px;
     background-color: #282828;
     border-radius: 10px;
 }
 .skill-per{
-    height: 16px;
+    height: 13px;
     background-color: #2f86f7;
     border-radius: 3px;
     position: relative;
