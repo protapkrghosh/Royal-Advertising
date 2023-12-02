@@ -24,7 +24,7 @@ const Testimonial = () => {
   }
 
   return (
-    <div className='w-[70%] mx-auto relative'>
+    <div className='w-[95%] md:w-[70%] mx-auto relative'>
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -37,7 +37,7 @@ const Testimonial = () => {
           nextEl: '.custom-swiper-button-next',
         }}
         modules={[Pagination, Navigation]}
-        className="mySwiper py-8"
+        className="mySwiper py-5"
         onSwiper={setSwiper}
       >
         {testimonialInfo.map((testimonial, index) => {
@@ -60,7 +60,7 @@ const Testimonial = () => {
                 <FaLongArrowAltLeft />
               </div>
               <div
-                className="custom-swiper-button-next absolute top-[50%] left-[95%] cursor-pointer bg-slate-100 p-4 rounded-full"
+                className="custom-swiper-button-next absolute top-[50%] left-[87%] md:left-[95%] cursor-pointer bg-slate-100 p-4 rounded-full"
                 onClick={handleNextClick}
               >
                 <FaLongArrowAltRight />
