@@ -1,17 +1,23 @@
 import Lottie from "lottie-react";
-import aboutUs from "../../data/animations/aboutUs.json"
+import aboutUs from "../../data/animations/aboutUs.json";
+
+import useAOSInit from "../../hooks/useAosInit";
+import Aos from "aos";
+import { useEffect } from "react";
 
 const ReflectiveDesign = () => {
+ useAOSInit()
+
   return (
     <div className="mt-12">
-      <h1 className="text-primary text-center ">About Us</h1>
+      <h1  data-aos="fade-up" className="text-primary text-center ">About Us</h1>
       <div className="hero min-h-screen max-w-[1320px] mx-auto ">
         <div className="hero-content flex flex-col lg:flex-row justify-between">
-          <div className="md:w-[50%]">
+          <div data-aos="zoom-in" className="md:w-[50%]">
             <Lottie animationData={aboutUs} loop={true} />
           </div>
 
-          <div className="md:w-[50%]">
+          <div data-aos="fade-left" className="md:w-[50%] ">
             <h6 className="font-semibold">ABOUT REFLECTIVE DESIGN</h6>
             <h1 className="text-secendary  ">
               We Help Your Digital Business Grow
