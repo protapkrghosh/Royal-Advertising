@@ -9,6 +9,12 @@ export const navdata = [
         item:"Services"
     },
     {
+        item:"Gelary"
+    },
+    {
+        item:"Testimonal"
+    },
+    {
         item:"Contact Us"
     },
 
