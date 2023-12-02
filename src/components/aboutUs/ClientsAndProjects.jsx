@@ -66,7 +66,7 @@ const ClientsAndProjects = () => {
 
         </div>
 
-        <div className="w-full bg-gradient-to-b from-sky-200 to-gray-200 flex justify-between p-10 rounded-[40px] mt-10">
+        <div className="w-full bg-gradient-to-b from-sky-200 to-gray-200 flex justify-between p-8 md:p-10 rounded-[40px] mt-10">
           <div>
             <h5 className="text-xl text-[#f75a5a] mb-3">
               JOIN & GET BEST MARKETING STRATEGY
@@ -77,9 +77,9 @@ const ClientsAndProjects = () => {
             </h2>
           </div>
           <div className="flex justify-center gap-x-1">
-            <img src={shapeImg3} className="w-[50px] h-[100px]" alt="" />
-            <img src={shapeImg3} className="w-[60px] h-[130px]" alt="" />
-            <img src={shapeImg3} className="w-[70px] h-[160px]" alt="" />
+            <img src={shapeImg3} className="w-[30px] md:w-[50px] h-[60px] lg:h-[100px]" alt="" />
+            <img src={shapeImg3} className="w-[30px] md:w-[60px] h-[80px] lg:h-[130px]" alt="" />
+            <img src={shapeImg3} className="w-[30px] md:w-[70px] h-[100px] lg:h-[160px]" alt="" />
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@ const ClientsAndProjects = () => {
       <div data-aos="fade-down-left" data-aos-duration="1100" className="md:w-[50%]">
         <div className="flex mb-10">
           <img src={dew} className=" h-[40px] w-[80px]" alt="" />
-          <img src={dew} className=" h-[40px] w-[80px]" alt="" />
+          <img src={dew} className=" h-[40px] w-[80px] -mx-[2px]" alt="" />
           <img src={dew} className=" h-[40px] w-[80px]" alt="" />
         </div>
         <h1 className="text-5xl font-bold mb-5">
