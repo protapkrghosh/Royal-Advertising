@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Element } from "react-scroll";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -24,9 +25,9 @@ const Testimonial = () => {
   }
 
   return (
-    // <Element name="testimonial" className="element">
+    <Element name="Testimonial" className="element">
       
-    // </Element>
+   
     <div className='w-[95%] md:w-[70%] mx-auto relative'>
 
       <Swiper
@@ -74,7 +75,7 @@ const Testimonial = () => {
         })}
       </Swiper>
     </div>
-
+    </Element>
   );
 };
 
