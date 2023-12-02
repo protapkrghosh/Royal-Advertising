@@ -12,7 +12,7 @@ const HandleSmallScreenClosenavbar = ({ isOpens, onClose, activeTab, handleSetAc
     return (
         <div>
             {navdata.map((nav, index) => (
-                <li>
+                <p className="">
                     <ScrollLink
                         key={index}
                         to={nav.item}
@@ -25,7 +25,7 @@ const HandleSmallScreenClosenavbar = ({ isOpens, onClose, activeTab, handleSetAc
                     >
                         {nav.item}
                     </ScrollLink>
-                </li>
+                </p>
             ))}
         </div>
     );

@@ -5,7 +5,7 @@ import useAOSInit from '../../hooks/useAosInit';
 const Images = () => {
   useAOSInit()
     return (
-      <Element name="Gelary" className="element">
+      <Element name="Gallery" className="element">
             <div>
           <h1 data-aos="fade-up" className="text-primary text-center mb-36">Our Gallery</h1>
         <div className="w-11/12 md:w-9/12 mx-auto  ">
