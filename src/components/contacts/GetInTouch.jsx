@@ -2,14 +2,13 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const GetInTouch = () => {
   return (
-    <div>
+    <div >
       {/* Section Heading */}
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="text-primary font-bold mb-7">Contacts</h1>
+      <div  className="flex flex-col justify-center items-center">
         <IoIosArrowDown className="text-2xl" />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12 gap-10">
+      <div data-aos="fade-left" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12 gap-10">
         {/* Email */}
         <div className="text-center">
           <div className="flex justify-center">

@@ -1,73 +1,104 @@
 export const navdata = [
-    {
-        item:"Home"
-    },
-    {
-        item:"AboutUs"
-    },
-    {
-        item:"Services"
-    },
-    {
-        item:"Contacts"
-    },
+  {
+    item: "Home"
+  },
+  {
+    item: "About Us"
+  },
+  {
+    item: "Services"
+  },
+  {
+    item: "Gallery"
+  },
+  {
+    item: "Testimonial"
+  },
+  {
+    item: "Contact Us"
+  },
 
 ]
 export const ourservises = [
-    {
-        img:"https://reflectivedesign.in/wp-content/uploads/2021/11/aim-small.svg",
-        title:"Branding",
-        discription:"Branding can help your brand differentiate itself and beat your competitors by combining your brand’s core strength with an effective branding strategy."
+  {
+    img: "https://reflectivedesign.in/wp-content/uploads/2021/11/aim-small.svg",
+    title: "Branding",
+    discription: "Branding can help your brand differentiate itself and beat your competitors by combining your brand’s core strength with an effective branding strategy."
 
-    },
-    {
-        img:"https://reflectivedesign.in/wp-content/uploads/2023/07/social-media.png",
-        title:"Social Media Marketing",
-        discription:"Branding can help your brand differentiate itself and beat your competitors by combining your brand’s core strength with an effective branding strategy."
+  },
+  {
+    img: "https://reflectivedesign.in/wp-content/uploads/2023/07/social-media.png",
+    title: "Social Media Marketing",
+    discription: "Branding can help your brand differentiate itself and beat your competitors by combining your brand’s core strength with an effective branding strategy."
 
-    },
-    {
-        img:"https://reflectivedesign.in/wp-content/uploads/2023/07/seo.png",
-        title:"SEO",
-        discription:"Reflective Design offers high quality SEO services in Lucknow, such as keyword integration, relevant search phrases, and flexible content ideas."
+  },
+  {
+    img: "https://reflectivedesign.in/wp-content/uploads/2023/07/seo.png",
+    title: "SEO",
+    discription: "Reflective Design offers high quality SEO services in Lucknow, such as keyword integration, relevant search phrases, and flexible content ideas."
 
-    },
-    {
-        img:"https://reflectivedesign.in/wp-content/uploads/2023/07/ux.png",
-        title:"Web Design And Development",
-        discription:"We create a highly responsive, compelling website for you. We use the latest technology and tools to develop an SEO-friendly website, which helps you generate more leads and increase your online presence."
+  },
+  {
+    img: "https://reflectivedesign.in/wp-content/uploads/2023/07/ux.png",
+    title: "Web Design And Development",
+    discription: "We create a highly responsive, compelling website for you. We use the latest technology and tools to develop an SEO-friendly website, which helps you generate more leads and increase your online presence."
 
-    },
-    {
-        img:"https://reflectivedesign.in/wp-content/uploads/2023/07/app-development.png",
-        title:"Software Development",
-        discription:"Our team of experts can provide you with a wide range of advanced and realistic software solutions. We Offer a Wide Range of Software Development Services."
+  },
+  {
+    img: "https://reflectivedesign.in/wp-content/uploads/2023/07/app-development.png",
+    title: "Software Development",
+    discription: "Our team of experts can provide you with a wide range of advanced and realistic software solutions. We Offer a Wide Range of Software Development Services."
 
-    },
-    {
-        img:"https://reflectivedesign.in/wp-content/uploads/2023/07/animation.png",
-        title:"3D Walkthrough & Visualization",
-        discription:"Reflective Designs aims to provide interactive, realistic, and immersive experiences. To help you visualize what you conceptualize, we provide easy mouse movement"
+  },
+  {
+    img: "https://reflectivedesign.in/wp-content/uploads/2023/07/animation.png",
+    title: "3D Walkthrough & Visualization",
+    discription: "Reflective Designs aims to provide interactive, realistic, and immersive experiences. To help you visualize what you conceptualize, we provide easy mouse movement"
 
-    }  
+  }
 
 ]
 
 
-    export const companiesLogos = [
-        "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-6-150x150.png",
-        "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-7-150x150.png",
-        "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-8-150x150.png",
-        "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-9-150x150.png",
-        "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-10-150x150.png",
-        "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-1-150x150.png",
-        "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-2-150x150.png",
-        "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-3-150x150.png",
-        "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-4-150x150.png",
-        "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-5-150x150.png",
-      ];
+export const companiesLogos = [
+  "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-6-150x150.png",
+  "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-7-150x150.png",
+  "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-8-150x150.png",
+  "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-9-150x150.png",
+  "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-10-150x150.png",
+  "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-1-150x150.png",
+  "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-2-150x150.png",
+  "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-3-150x150.png",
+  "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-4-150x150.png",
+  "https://reflectivedesign.in/wp-content/uploads/2023/05/reflective-website-logo-5-150x150.png",
+];
 
 
 
 
-
+export const testimonialInfo = [
+  {
+    img: "data:image/jpeg;base64,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",
+    description: "dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    name: "Faiz Alam",
+    position: "CEO, Business Co"
+  },
+  {
+    img: "data:image/jpeg;base64,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",
+    description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here",
+    name: "Faiz Alam",
+    position: "CEO, Business Co"
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk1fpdkA3NAOjnujKEE-Wct-xwEMRCSfnu6Q&usqp=CAU",
+    description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden",
+    name: "Faiz Alam",
+    position: "CEO, Business Co"
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHRzo6IGCL6NHc0Rh5RwHee38J_j1UA6FDyg&usqp=CAU",
+    description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,",
+    name: "Faiz Alam",
+    position: "CEO, Business Co"
+  },
+]
