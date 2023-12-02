@@ -8,7 +8,7 @@ const Footer = () => {
   const mediaImage = "https://i.ibb.co/z2QnSQg/wave.png";
   const footerText = "text-lg text-gray-300 tracking-wide mb-5";
   const footerHead = "text-xl font-bold mb-5";
-  const footerLinks = "flex flex-col gap-y-3 text-gray-300 text-lg";
+  const footerLinks = "flex flex-col gap-y-3 text-gray-300 text-lg text-white";
 
   const footerStyle = {
     backgroundImage: `url(${mediaImage})`,
@@ -34,22 +34,22 @@ const Footer = () => {
             <header className={footerHead}>Visit Us</header>
             <div className={footerLinks}>
               <a className="link link-hover text-white">Home</a>
-              <a className="link link-hover">Services</a>
-              <a className="link link-hover">About Us</a>
-              <a className="link link-hover">Portfolio</a>
-              <a className="link link-hover">Contacts</a>
-              <a className="link link-hover">Blogs</a>
+              <a className="link link-hover text-white">Services</a>
+              <a className="link link-hover text-white">About Us</a>
+              <a className="link link-hover text-white">Portfolio</a>
+              <a className="link link-hover text-white">Contacts</a>
+              <a className="link link-hover text-white">Blogs</a>
             </div>
           </div>
           <div>
             <header className={footerHead}>Our Services</header>
             <div className={footerLinks}>
-              <a className="link link-hover">Social Media Marketing</a>
-              <a className="link link-hover">SEO</a>
-              <a className="link link-hover">Graphic Designing</a>
-              <a className="link link-hover">Website Designing</a>
-              <a className="link link-hover">3D Walkthrough</a>
-              <a className="link link-hover">Video Editing & Animation</a>
+              <a className="link link-hover text-white">Social Media Marketing</a>
+              <a className="link link-hover text-white">SEO</a>
+              <a className="link link-hover text-white">Graphic Designing</a>
+              <a className="link link-hover text-white">Website Designing</a>
+              <a className="link link-hover text-white">3D Walkthrough</a>
+              <a className="link link-hover text-white">Video Editing & Animation</a>
             </div>
           </div>
           <div>
