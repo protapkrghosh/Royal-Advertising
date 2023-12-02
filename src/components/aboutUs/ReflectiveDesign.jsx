@@ -3,9 +3,9 @@ import aboutUs from "../../data/animations/aboutUs.json"
 
 const ReflectiveDesign = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-[600px]">
       <h1 className="text-primary text-center ">About Us</h1>
-      <div className="hero min-h-screen max-w-[1320px] mx-auto ">
+      <div className="hero mt-20 max-w-[1320px] mx-auto ">
         <div className="hero-content flex flex-col lg:flex-row justify-between">
           <div className="md:w-[50%]">
             <Lottie animationData={aboutUs} loop={true} />
