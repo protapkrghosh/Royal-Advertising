@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <nav className="md:top-0 md:w-full bg-white relative z-10">
-      <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      {/* <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <div className="flex items-center">
           <button
             type="button"
@@ -112,7 +112,7 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-      </div>
+      </div> */}
 
       {isOpen && (
         <div className="md:hidden">
