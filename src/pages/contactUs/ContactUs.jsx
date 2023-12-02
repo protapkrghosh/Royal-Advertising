@@ -6,10 +6,10 @@ import ContactForm from '../../components/contacts/ContactForm';
 
 const ContactUs = () => {
   return (
-    <Element name="Contacts" className="element">
-      <GetInTouch />
-      <Map />
+    <Element name="Contact Us" className="element">
       <ContactForm />
+      <Map />
+
     </Element>
   );
 };

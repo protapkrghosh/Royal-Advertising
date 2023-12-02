@@ -3,13 +3,13 @@ export const navdata = [
         item:"Home"
     },
     {
-        item:"AboutUs"
+        item:"About Us"
     },
     {
         item:"Services"
     },
     {
-        item:"Contacts"
+        item:"Contact Us"
     },
 
 ]

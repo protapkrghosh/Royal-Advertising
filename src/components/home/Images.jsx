@@ -1,8 +1,9 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 
 const Images = () => {
     return (
-        <div>
+        <Element>
             <div>
         <h1 className="text-primary text-center mb-8">Our Gellery</h1>
         <div className="w-full mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 mb-[500px]">
@@ -38,7 +39,7 @@ const Images = () => {
         </div>
       </div>
     </div>
-        </div>
+        </Element>
     );
 };
 
