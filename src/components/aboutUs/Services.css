@@ -13,12 +13,12 @@
     margin: 20px 0;
 }
 .skill-bar{
-    height: 6px;
+    height: 16px;
     background-color: #282828;
     border-radius: 10px;
 }
 .skill-per{
-    height: 6px;
+    height: 16px;
     background-color: #2f86f7;
     border-radius: 3px;
     position: relative;
