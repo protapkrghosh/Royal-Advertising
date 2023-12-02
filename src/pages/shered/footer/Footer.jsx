@@ -15,8 +15,8 @@ const Footer = () => {
   };
 
   return (
-    <div style={footerStyle} className="relative bg-no-repeat bg-cover bg-center h-[1700px] lg:h-[600px]">
-      <footer className="mt-32 absolute text-white bottom-0 lg:left-80 flex flex-col justify-center lg:w-[1300px] mx-auto p-5 lg:p-0">
+    <div style={footerStyle} className="relative bg-no-repeat bg-cover bg-center h-[1700px] lg:h-[600px] ">
+      <footer className="  absolute text-white bottom-0 lg:left-36 flex flex-col justify-center lg:w-[1300px] mx-auto p-5 lg:p-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8">
           <div>
             <p className={footerHead}>Office</p>
@@ -33,7 +33,7 @@ const Footer = () => {
           <div>
             <header className={footerHead}>Visit Us</header>
             <div className={footerLinks}>
-              <a className="link link-hover">Home</a>
+              <a className="link link-hover text-white">Home</a>
               <a className="link link-hover">Services</a>
               <a className="link link-hover">About Us</a>
               <a className="link link-hover">Portfolio</a>
@@ -72,7 +72,7 @@ const Footer = () => {
                   I agree the <a href="#" className="underline">Privacy Policy</a>
                 </p>
               </div>
-              <div className="flex items-center gap-x-3 text-3xl mt-5">
+              <div className="flex items-center gap-x-3 text-3xl mt-5 mb-11 ">
                 <FaFacebookF></FaFacebookF>
                 <FaInstagram></FaInstagram>
                 <FaTwitter></FaTwitter>
