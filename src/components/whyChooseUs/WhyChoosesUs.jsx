@@ -5,7 +5,7 @@ const WhyChoosesUs = () => {
   useAOSInit()
     return (
        <div>
-        <h1 data-aos="fade-up" className='text-primary text-center mb-24'>Why Choose Us</h1>
+        <h1 data-aos="fade-down" className='text-primary text-center mb-24'>Why Choose Us</h1>
          <div class="relative w-full h-[1500px] lg:h-[450px] overflow-hidden">
       <div>
         <img
@@ -26,7 +26,7 @@ const WhyChoosesUs = () => {
       </div>
 
       <div  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center flex flex-col lg:flex-row justify-between gap-y-20 lg:gap-y-0 lg:gap-x-10 hero px-10">
-        <div data-aos="fade-right">
+        <div data-aos="fade-up">
           <img
             src="https://i.ibb.co/ys8phbX/seo-4.jpg"
             className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
@@ -39,7 +39,7 @@ const WhyChoosesUs = () => {
             threats.
           </p>
         </div>
-        <div data-aos="fade-down">
+        <div data-aos="fade-up">
           <img
             src="https://i.ibb.co/GtgY2hR/marketing-set-3.jpg"
             className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
@@ -52,7 +52,7 @@ const WhyChoosesUs = () => {
             optimization, aligned with XYZ Electronics' business objectives.
           </p>
         </div>
-        <div data-aos="fade-down">
+        <div data-aos="fade-up">
           <img
             src="https://i.ibb.co/ZTnNKsT/5287968.jpg"
             className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
@@ -66,7 +66,7 @@ const WhyChoosesUs = () => {
             enhance search engine rankings.
           </p>
         </div>
-        <div data-aos="fade-left">
+        <div data-aos="fade-up">
           <img
             src="https://i.ibb.co/rwMTjMm/3358839.jpg"
             className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
