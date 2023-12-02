@@ -11,29 +11,34 @@ a {
 }
 
 a:after {
-  display:block;
+  display: block;
   content: '';
   width: inherit;
-  border-bottom: solid 2px white;  
-  transform: scaleX(0);  
+
+  border-bottom: solid 2px black;
+  transform: scaleX(0);
+
   transition: transform 250ms ease-in-out;
 }
 
-a:hover:after { transform: scaleX(1); }
+a:hover:after {
+  transform: scaleX(1);
+}
 
 a.from-left:after {
   transform-origin: left;
 }
 
 
-.btn-primary{
-  @apply   text-white bg-[#8F6DFF] hover:bg-[#6E48E8] border-0 rounded-full px-8 py-4 font-bold
-}
-.btn-secondary{
-  @apply   text-white bg-[#0C0367] hover:bg-[#291E97] border-0 rounded-full px-8 py-4 font-bold
+.btn-primary {
+  @apply text-white bg-[#8F6DFF] hover:bg-[#6E48E8] border-0 rounded-full px-8 py-4 font-bold
 }
 
-.nav-button{
+.btn-secondary {
+  @apply text-white bg-[#0C0367] hover:bg-[#291E97] border-0 rounded-full px-8 py-4 font-bold
+}
+
+.nav-button {
   @apply text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2
 }
 .btn-navbar{

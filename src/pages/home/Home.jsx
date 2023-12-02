@@ -6,7 +6,8 @@ import ContactUs from "../contactUs/ContactUs";
 import Servises from "../servises/Servises";
 import Images from "../../components/home/Images";
 import HomeBanner from "../../components/home/HomeBanner";
-import Reason from "../reason/Reason";
+import Testimonial from "../../components/testimonial/Testimonial";
+
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Images />
       <Faq />
       <ContactUs />
+      <Testimonial />
     </Element>
   );
 };
