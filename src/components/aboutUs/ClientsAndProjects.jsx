@@ -9,15 +9,17 @@ import "./Services.css";
 import shapeImg1 from "../../assets/22.png"
 import shapeImg2 from "../../assets/img025.jpg"
 import shapeImg3 from "../../assets/img027.png"
+import useAOSInit from "../../hooks/useAosInit";
 
 const ClientsAndProjects = () => {
+  useAOSInit()
   const dew =
     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHByZXNlcnZlQXNwZWN0UmF0aW89J25vbmUnIG92ZXJmbG93PSd2aXNpYmxlJyBoZWlnaHQ9JzEwMCUnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nbm9uZScgc3Ryb2tlPSdibGFjaycgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0nc3F1YXJlJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnPjxwYXRoIGQ9J00wLDZjNiwwLDYsMTMsMTIsMTNTMTgsNiwyNCw2Jy8+PC9zdmc+";
 
   return (
-    <div className="flex justify-between gap-x-24 items-center w-9/12 mx-auto mb-16">
-      <div className="w-[50%]">
-        <div className="flex items-center gap-x-12">
+    <div   className="md:flex justify-between gap-x-24 items-center w-9/12 mx-auto mb-16 md:pt-36 ">
+      <div data-aos="flip-left" data-aos-duration="1100" className="md:w-[50%]">
+        <div  className="flex items-center gap-x-12">
           <div>
             <CountUp
               start={0}
@@ -53,7 +55,7 @@ const ClientsAndProjects = () => {
               </div>
             </div>
           </div>
-          <div className="relative">
+          <div    className="relative">
             <img src={shapeImg2} alt="" className="w-[400px] h-auto rounded-3xl" />
             <img
               src={shapeImg1}
@@ -82,7 +84,7 @@ const ClientsAndProjects = () => {
         </div>
       </div>
       
-      <div className="w-[50%]">
+      <div data-aos="fade-down-left" data-aos-duration="1100" className="md:w-[50%]">
         <div className="flex mb-10">
           <img src={dew} className=" h-[40px] w-[80px]" alt="" />
           <img src={dew} className=" h-[40px] w-[80px]" alt="" />
