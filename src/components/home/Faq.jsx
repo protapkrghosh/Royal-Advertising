@@ -7,7 +7,7 @@ const Faq = () => {
   return (
     <div className="hero my-16">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="md:w-[50%]" data-aos="fade-left" data-aos-duration="1000">
+        <div className="md:w-[50%]" data-aos="fade-up" data-aos-duration="1000">
           <img src="https://www.digitalgenix.co.uk/wp-content/uploads/2020/11/slider1.png" className="" />
         </div>
 
