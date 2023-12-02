@@ -15,8 +15,8 @@ const ClientsAndProjects = () => {
     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHByZXNlcnZlQXNwZWN0UmF0aW89J25vbmUnIG92ZXJmbG93PSd2aXNpYmxlJyBoZWlnaHQ9JzEwMCUnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nbm9uZScgc3Ryb2tlPSdibGFjaycgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0nc3F1YXJlJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnPjxwYXRoIGQ9J00wLDZjNiwwLDYsMTMsMTIsMTNTMTgsNiwyNCw2Jy8+PC9zdmc+";
 
   return (
-    <div className="flex justify-between gap-x-24 items-center w-9/12 mx-auto mb-16">
-      <div className="w-[50%]">
+    <div className="flex flex-col md:flex-row justify-between gap-20 items-center md:w-9/12 mx-auto mb-16">
+      <div className="w-[92%] md:w-[50%]">
         <div className="flex items-center gap-x-12">
           <div>
             <CountUp
@@ -64,7 +64,7 @@ const ClientsAndProjects = () => {
 
         </div>
 
-        <div className="w-full bg-gradient-to-b from-sky-200 to-gray-200 flex justify-between p-10 rounded-[40px] mt-10">
+        <div className="w-full bg-gradient-to-b from-sky-200 to-gray-200 flex justify-between p-8 md:p-10 rounded-[40px] mt-10">
           <div>
             <h5 className="text-xl text-[#f75a5a] mb-3">
               JOIN & GET BEST MARKETING STRATEGY
@@ -75,17 +75,17 @@ const ClientsAndProjects = () => {
             </h2>
           </div>
           <div className="flex justify-center gap-x-1">
-            <img src={shapeImg3} className="w-[50px] h-[100px]" alt="" />
-            <img src={shapeImg3} className="w-[60px] h-[130px]" alt="" />
-            <img src={shapeImg3} className="w-[70px] h-[160px]" alt="" />
+            <img src={shapeImg3} className="w-[30px] md:w-[50px] h-[60px] lg:h-[100px]" alt="" />
+            <img src={shapeImg3} className="w-[30px] md:w-[60px] h-[80px] lg:h-[130px]" alt="" />
+            <img src={shapeImg3} className="w-[30px] md:w-[70px] h-[100px] lg:h-[160px]" alt="" />
           </div>
         </div>
       </div>
-      
-      <div className="w-[50%]">
+
+      <div className="w-[92%] md:w-[50%]">
         <div className="flex mb-10">
           <img src={dew} className=" h-[40px] w-[80px]" alt="" />
-          <img src={dew} className=" h-[40px] w-[80px]" alt="" />
+          <img src={dew} className=" h-[40px] w-[80px] -mx-[2px]" alt="" />
           <img src={dew} className=" h-[40px] w-[80px]" alt="" />
         </div>
         <h1 className="text-5xl font-bold mb-5">
