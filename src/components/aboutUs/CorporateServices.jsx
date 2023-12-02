@@ -73,7 +73,7 @@ const CorporateServices = () => {
 
   return (
     <div className="text-center mb-[100px] pt-12">
-      <div data-aos="fade-up" className="pb-20">
+      <div data-aos="fade-up" className="pb-8">
         <h6 data-aos="fade-up" className="text-third">CORPORATE SERVICE</h6>
         <h3 className="text-primary">Why Us</h3>
         <p className="text-third">
