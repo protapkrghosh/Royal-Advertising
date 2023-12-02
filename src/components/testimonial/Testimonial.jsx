@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Element } from "react-scroll";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -7,7 +8,6 @@ import { Pagination, Navigation } from 'swiper/modules';
 import { testimonialInfo } from '../../data/data'
 import { FaQuoteLeft } from "react-icons/fa";
 import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
-import { Element } from 'react-scroll';
 
 const Testimonial = () => {
   const [swiper, setSwiper] = useState(null);
