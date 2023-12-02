@@ -37,7 +37,7 @@ const Testimonial = () => {
           nextEl: '.custom-swiper-button-next',
         }}
         modules={[Pagination, Navigation]}
-        className="mySwiper py-8"
+        className="mySwiper py-5"
         onSwiper={setSwiper}
       >
         {testimonialInfo.map((testimonial, index) => {

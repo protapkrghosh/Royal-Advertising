@@ -8,9 +8,9 @@ const ContactForm = () => {
      <div><h1 data-aos="fade-up" className="text-primary  mb-7 text-center">Contact Us</h1></div>
      
      
-      <div className='mt-14 mb-32 w-[85%] mx-auto  p-4'>
+      <div className='mt-14 mb-32 w-[85%] mx-auto p-4'>
 
-        <div  className='grid grid-cols-1 md:grid-cols-2'>
+        <div  className='grid grid-cols-1 md:grid-cols-2 gap-12'>
          <div data-aos="zoom-in-up">
          <Lottie animationData={contact} loop={true} />
          </div>
