@@ -7,7 +7,7 @@ const ServisesDiscription = () => {
 
   return (
     <div className="">
-             <h1 className="text-primary text-center my-5">Services We Provide</h1>
+             <h1 data-aos="fade-down" className="text-primary text-center  my-10">Services We Provide</h1>
             <VerticalTimeline>
                 {ourservises.map((ourservis, index) => (
                     <VerticalTimelineElement

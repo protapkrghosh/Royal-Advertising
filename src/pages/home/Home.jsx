@@ -6,7 +6,9 @@ import ContactUs from "../contactUs/ContactUs";
 import Servises from "../servises/Servises";
 import Images from "../../components/home/Images";
 import HomeBanner from "../../components/home/HomeBanner";
+import Testimonial from "../../components/testimonial/Testimonial";
 import Reason from "../reason/Reason";
+
 
 const Home = () => {
   return (
@@ -14,10 +16,11 @@ const Home = () => {
      <HomeBanner />
       <AboutUs />
       <Servises />
-      <Reason></Reason>
+      <Reason />
       <Images />
       <Faq />
       <ContactUs />
+      <Testimonial />
     </Element>
   );
 };
