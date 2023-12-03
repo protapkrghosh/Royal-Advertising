@@ -28,7 +28,7 @@ const HomeBanner = () => {
           position: 'absolute',
           top: 0,
           left: 0,
-          width: '100%',
+          width: '',
           height: '100vh',
           backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adjust the alpha value for transparency
           zIndex: 0,  // Set a lower zIndex than the video to be behind it

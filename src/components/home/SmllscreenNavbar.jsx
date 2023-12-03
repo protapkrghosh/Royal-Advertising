@@ -14,7 +14,7 @@ const SmllscreenNavbar = ({isOpens, onClose, }) => {
       <div
       className={sidebarClasses}
       style={{
-        width: "570px",
+        width: "full",
         position: "fixed",
         top: 0,
         left: 0,
