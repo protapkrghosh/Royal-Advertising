@@ -34,14 +34,11 @@ const Testimonial = () => {
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
-        pagination={{
-          clickable: true,
-        }}
         navigation={{
           prevEl: '.custom-swiper-button-prev',
           nextEl: '.custom-swiper-button-next',
         }}
-        modules={[Pagination, Navigation]}
+        modules={[Navigation]}
         className="mySwiper py-5"
         onSwiper={setSwiper}
       >

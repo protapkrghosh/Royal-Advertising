@@ -3,12 +3,10 @@ import { CgChevronDoubleRight } from "react-icons/cg";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { companiesLogos } from "../../data/data";
 import CountUp from "react-countup";
 import "./Services.css";
 import shapeImg1 from "../../assets/22.png"
 import shapeImg2 from "../../assets/img025.jpg"
-import shapeImg3 from "../../assets/img027.png"
 import useAOSInit from "../../hooks/useAosInit";
 
 const ClientsAndProjects = () => {
@@ -63,7 +61,6 @@ const ClientsAndProjects = () => {
               className="absolute top-0 left-0 -mt-6 -ml-6 border-[8px] border-white rounded-2xl"
             />
           </div>
-
         </div>
 
         <div className="w-full bg-gradient-to-b from-sky-200 to-gray-200 flex justify-between p-8 md:p-10 rounded-[40px] mt-10">
@@ -77,9 +74,9 @@ const ClientsAndProjects = () => {
             </h2>
           </div>
           <div className="flex justify-center gap-x-1">
-            <img src={shapeImg3} className="w-[30px] md:w-[50px] h-[60px] lg:h-[100px]" alt="" />
-            <img src={shapeImg3} className="w-[30px] md:w-[60px] h-[80px] lg:h-[130px]" alt="" />
-            <img src={shapeImg3} className="w-[30px] md:w-[70px] h-[100px] lg:h-[160px]" alt="" />
+            <span className="w-[30px] md:w-[50px] h-[60px] lg:h-[100px] bg-blue-500 rounded-full"></span>
+            <span className="w-[30px] md:w-[55px] h-[80px] lg:h-[130px] bg-green-400 rounded-full"></span>
+            <span className="w-[30px] md:w-[60px] h-[100px] lg:h-[160px] bg-red-500 rounded-full"></span>
           </div>
         </div>
       </div>
@@ -99,7 +96,7 @@ const ClientsAndProjects = () => {
           repellendus. Nostra! Accusamus dui maecenas dolore nunc <br />
           mollitia interdum aliquet. Voluptatibus delectus eget.
         </p>
-        <div className="flex items-center gap-x-10">
+        <div className="flex flex-col md:flex-row items-center md:gap-x-10">
           <div>
             <div className="flex items-center gap-x-2 mb-2">
               <CgChevronDoubleRight className="text-[#F85152]"></CgChevronDoubleRight>
