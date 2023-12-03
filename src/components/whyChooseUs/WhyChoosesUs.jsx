@@ -13,8 +13,8 @@ const WhyChoosesUs = () => {
 
   return (
     <div className="py-24" style={imgeStyle}>
-      <h1 data-aos="fade-up" className="text-primary  mb-7 text-center">Why Choose Us</h1>
-      <div data-aos="fade-down-left"data-aos-duration="3000"  className="grid grid-cols-2 md:w-9/12 mx-auto pt-14">
+      <h1 data-aos="fade-up" data-aos-duration="3000" className="text-primary  mb-7 text-center">Why Choose Us</h1>
+      <div data-aos="fade-down-left" data-aos-duration="3000"  className="grid grid-cols-2 md:w-9/12 mx-auto pt-14">
         {whyChooseUsData.map((chooseus, index) => (
           <div key={index} className="card w-full ">
            

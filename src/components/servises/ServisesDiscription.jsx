@@ -15,7 +15,7 @@ const imgeStyle = {
 };
   return (
     <div style={imgeStyle} className="py-14">
-             <h1 data-aos="fade-down" className="text-primary text-center  my-10">Services We Provide</h1>
+             <h1 data-aos="fade-down" data-aos-duration="3000" className="text-primary text-center  my-10">Services We Provide</h1>
             <VerticalTimeline>
                 {ourservises.map((ourservis, index) => (
                     <VerticalTimelineElement
