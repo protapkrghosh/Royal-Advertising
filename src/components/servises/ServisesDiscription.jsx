@@ -6,8 +6,15 @@ import useAOSInit from '../../hooks/useAosInit';
 
 const ServisesDiscription = () => {
 useAOSInit()
+const imge = "https://images.wallpaperscraft.com/image/single/lines_wavy_white_141124_1350x2400.jpg"
+
+const imgeStyle = {
+    backgroundImage: `url(${imge})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover', 
+};
   return (
-    <div className="">
+    <div style={imgeStyle} className="py-14">
              <h1 data-aos="fade-down" className="text-primary text-center  my-10">Services We Provide</h1>
             <VerticalTimeline>
                 {ourservises.map((ourservis, index) => (
