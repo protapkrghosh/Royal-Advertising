@@ -96,7 +96,7 @@ const ClientsAndProjects = () => {
           repellendus. Nostra! Accusamus dui maecenas dolore nunc <br />
           mollitia interdum aliquet. Voluptatibus delectus eget.
         </p>
-        <div className="flex items-center gap-x-10">
+        <div className="flex flex-col md:flex-row items-center md:gap-x-10">
           <div>
             <div className="flex items-center gap-x-2 mb-2">
               <CgChevronDoubleRight className="text-[#F85152]"></CgChevronDoubleRight>
