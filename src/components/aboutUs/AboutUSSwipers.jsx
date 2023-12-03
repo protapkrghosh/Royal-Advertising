@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 
 
 // import required modules
-import { FreeMode, Pagination } from 'swiper/modules';
+import { FreeMode, Autoplay } from 'swiper/modules';
 import { companiesLogos } from '../../data/data';
 const AboutUSSwipers = () => {
     return (
@@ -18,9 +18,6 @@ const AboutUSSwipers = () => {
         slidesPerView={1}
         spaceBetween={30}
         freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
         breakpoints={{
           // When window width is >= 640px
           640: {
@@ -39,9 +36,14 @@ const AboutUSSwipers = () => {
             slidesPerView: 5,
           },
         }}
-        modules={[FreeMode, Pagination]}
         
-        className="mySwiper lg:max-w-[1265px] mx-auto mt-36 "
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[FreeMode, Autoplay]}
+        
+        className="mySwiper lg:max-w-[1265px] mx-auto mt-44 "
       >
       <div  className=''>
       {companiesLogos.map(

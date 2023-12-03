@@ -5,7 +5,7 @@ import Navbar from "./pages/shered/navbar/Navbar";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       
       <Home />
       <Footer />

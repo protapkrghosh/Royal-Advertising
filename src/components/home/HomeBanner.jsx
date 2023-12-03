@@ -32,6 +32,7 @@ const HomeBanner = () => {
           height: '100vh',
           backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adjust the alpha value for transparency
           zIndex: 0,  // Set a lower zIndex than the video to be behind it
+          boxShadow: '0 0 20px 10px rgba(0, 0, 0, 0.5)', // Box shadow for the overlay
         }}
       />
 
@@ -39,11 +40,11 @@ const HomeBanner = () => {
       <Navbar />
 
       {/* Content */}
-      <div  className="hero mt-24 relative">
-        <div  className="hero-content flex-col lg:flex-row-reverse justify-center items-center" style={{ zIndex: 1 }}>
+      <div className="hero mt-24 relative">
+        <div className="hero-content flex-col lg:flex-row-reverse justify-center items-center" style={{ zIndex: 1 }}>
           <div>
-            <div  className='text-5xl text-white font-bold text-center mt-[150px]'>
-                <p>Boost Your Brand with <br /> Digital Strategies</p>
+            <div className='text-5xl text-white font-bold text-center mt-[150px]'>
+              <p>Boost Your Brand with <br /> Digital Strategies</p>
               <Typewriter
                 words={['Engagement', 'Visibility', 'Conversion']}
                 loop={true}
