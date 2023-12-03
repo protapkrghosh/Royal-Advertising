@@ -18,7 +18,7 @@ const ClientsAndProjects = () => {
     
   return (
     <div    className="md:flex justify-between gap-x-24 items-center w-9/12 mx-auto mb-16 md:pt-36 ">
-      <div data-aos="flip-left" data-aos-duration="1100" className="md:w-[50%]">
+      <div data-aos="flip-left" data-aos-duration="3000" className="md:w-[50%]">
         <div  className="flex items-center gap-x-12">
           <div>
             <CountUp
@@ -84,7 +84,7 @@ const ClientsAndProjects = () => {
         </div>
       </div>
       
-      <div data-aos="fade-down-left" data-aos-duration="1100" className="md:w-[50%]">
+      <div data-aos="fade-down-left" data-aos-duration="3000" className="md:w-[50%]">
         <div className="flex mb-10">
           <img src={dew} className=" h-[40px] w-[80px]" alt="" />
           <img src={dew} className=" h-[40px] w-[80px] -mx-[2px]" alt="" />

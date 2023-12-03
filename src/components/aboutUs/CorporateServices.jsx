@@ -79,15 +79,15 @@ const CorporateServices = () => {
   };
   return (
     <div style={imgeStyle} className="text-center mb-[100px] pt-12">
-      <div data-aos="fade-up" className="pb-8">
-        <h6 data-aos="fade-up" className="text-third">CORPORATE SERVICE</h6>
+      <div data-aos="fade-up" data-aos-duration="3000" className="pb-8">
+        <h6 data-aos="fade-up" data-aos-duration="3000" className="text-third">CORPORATE SERVICE</h6>
         <h3 className="text-primary">Why Us</h3>
         <p className="text-third">
           We appreciate your trust greatly! Our clients choose us and our products
           because they know we're the best.
         </p>
       </div>
-      <div data-aos="fade-left" className={responsive}>
+      <div data-aos="fade-left" data-aos-duration="3000" className={responsive}>
         {firstDatas.map((data, index) => (
           <div key={index}>
             <div>

@@ -17,11 +17,11 @@ const Faq = () => {
   return (
     <div style={imgeStyle} className="hero my-24 py-16">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="md:w-[50%]" data-aos="fade-up" data-aos-duration="1000">
+        <div className="md:w-[50%]" data-aos="fade-up" data-aos-duration="3000">
           <img src="https://www.digitalgenix.co.uk/wp-content/uploads/2020/11/slider1.png" className="" />
         </div>
 
-        <div data-aos="fade-right" className="md:w-[60%] py-5 px-5 md:px-[60px]">
+        <div data-aos="fade-right" data-aos-duration="3000" className="md:w-[60%] py-5 px-5 md:px-[60px]">
           <div className="bgColor ">
             <AccordionItem
               data-aos="fade-up"

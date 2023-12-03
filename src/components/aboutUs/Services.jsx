@@ -5,7 +5,7 @@ import useAOSInit from "../../hooks/useAosInit";
 const Services = () => {
   useAOSInit()
   return (
-    <div data-aos="fade-right"  className="lg:w-[40%] px-5 lg:px-0 space-y-6">
+    <div data-aos="fade-right" data-aos-duration="3000"  className="lg:w-[40%] px-5 lg:px-0 space-y-6">
       <div  className="skill">
         <div className="skill-name">Graphic Design</div>
         <div className="skill-bar">

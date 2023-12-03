@@ -13,14 +13,14 @@ const ReflectiveDesign = () => {
  };
   return (
     <div style={imgeStyle}   className="mt-20 py-12" >
-      <h1  data-aos="fade-up" className="text-primary text-center ">About Us</h1>
+      <h1  data-aos="fade-up" data-aos-duration="3000" className="text-primary text-center ">About Us</h1>
       <div className="hero my-16 max-w-[1320px] mx-auto ">
         <div className="hero-content flex flex-col lg:flex-row justify-between">
-          <div data-aos="zoom-in" className="md:w-[50%]">
+          <div data-aos="zoom-in" data-aos-duration="3000" className="md:w-[50%]">
             <Lottie animationData={aboutUs} loop={true} />
           </div>
 
-          <div data-aos="fade-left" className="md:w-[50%] ">
+          <div data-aos="fade-left" data-aos-duration="3000" className="md:w-[50%] ">
             <h6 className="font-semibold">ABOUT REFLECTIVE DESIGN</h6>
             <h1 className="text-secendary  ">
               We Help Your Digital Business Grow
