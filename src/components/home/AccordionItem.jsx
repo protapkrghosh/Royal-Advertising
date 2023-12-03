@@ -9,7 +9,7 @@ const AccordionItem = ({ id, title, content, activeItem, setActiveItem }) => {
     };
     return (
         <div className="">
-            <h1 className="mb-0 text-[#070234] text-xl "> 
+            <h1 className="mb-0 text-[#070234] text-xl border-black border"> 
                 <button
                     className="group relative flex w-full text-[#070234] items-center  border p-4 text-left  transition hover:z-[2] focus:z-[3] focus:outline-none"
                     type="button"
@@ -25,11 +25,11 @@ const AccordionItem = ({ id, title, content, activeItem, setActiveItem }) => {
             </h1> 
             <div
                 id={id}
-                className={`transition-max-h duration-300 ease-in-out overflow-hidden ${isOpen ? 'max-h-[500px]' : 'max-h-0'}`}
+                className={`transition-max-h duration-300 border-black border ease-in-out overflow-hidden ${isOpen ? 'max-h-[500px]' : 'max-h-0'}`}
                 aria-labelledby={id}
             >
                 <div className="px-5 py-4 border text-xl">
-                    <strong className='text-gray-500 font-thin'>{content}</strong>
+                    <strong className='text-[#070234] font-thin'>{content}</strong>
                 </div>
             </div>
         </div>

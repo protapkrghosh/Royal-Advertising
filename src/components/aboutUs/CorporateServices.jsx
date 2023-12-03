@@ -70,9 +70,15 @@ const CorporateServices = () => {
       ),
     },
   ];
+  const imge = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKmKHNnp2eayRYGL8JBBtIW-FR2I0tr_VBB8iDP94o6FXFwMRejzFnD1Ov2-cDAPRtinQ&usqp=CAU"
 
+  const imgeStyle = {
+      backgroundImage: `url(${imge})`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover', 
+  };
   return (
-    <div className="text-center mb-[100px] pt-12">
+    <div style={imgeStyle} className="text-center mb-[100px] pt-12">
       <div data-aos="fade-up" className="pb-8">
         <h6 data-aos="fade-up" className="text-third">CORPORATE SERVICE</h6>
         <h3 className="text-primary">Why Us</h3>
