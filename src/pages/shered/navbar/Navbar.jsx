@@ -41,7 +41,7 @@ const Navbar = () => {
           <button
             type="button"
             onClick={toggleMenu}
-            className="focus:outline-none"
+            className="focus:outline-none text-white"
           >
             <svg
               className="h-6 w-6 fill-current"
