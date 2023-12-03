@@ -41,7 +41,7 @@ const AboutUSSwipers = () => {
         }}
         modules={[FreeMode, Pagination]}
         
-        className="mySwiper lg:max-w-[1265px] mx-auto mt-36 "
+        className="mySwiper lg:max-w-[1265px] mx-auto mt-44 "
       >
       <div  className=''>
       {companiesLogos.map(
