@@ -102,3 +102,31 @@ export const testimonialInfo = [
     position: "CEO, Business Co"
   },
 ]
+
+export const whyChooseUsData = [
+  {
+    imge:"https://i.ibb.co/ys8phbX/seo-4.jpg",
+    title: "Expertise",
+    description:
+      "Our team of seasoned professionals brings years of experience in the advertising industry. We have a deep understanding of market trends and can tailor strategies to suit your unique business needs.",
+  },
+  {
+    imge:"https://i.ibb.co/ZTnNKsT/5287968.jpg",
+    title: "Innovative Solutions",
+    description:
+      "We pride ourselves on staying ahead of the curve when it comes to advertising techniques and technologies. Our innovative solutions ensure that your brand stands out in today's competitive market.",
+  },
+  {
+    imge:"https://i.ibb.co/rwMTjMm/3358839.jpg",
+    title: "Customized Campaigns",
+    description:
+      "We don't believe in one-size-fits-all solutions. Our team works closely with each client to create customized advertising campaigns that align with your brand identity and resonate with your target audience.",
+  },
+  {
+    imge:"https://i.ibb.co/GtgY2hR/marketing-set-3.jpg",
+    title: "Measurable Results",
+    description:
+      "Transparency and accountability are at the core of our services. We provide detailed analytics and reports, allowing you to track the performance of your campaigns and measure the tangible results of our efforts.",
+  },
+];
+

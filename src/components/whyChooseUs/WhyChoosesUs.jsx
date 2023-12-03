@@ -1,84 +1,33 @@
-
+import { whyChooseUsData } from "../../data/data";
+import useAOSInit from "../../hooks/useAosInit";
 
 const WhyChoosesUs = () => {
-    return (
-        <div class="relative w-full h-[1500px] lg:h-[450px] overflow-hidden">
-      <div>
-        <img
-          src="https://demo.7iquid.com/salepush/wp-content/uploads/2023/11/BG6.jpg"
-          alt="Main Image"
-          class="w-full h-full object-cover absolute top-0 left-0"
-        />
-        <img
-          src="https://demo.7iquid.com/salepush/wp-content/uploads/2023/11/Ellipse-1.png"
-          alt="Left Side Image"
-          class="h-full object-cover absolute top-0 left-0"
-        />
-        <img
-          src="https://demo.7iquid.com/salepush/wp-content/uploads/2023/11/Ellipse-2.png"
-          alt="Right Side Image"
-          class="h-full object-cover absolute top-0 right-0"
-        />
-      </div>
+  useAOSInit();
+  const imge = "https://images.unsplash.com/photo-1619252584172-a83a949b6efd?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D";
 
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center flex flex-col lg:flex-row justify-between gap-y-20 lg:gap-y-0 lg:gap-x-10 hero px-10">
-        <div>
-          <img
-            src="https://i.ibb.co/ys8phbX/seo-4.jpg"
-            className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
-            alt=""
-          />
-          <h4 className="text-2xl mb-5">Comprehensive Digital Audit</h4>
-          <p className="tracking-wide">
-            Conducted a thorough analysis of XYZ Electronics' existing digital
-            presence, identifying strengths, weaknesses, opportunities, and
-            threats.
-          </p>
-        </div>
-        <div>
-          <img
-            src="https://i.ibb.co/GtgY2hR/marketing-set-3.jpg"
-            className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
-            alt=""
-          />
-          <h4 className="text-2xl mb-5">Customized Strategy Development</h4>
-          <p>
-            Tailored a comprehensive digital marketing strategy, encompassing
-            SEO, PPC advertising, social media marketing, and content
-            optimization, aligned with XYZ Electronics' business objectives.
-          </p>
-        </div>
-        <div>
-          <img
-            src="https://i.ibb.co/ZTnNKsT/5287968.jpg"
-            className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
-            alt=""
-          />
-          {/* result */}
-          <h4 className="text-2xl mb-5">Revamped Website and SEO Optimization</h4>
-          <p>
-            Implemented a website redesign for improved user experience and
-            navigation. Conducted on-page and off-page SEO optimizations to
-            enhance search engine rankings.
-          </p>
-        </div>
-        <div>
-          <img
-            src="https://i.ibb.co/rwMTjMm/3358839.jpg"
-            className="w-[80px] h-[80px] mx-auto mb-5 rounded-full"
-            alt=""
-          />
-          {/* success */}
-          <h4 className="text-2xl mb-5">Strategic Social Media Campaigns</h4>
-          <p>
-            Launched targeted social media campaigns across platforms to
-            increase brand awareness, engage the audience, and drive traffic to
-            the website.
-          </p>
-        </div>
+  const imgeStyle = {
+    backgroundImage: `url(${imge})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  };
+
+  return (
+    <div className="py-24" style={imgeStyle}>
+      <h1 data-aos="fade-up" data-aos-duration="3000" className="text-primary  mb-7 text-center">Why Choose Us</h1>
+      <div data-aos="fade-down-left" data-aos-duration="3000"  className="grid grid-cols-2 md:w-9/12 mx-auto pt-14">
+        {whyChooseUsData.map((chooseus, index) => (
+          <div key={index} className="card w-full ">
+           
+            <figure><img src={chooseus.imge} alt="Shoes" className="w-16 h-16 rounded-full" /></figure>
+            <div className="card-body text-center">
+              <h2 className="text-secendary">{chooseus.title}</h2>
+              <p className="text-third">{chooseus.description}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
-    );
+  );
 };
 
 export default WhyChoosesUs;
