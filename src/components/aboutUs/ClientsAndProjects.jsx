@@ -15,9 +15,9 @@ const ClientsAndProjects = () => {
     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHByZXNlcnZlQXNwZWN0UmF0aW89J25vbmUnIG92ZXJmbG93PSd2aXNpYmxlJyBoZWlnaHQ9JzEwMCUnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nbm9uZScgc3Ryb2tlPSdibGFjaycgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0nc3F1YXJlJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnPjxwYXRoIGQ9J00wLDZjNiwwLDYsMTMsMTIsMTNTMTgsNiwyNCw2Jy8+PC9zdmc+";
     
   return (
-    <div    className="md:flex justify-between gap-x-24 items-center w-9/12 mx-auto mb-16 md:pt-36 ">
+    <div    className="md:flex justify-between gap-x-24 items-center px-5 md:px-0 lg:w-9/12 mt-10 lg:mt-0 mx-auto mb-16 md:pt-36 ">
       <div data-aos="flip-left" data-aos-duration="3000" className="md:w-[50%]">
-        <div  className="flex items-center gap-x-12">
+        <div  className="md:flex items-center gap-x-12">
           <div>
             <CountUp
               start={0}
@@ -25,7 +25,7 @@ const ClientsAndProjects = () => {
               duration={4}
               separator=" "
               suffix=" +"
-              className="text-6xl font-bold"
+              className="text-4xl md:text-6xl font-bold"
             >
             </CountUp>
             <p className="mt-5">
@@ -42,7 +42,7 @@ const ClientsAndProjects = () => {
                 ></div>
               </div>
             </div>
-            <div className="skill">
+            <div className="skill mb-20 md:mb-0">
               <div className="font-semibold text-[17px]">Web Design</div>
               <div className="skill-bar">
                 <div
@@ -53,22 +53,22 @@ const ClientsAndProjects = () => {
               </div>
             </div>
           </div>
-          <div    className="relative">
-            <img src={shapeImg2} alt="" className="w-[400px] h-auto rounded-3xl" />
+          <div className="relative">
+            <img src={shapeImg2} alt="" className="w-[300px] md:w-[400px] h-auto rounded-3xl mx-auto" />
             <img
               src={shapeImg1}
               alt="Image"
-              className="absolute top-0 left-0 -mt-6 -ml-6 border-[8px] border-white rounded-2xl"
+              className="absolute -top-10 md:top-0 left-5 md:left-0 -mt-6 -ml-6 border-[8px] border-white rounded-2xl"
             />
           </div>
         </div>
 
         <div className="w-full bg-gradient-to-b from-sky-200 to-gray-200 flex justify-between p-8 md:p-10 rounded-[40px] mt-10">
           <div>
-            <h5 className="text-xl text-[#f75a5a] mb-3">
+            <h5 className="md:text-xl text-[#f75a5a] mb-3">
               JOIN & GET BEST MARKETING STRATEGY
             </h5>
-            <h2 className="text-3xl font-bold">
+            <h2 className="text-xl md:text-3xl font-bold">
               Let's Boost Up <br /> Your Digital <br />
               Marketing !
             </h2>
@@ -81,7 +81,7 @@ const ClientsAndProjects = () => {
         </div>
       </div>
       
-      <div data-aos="fade-down-left" data-aos-duration="3000" className="md:w-[50%]">
+      <div data-aos="fade-down-left" data-aos-duration="3000" className="md:w-[50%] mt-10 md:mt-0">
         <div className="flex mb-10">
           <img src={dew} className=" h-[40px] w-[80px]" alt="" />
           <img src={dew} className=" h-[40px] w-[80px] -mx-[2px]" alt="" />
