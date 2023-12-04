@@ -5,7 +5,7 @@ import useAOSInit from "../../hooks/useAosInit";
 const CorporateServices = () => {
   useAOSInit()
   const responsive =
-    "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 lg:w-[1300px] mx-auto my-12 px-2 lg:px-0";
+    "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-14 lg:w-[1300px] mx-auto my-12 px-2 lg:px-0";
   const heading = "text-2xl lg:text-3xl font-bold lg:tracking-wider mb-4";
   const para = "text-gray-400 tracking-wide text-lg";
 
@@ -39,15 +39,12 @@ const CorporateServices = () => {
         </p>
       ),
     },
-  ];
-
-  const secondDatas = [
     {
       h3: "RESULT-ORIENTED SERVICES",
       p: (
         <p>
-          Every penny counts, so we use a result-oriented approach when <br />{" "}
-          providing services.
+          Every penny counts, so we use a result <br />oriented approach when
+          providing <br /> services.
         </p>
       ),
     },
@@ -55,7 +52,7 @@ const CorporateServices = () => {
       h3: "COST-EFFECTIVE SERVICES",
       p: (
         <p>
-          Whatever the investment, we deliver effective and cost-effective
+          Whatever the investment, we deliver <br /> effective and cost-effective
           <br /> results.
         </p>
       ),
@@ -64,8 +61,8 @@ const CorporateServices = () => {
       h3: "TIME MANAGEMENT",
       p: (
         <p>
-          We prioritize tasks according to the goals, which helps manage
-          <br /> time effectively.
+          We prioritize tasks according to the goals,<br/>  which helps manage
+          time  <br />effectively.
         </p>
       ),
     },
@@ -89,16 +86,6 @@ const CorporateServices = () => {
       </div>
       <div data-aos="fade-left" data-aos-duration="3000" className={responsive}>
         {firstDatas.map((data, index) => (
-          <div key={index}>
-            <div>
-              <h3 className="text-fifth">{data.h3}</h3>
-              <p className="text-third">{data.p}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-      <div data-aos="fade-right" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center">
-        {secondDatas.map((data, index) => (
           <div key={index}>
             <div>
               <h3 className="text-fifth">{data.h3}</h3>
