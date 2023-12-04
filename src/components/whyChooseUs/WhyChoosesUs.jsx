@@ -18,7 +18,7 @@ const WhyChoosesUs = () => {
         {whyChooseUsData.map((chooseus, index) => (
           <div key={index} className="card w-full ">
            
-            <figure><img src={chooseus.imge} alt="Shoes" className="w-16 h-16 rounded-full" /></figure>
+            <figure><img src={chooseus.imge} alt="Shoes" className="w-20 h-20 rounded-full" /></figure>
             <div className="card-body text-center">
               <h2 className="text-secendary">{chooseus.title}</h2>
               <p className="text-third">{chooseus.description}</p>

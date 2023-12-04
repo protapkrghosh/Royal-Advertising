@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Roboto', 'Poppins', sans-serif;
+}
 
 a {
   display: inline-block;
