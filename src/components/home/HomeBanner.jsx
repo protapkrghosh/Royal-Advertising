@@ -1,4 +1,3 @@
-import { Typewriter } from 'react-simple-typewriter';
 import videoBackground from "../../../public/Youth Day City Advertising Big Screen Slide Show Ae Template Video AEP Template Free Download - Pikbest.mp4";
 import Navbar from "../../pages/shered/navbar/Navbar";
 
@@ -43,7 +42,7 @@ const HomeBanner = () => {
       <div className="hero mt-24 relative">
         <div className="hero-content flex-col lg:flex-row-reverse justify-center items-center" style={{ zIndex: 1 }}>
           <div>
-            <div className='text-7xl text-white font-bold text-center mt-[150px]'>
+            <div className='text-6xl md:text-7xl text-white font-bold text-center md:mt-[150px]'>
               <p>Boost Your Brand with Digital Strategies </p>
             </div>
 
