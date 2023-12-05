@@ -32,7 +32,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-x-5">
           <img
-            src="https://nubi.uicore.co/wp-content/uploads/2023/09/nubi-logo.webp"
+            src="https://demo.7iquid.com/salepush/wp-content/uploads/2022/04/logo-1.png"
             className="w-[200px]"
             alt=""
           />
