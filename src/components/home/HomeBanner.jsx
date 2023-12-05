@@ -1,4 +1,4 @@
-import videoBackground from "../../../public/ads.mp4";
+import videoBackground from "../../../public/Youth Day City Advertising Big Screen Slide Show Ae Template Video AEP Template Free Download - Pikbest.mp4";
 import Navbar from "../../pages/shered/navbar/Navbar";
 
 const HomeBanner = () => {
