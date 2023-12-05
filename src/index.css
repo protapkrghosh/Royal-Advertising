@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Roboto', 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif, 'Roboto';
 }
 
 a {
