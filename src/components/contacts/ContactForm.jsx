@@ -1,22 +1,23 @@
-
 import contact from "../../data/animations/Contact.json"
 import Lottie from "lottie-react";
 import useAOSInit from "../../hooks/useAosInit";
 
 const ContactForm = () => {
   useAOSInit()
-  
+
   return (
-    <div > 
-     <div><h1 data-aos="fade-up" data-aos-duration="3000" className="text-primary  mb-7 text-center">Contact Us</h1></div>
-     
-     
+    <div className="mt-24">
+      <div>
+        <h1 data-aos="fade-up" data-aos-duration="3000" className="text-primary  mb-7 text-center">Contact Us</h1>
+      </div>
+
+
       <div className='mt-14 mb-32 w-[85%] mx-auto p-4'>
 
-        <div  className='grid grid-cols-1 md:grid-cols-2 gap-12'>
-         <div data-aos="zoom-in-up" data-aos-duration="3000">
-         <Lottie animationData={contact} loop={true} />
-         </div>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
+          <div data-aos="zoom-in-up" data-aos-duration="3000">
+            <Lottie animationData={contact} loop={true} />
+          </div>
 
           {/* Contact Form */}
           <div data-aos="fade-left" data-aos-duration="3000" className="mt-20  ">
