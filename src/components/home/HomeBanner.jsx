@@ -4,7 +4,6 @@ import Navbar from "../../pages/shered/navbar/Navbar";
 const HomeBanner = () => {
   return (
     <div className="relative">
-      {/* Video Background */}
       <video
         autoPlay
         loop
@@ -14,14 +13,12 @@ const HomeBanner = () => {
           width: '100%',
           height: '100vh',
           objectFit: 'cover',
-          zIndex: -1,  // Make sure the video is behind the content
+          zIndex: -1,
         }}
       >
         <source src={videoBackground} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-
-      {/* Overlay */}
       <div
         style={{
           position: 'absolute',
@@ -29,16 +26,12 @@ const HomeBanner = () => {
           left: 0,
           width: '100%',
           height: '100vh',
-          backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adjust the alpha value for transparency
-          zIndex: 0,  // Set a lower zIndex than the video to be behind it
-          boxShadow: '0 0 20px 10px rgba(0, 0, 0, 0.5)', // Box shadow for the overlay
+          backgroundColor: 'rgba(0, 0, 0, 0.5)',
+          zIndex: 0, 
+          boxShadow: '0 0 20px 10px rgba(0, 0, 0, 0.5)',
         }}
-      />
-
-      {/* Navbar Component */}
+      />     
       <Navbar />
-
-      {/* Content */}
       <div className="hero mt-24 relative">
         <div className="hero-content flex-col lg:flex-row-reverse justify-center items-center" style={{ zIndex: 1 }}>
           <div>
