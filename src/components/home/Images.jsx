@@ -7,7 +7,7 @@ const Images = () => {
   return (
     <Element name="Gallery" className="element">
       <div>
-        <h1 data-aos="fade-up" data-aos-duration="3000" className="text-primary text-center mb-36">Our Gallery</h1>
+        <h1 data-aos="fade-up" data-aos-duration="3000" className="text-primary text-center mb-16">Our Gallery</h1>
         <div className="w-11/12 md:w-9/12 mx-auto  ">
 
           <div data-aos="zoom-in-down" data-aos-duration="3000" className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full ">
