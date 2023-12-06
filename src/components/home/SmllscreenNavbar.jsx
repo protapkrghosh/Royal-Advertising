@@ -47,8 +47,8 @@ const SmllscreenNavbar = ({isOpens, onClose, }) => {
           </button>
           <div>
             <img
-              src="https://b2h9h9q9.rocketcdn.me/wp-content/uploads/2020/11/vishal-mega-mart-Franchise-Logo.png"
-              className="h-12 w-36"
+                src="https://demo.7iquid.com/salepush/wp-content/uploads/2022/04/logo-1.png"
+              className="h-10 w-36"
               alt=""
             />
           </div>

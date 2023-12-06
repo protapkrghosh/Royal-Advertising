@@ -1,5 +1,4 @@
-import { Typewriter } from 'react-simple-typewriter';
-import videoBackground from "../../../public/Youth Day City Advertising Big Screen Slide Show Ae Template Video AEP Template Free Download - Pikbest.mp4";
+import videoBackground from "../../../public/ads.mp4";
 import Navbar from "../../pages/shered/navbar/Navbar";
 
 const HomeBanner = () => {
@@ -28,10 +27,11 @@ const HomeBanner = () => {
           position: 'absolute',
           top: 0,
           left: 0,
-          width: '',
+          width: '100%',
           height: '100vh',
           backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adjust the alpha value for transparency
           zIndex: 0,  // Set a lower zIndex than the video to be behind it
+          boxShadow: '0 0 20px 10px rgba(0, 0, 0, 0.5)', // Box shadow for the overlay
         }}
       />
 
@@ -39,24 +39,14 @@ const HomeBanner = () => {
       <Navbar />
 
       {/* Content */}
-      <div  className="hero mt-24 relative">
-        <div  className="hero-content flex-col lg:flex-row-reverse justify-center items-center" style={{ zIndex: 1 }}>
+      <div className="hero mt-24 relative">
+        <div className="hero-content flex-col lg:flex-row-reverse justify-center items-center" style={{ zIndex: 1 }}>
           <div>
-            <div  className='text-5xl text-white font-bold text-center mt-[150px]'>
-                <p>Boost Your Brand with <br /> Digital Strategies</p>
-              <Typewriter
-                words={['Engagement', 'Visibility', 'Conversion']}
-                loop={true}
-                cursor
-                cursorStyle='_'
-                typeSpeed={70}
-                deleteSpeed={50}
-                delaySpeed={1000}
-                className="text-primary"
-              />
+            <div className='text-6xl md:text-7xl text-white font-bold text-center md:mt-[150px]'>
+              <p>Boost Your Brand with Digital Strategies </p>
             </div>
 
-            <p className="py-6 text-yellow-400 font-semibold text-center mt-6">Give your brand a boost with our digital marketing agency.<br />  We get you a customer not just traffic.</p>
+            <p className="py-6 text-xl text-yellow-400 font-semibold text-center mt-6">Give your brand a boost with our digital marketing agency.<br />  We get you a customer not just traffic.</p>
           </div>
         </div>
       </div>
