@@ -3,7 +3,7 @@ import servisesAnimation from "../../data/animations/servises.json"
 import Lottie from 'lottie-react';
 const ServiseBanner = () => {
     return (
-        <div >
+        <div>
             <h1 data-aos="fade-up" data-aos-duration="3000" className="text-primary text-center ">Our Services</h1>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row">
