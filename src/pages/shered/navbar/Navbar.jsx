@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { navdata } from "../../../data/data";
 import Sidebar from "../../../components/home/Sidebar";
@@ -9,7 +9,8 @@ const Navbar = () => {
   const [isOpens, setIsOpens] = useState(false);
   const [activeTab, setActiveTab] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
-
+  const [isFixed, setIsFixed] = useState(false);
+  
   const handleSetActive = (to) => {
     setActiveTab(to);
   };
@@ -18,9 +19,33 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsFixed(window.scrollY > 0);
+    };
 
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); // No dependencies, runs only once on mount
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsFixed(window.innerWidth <= 768 && window.scrollY > 0);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []); 
+
+  console.log(isFixed);
   return (
-    <nav className={`px-10 max-w-[1300px] mx-auto  top-0 w-full  md:relative `}>
+    <nav className={` max-w-[1300px] mx-auto z-10 md:relative  top-5 w-full  `}>
     
 
       <div className=" flex justify-between items-center">
@@ -28,44 +53,44 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-x-5">
           <img
             src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
-            className="w-[200px] "
+            className="w-[200px] h-14"
             alt=""
           />
         </div>
-        <div className="md:hidden flex justify-between px-10">
-        <div className="fixed z-10 top-2 left-12 flex items-center gap-x-5">
-          <img
-            src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
-            className="w-24 h-12 "
-            alt=""
-          />
-        </div>
-          <button
-            type="button"
-            onClick={toggleMenu}
-            className="focus:outline-none text-white fixed z-10 right-12 top-4"
-          >
-            <svg
-              className="h-6 w-6 fill-current"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {isOpen ? (
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M4 5h16v2H4V5zm0 6h16v2H4v-2zm16 4H4v2h16v-2z"
-                />
-              ) : (
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M4 5h16v2H4V5zm0 6h16v2H4v-2zm0 6h16v2H4v-2z"
-                />
-              )}
-            </svg>
-          </button>
-        </div>
+        <div className={`md:hidden flex justify-between items-center w-full px-8 z-10 ${isFixed ? "bg-white text-black w-full  fixed mt-20 py-4" : ""}`}>
+  <div className=" ">
+    <img
+      src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
+      className="w-24 h-12 -ml-4"
+      alt=""
+    />
+  </div>
+  <button
+    type="button"
+    onClick={toggleMenu}
+    className={`focus:outline-none ${isFixed ? " text-black " : " text-white"}`   }
+  >
+    <svg
+      className="h-6 w-6 fill-current"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      {isOpen ? (
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M4 5h16v2H4V5zm0 6h16v2H4v-2zm16 4H4v2h16v-2z"
+        />
+      ) : (
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M4 5h16v2H4V5zm0 6h16v2H4v-2zm0 6h16v2H4v-2z"
+        />
+      )}
+    </svg>
+  </button>
+</div>
         <div className="hidden md:flex justify-center items-center gap-x-6">
           {navdata.map((nav, index) => (
             <ScrollLink

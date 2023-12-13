@@ -20,8 +20,8 @@ const AboutUSSwipers = () => {
     delay: 2500,
     disableOnInteraction: false,
   }}
-  modules={[FreeMode, Autoplay]} // Use Pagination instead of pagination
-  className="mySwiper md:w-8/12 mx-auto pb-12"
+  modules={[FreeMode, Autoplay]} 
+  className="mySwiper md:w-8/12 mx-auto  md:pl-[400px] flex justify-between items-center"
 >
   {companiesLogos.map((imge, index) => (
     <SwiperSlide key={index}>
