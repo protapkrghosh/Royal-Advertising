@@ -1,3 +1,4 @@
+import React from 'react';
 import contact from "../../data/animations/Contact.json"
 import Lottie from "lottie-react";
 import useAOSInit from "../../hooks/useAosInit";

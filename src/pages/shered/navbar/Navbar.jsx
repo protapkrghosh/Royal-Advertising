@@ -14,9 +14,6 @@ const Navbar = () => {
     setActiveTab(to);
   };
 
-  const toggleSidebar = () => {
-    setIsOpens(!isOpens);
-  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -75,9 +72,9 @@ const Navbar = () => {
               onClick={() => handleSetActive(nav.item)}
               spy={true}
             >
-              <a href="" className="hover:text-[white] text-[white]">
+              <p href="" className="hover:text-[white] text-[white]">
                 {nav.item}
-              </a>
+              </p>
             </ScrollLink>
           ))}
           <button type="button" className="nav-button">

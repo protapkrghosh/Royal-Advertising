@@ -4,5 +4,7 @@ module.exports = {
     '^.+\\.jsx?$': 'babel-jest',
   },
   setupFilesAfterEnv: ['<rootDir>/jest-setup.js'],
-  
+  moduleNameMapper: {
+    '\\.(css|less)$': 'identity-obj-proxy',
+  },
 };

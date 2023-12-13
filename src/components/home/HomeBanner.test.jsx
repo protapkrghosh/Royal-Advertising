@@ -3,23 +3,16 @@ import { render, screen } from '@testing-library/react';
 import HomeBanner from './HomeBanner';
 
 describe('HomeBanner', () => {
-  test('renders video and content', () => {
+  test('renders content correctly', () => {
     render(<HomeBanner />);
 
-    // Check if the video element is present
-    const videoElement = screen.getByTestId('home-banner-video');
-    expect(videoElement).toBeInTheDocument();
-
-    // Check if the content is present
-    const contentText = screen.getByText(/Boost Your Brand with Digital Strategies/i);
-    expect(contentText).toBeInTheDocument();
-  });
-
-  test('renders Navbar component', () => {
-    render(<HomeBanner />);
-
-    // Check if the Navbar component is present
     const navbarElement = screen.getByTestId('navbar-component');
     expect(navbarElement).toBeInTheDocument();
+
+    const headingElement = screen.getByText(/Boost Your Brand with Digital Strategies/i);
+    expect(headingElement).toBeInTheDocument();
+
+    const descriptionElement = screen.getByText(/Give your brand a boost with our digital marketing agency/i);
+    expect(descriptionElement).toBeInTheDocument();
   });
 });

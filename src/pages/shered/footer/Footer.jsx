@@ -1,3 +1,4 @@
+import React from 'react';
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -80,20 +81,20 @@ const Footer = () => {
                   I agree the <a href="#" className="underline text-[#A59EAF] hover:text-white duration-300">Privacy Policy</a>
                 </p>
               </div>
-              <div className="flex items-center gap-x-3 text-3xl mt-5 mb-11 ">
-                <span className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
+              <div  className="flex items-center gap-x-3 text-3xl mt-5 mb-11 ">
+                <span data-testid="facebook-icon" className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
                   <FaFacebookF className="text-[17px]" />
                 </span>
 
-                <span className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
+                <span data-testid="instagram-icon" className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
                   <FaInstagram className="text-[17px]" />
                 </span>
 
-                <span className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
+                <span data-testid="twitter-icon" className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
                   <FaTwitter className="text-[17px]" />
                 </span>
 
-                <span className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
+                <span data-testid="linkedin-icon" className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
                   <FaLinkedin className="text-[17px]" />
                 </span>
               </div>

@@ -1,3 +1,4 @@
+import React from "react";
 import Lottie from "lottie-react";
 import aboutUs from "../../data/animations/aboutUs.json";
 import useAOSInit from "../../hooks/useAosInit";
@@ -16,7 +17,7 @@ const ReflectiveDesign = () => {
       <h1  data-aos="fade-up" data-aos-duration="3000" className="text-primary text-center ">About Us</h1>
       <div className="hero my-16 max-w-[1320px] mx-auto ">
         <div className="hero-content flex flex-col lg:flex-row justify-between">
-          <div data-aos="zoom-in" data-aos-duration="3000" className="md:w-[50%]">
+          <div data-testid="lottie-animation" data-aos="zoom-in" data-aos-duration="3000" className="md:w-[50%]">
             <Lottie animationData={aboutUs} loop={true} />
           </div>
 
