@@ -5,11 +5,11 @@ const HomeBanner = () => {
   return (
     <div className="relative">
       <img
-        src="https://www.shutterstock.com/image-photo/outdoor-billboard-on-blue-sky-600nw-1921386038.jpg"
+        src="https://img.freepik.com/free-psd/empty-billboard-city_132075-5618.jpg?size=626&ext=jpg&ga=GA1.1.1466948822.1701212219&semt=ais"
         className="absolute w-[100%] h-[100vh] object-cover z-[-1]"
         alt=""
       />
-      <div data-testid="navbar-component" className="absolute top-0 left-0 w-[100%] h-[100vh]  z-0 shadow-lg" />
+      <div data-testid="navbar-component" className="absolute top-0 left-0 w-[100%] h-[100vh] bg-black bg-opacity-30  z-0 shadow-lg" />
 
       {/* Navbar Component */}
       <Navbar />
@@ -19,11 +19,11 @@ const HomeBanner = () => {
           style={{ zIndex: 1 }}
         >
           <div>
-            <div className="text-6xl md:text-7xl   font-bold text-center md:mt-[150px] mt-20">
+            <div className="text-6xl md:text-7xl text-black   font-bold text-center md:mt-20 ">
               <p>Boost Your Brand with Our Strategies </p>
             </div>
 
-            <p className="py-6 text-xl text-yellow-400 font-semibold text-center mt-6">
+            <p className="py-6 text-xl text-white font-semibold text-center mt-6">
               Give your brand a boost with our Bilbord Advertising agency.
               <br /> We get you a customer not just traffic.
             </p>
