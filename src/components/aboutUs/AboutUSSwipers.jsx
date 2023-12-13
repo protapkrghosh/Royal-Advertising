@@ -4,7 +4,7 @@ import "./swiper.css"
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
+import { Autoplay, FreeMode } from 'swiper/modules';
 import { companiesLogos } from '../../data/data';
 
 const AboutUSSwipers = () => {
@@ -20,13 +20,13 @@ const AboutUSSwipers = () => {
     delay: 2500,
     disableOnInteraction: false,
   }}
-  modules={[FreeMode, Pagination,Autoplay]} // Use Pagination instead of pagination
+  modules={[FreeMode, Autoplay]} // Use Pagination instead of pagination
   className="mySwiper md:w-8/12 mx-auto pb-12"
 >
-  {companiesLogos.map((newse, index) => (
+  {companiesLogos.map((imge, index) => (
     <SwiperSlide key={index}>
-      <div className='mt-64 '>
-      <img src={newse} alt="" />
+      <div className='mt-80 '>
+      <img src={imge} alt="" />
       </div>
     </SwiperSlide>
   ))}

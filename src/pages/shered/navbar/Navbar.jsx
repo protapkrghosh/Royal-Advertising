@@ -20,25 +20,30 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="md:top-10 px-10 max-w-[1300px] mx-auto md:w-full relative z-10">
-      <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-      
-      </div>
+    <nav className={`px-10 max-w-[1300px] mx-auto  top-0 w-full  md:relative `}>
+    
 
       <div className=" flex justify-between items-center">
 
-        <div className="flex items-center gap-x-5">
+        <div className="hidden md:flex items-center gap-x-5">
           <img
             src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
-            className="w-[200px]"
+            className="w-[200px] "
             alt=""
           />
         </div>
-        <div className="md:hidden flex items-center">
+        <div className="md:hidden flex justify-between px-10">
+        <div className="fixed z-10 top-2 left-12 flex items-center gap-x-5">
+          <img
+            src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
+            className="w-24 h-12 "
+            alt=""
+          />
+        </div>
           <button
             type="button"
             onClick={toggleMenu}
-            className="focus:outline-none text-white"
+            className="focus:outline-none text-white fixed z-10 right-12 top-4"
           >
             <svg
               className="h-6 w-6 fill-current"
