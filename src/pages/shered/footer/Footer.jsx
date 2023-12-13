@@ -17,7 +17,7 @@ const Footer = () => {
   // const mediaImage = "https://i.ibb.co/z2QnSQg/wave.png";
   const footerText = "text-lg text-gray-300 tracking-wide mb-5";
   const footerHead = "text-xl font-bold mb-5";
-  const footerLinks = "flex flex-col gap-y-3 text-[17px]";
+  const footerLinks = "flex flex-col space-y-3 text-[17px]";
 
   const footerStyle = {
     // backgroundImage: `url(${mediaImage})`,
@@ -40,24 +40,24 @@ const Footer = () => {
           <div>
             <header className={footerHead}>Visit Us</header>
             <div className={footerLinks}>
-              <a className="link no-underline text-white hover:ml-2 duration-300">Home</a>
-              <a className="link no-underline text-white hover:ml-2 duration-300">Services</a>
-              <a className="link no-underline text-white hover:ml-2 duration-300">About Us</a>
-              <a className="link no-underline text-white hover:ml-2 duration-300">Portfolio</a>
-              <a className="link no-underline text-white hover:ml-2 duration-300">Contacts</a>
-              <a className="link no-underline text-white hover:ml-2 duration-300">Blogs</a>
+              <a className="link no-underline hover:underline text-white w-fit">Home</a>
+              <a className="link no-underline hover:underline text-white w-fit">Services</a>
+              <a className="link no-underline hover:underline text-white w-fit">About Us</a>
+              <a className="link no-underline hover:underline text-white w-fit">Portfolio</a>
+              <a className="link no-underline hover:underline text-white w-fit">Contacts</a>
+              <a className="link no-underline hover:underline text-white w-fit">Blogs</a>
             </div>
           </div>
 
           <div>
             <header className={footerHead}>Our Services</header>
             <div className={footerLinks}>
-              <a className="link no-underline text-white hover:ml-2 duration-300">Social Media Marketing</a>
-              <a className="link no-underline text-white hover:ml-2 duration-300">SEO</a>
-              <a className="link no-underline text-white hover:ml-2 duration-300">Graphic Designing</a>
-              <a className="link no-underline text-white hover:ml-2 duration-300">Website Designing</a>
-              <a className="link no-underline text-white hover:ml-2 duration-300">3D Walkthrough</a>
-              <a className="link no-underline text-white hover:ml-2 duration-300">Video Editing & Animation</a>
+              <a className="link no-underline hover:underline text-white w-fit">Social Media Marketing</a>
+              <a className="link no-underline hover:underline text-white w-fit">SEO</a>
+              <a className="link no-underline hover:underline text-white w-fit">Graphic Designing</a>
+              <a className="link no-underline hover:underline text-white w-fit">Website Designing</a>
+              <a className="link no-underline hover:underline text-white w-fit">3D Walkthrough</a>
+              <a className="link no-underline hover:underline text-white w-fit">Video Editing & Animation</a>
             </div>
           </div>
           
@@ -68,7 +68,7 @@ const Footer = () => {
                 <input
                   type="text"
                   placeholder="Email Address"
-                  className="input input-ghost w-full max-w-xs bg-[#221F46] rounded-full"
+                  className="input input-ghost w-full max-w-xs focus:text-white focus:border-[#342f6d] bg-[#221F46] rounded-full"
                 />
                 <div className="bg-[#F51843] p-2 -ml-4 rounded-full text-3xl font-semibold cursor-pointer">
                 <IoIosArrowRoundForward />
@@ -78,7 +78,7 @@ const Footer = () => {
               <div>
                 {/* <input type="checkbox" checked="" className="checkbox" /> */}
                 <p className="text-[#A59EAF]">
-                  I agree the <a href="#" className="underline text-[#A59EAF] hover:text-white duration-300">Privacy Policy</a>
+                  I agree the <a href="#" className="text-[#A59EAF] hover:text-white duration-300">Privacy Policy</a>
                 </p>
               </div>
               <div  className="flex items-center gap-x-3 text-3xl mt-5 mb-11 ">

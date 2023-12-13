@@ -43,7 +43,7 @@ const AboutUSSwipers = () => {
         }}
         modules={[FreeMode, Autoplay]}
         
-        className="mySwiper lg:max-w-[1265px] mx-auto mt-44 "
+        className="mySwiper lg:max-w-[1265px] mx-auto mt-64 "
       >
       <div  className=''>
       {companiesLogos.map(
