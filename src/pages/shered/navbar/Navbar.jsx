@@ -14,9 +14,6 @@ const Navbar = () => {
     setActiveTab(to);
   };
 
-  const toggleSidebar = () => {
-    setIsOpens(!isOpens);
-  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -32,7 +29,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-x-5">
           <img
-            src="https://demo.7iquid.com/salepush/wp-content/uploads/2022/04/logo-1.png"
+            src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
             className="w-[200px]"
             alt=""
           />
@@ -75,9 +72,9 @@ const Navbar = () => {
               onClick={() => handleSetActive(nav.item)}
               spy={true}
             >
-              <a href="" className="hover:text-[white] text-[white]">
+              <p href="" className="hover:text-[white] text-[white]">
                 {nav.item}
-              </a>
+              </p>
             </ScrollLink>
           ))}
           <button type="button" className="nav-button">

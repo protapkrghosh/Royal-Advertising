@@ -1,3 +1,4 @@
+import React from 'react';
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -28,12 +29,12 @@ const Footer = () => {
       <footer className="absolute text-white bottom-0 p-5 lg:p-0">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 w-[95%] mx-auto">
           <div>
-            <p className={footerHead}>Office</p>
+            <p className={footerHead}>Address:</p>
             <p className={footerText}>
-              Plot No.10, Pratap Nagar, <br /> Tedhi Pulia Ring Road, Vikas <br /> Nagar, Lucknow, Uttar <br /> Pradesh – 226022
+            123 Test Street, <br /> Sample City <br /> Test State - 12345
             </p>
-            <p className={footerText}>info@refletivedesign.in</p>
-            <p className={footerText}>+91-8858230920 +91-8858130920</p>
+            <p className={footerText}>testemail@example.com</p>
+            <p className={footerText}>+12-345678902 +12-345678901</p>
           </div>
 
           <div>
@@ -80,20 +81,20 @@ const Footer = () => {
                   I agree the <a href="#" className="text-[#A59EAF] hover:text-white duration-300">Privacy Policy</a>
                 </p>
               </div>
-              <div className="flex items-center gap-x-3 text-3xl mt-5 mb-11 ">
-                <span className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
+              <div  className="flex items-center gap-x-3 text-3xl mt-5 mb-11 ">
+                <span data-testid="facebook-icon" className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
                   <FaFacebookF className="text-[17px]" />
                 </span>
 
-                <span className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
+                <span data-testid="instagram-icon" className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
                   <FaInstagram className="text-[17px]" />
                 </span>
 
-                <span className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
+                <span data-testid="twitter-icon" className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
                   <FaTwitter className="text-[17px]" />
                 </span>
 
-                <span className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
+                <span data-testid="linkedin-icon" className="border border-[#a59eafa2] hover:border-white duration-300 p-3 rounded-full cursor-pointer">
                   <FaLinkedin className="text-[17px]" />
                 </span>
               </div>

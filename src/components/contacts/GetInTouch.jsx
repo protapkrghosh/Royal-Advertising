@@ -1,3 +1,4 @@
+import React from 'react';
 import { IoIosArrowDown } from "react-icons/io";
 import useAOSInit from "../../hooks/useAosInit";
 
@@ -6,13 +7,13 @@ const GetInTouch = () => {
   return (
     <div >
       {/* Section Heading */}
-      <div  className="flex flex-col justify-center items-center">
+      <div data-testid="address-icon" className="flex flex-col justify-center items-center">
         <IoIosArrowDown className="text-2xl" />
       </div>
 
       <div data-aos="fade-left" data-aos-duration="3000" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12 gap-10">
         {/* Email */}
-        <div className="text-center">
+        <div data-testid="email-icon"  className="text-center">
           <div className="flex justify-center">
             <img src="https://reflectivedesign.in/wp-content/uploads/2023/03/email.png" alt="Email Icon" />
           </div>
@@ -32,7 +33,7 @@ const GetInTouch = () => {
         </div>
 
         {/* Get In Touch */}
-        <div className="text-center">
+        <div data-testid="telephone-icon" className="text-center">
           <div className="flex justify-center">
             <img src="https://reflectivedesign.in/wp-content/uploads/2021/11/telephone.svg" alt="Telephone Icon" />
           </div>
