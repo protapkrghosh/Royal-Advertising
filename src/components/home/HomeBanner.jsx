@@ -20,11 +20,11 @@ const HomeBanner = () => {
         >
           <div>
             <div className="text-6xl md:text-7xl text-white font-bold text-center md:mt-[150px]">
-              <p>Boost Your Brand with Digital Strategies </p>
+              <p>Boost Your Brand with Our Strategies </p>
             </div>
 
             <p className="py-6 text-xl text-yellow-400 font-semibold text-center mt-6">
-              Give your brand a boost with our digital marketing agency.
+              Give your brand a boost with our Bilbord Advertising agency.
               <br /> We get you a customer not just traffic.
             </p>
           </div>
