@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { navdata } from "../../../data/data";
-import Sidebar from "../../../components/home/Sidebar";
 import SmllscreenNavbar from "../../../components/home/SmllscreenNavbar";
 import HandleSmallScreenClosenavbar from "../../../components/home/HandleSmallScreenClosenavbar";
 
@@ -29,7 +28,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []); // No dependencies, runs only once on mount
+  }, []);
 
   useEffect(() => {
     const handleResize = () => {
@@ -42,8 +41,6 @@ const Navbar = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []); 
-
-  console.log(isFixed);
   return (
     <nav className={` max-w-[1300px] mx-auto z-10 md:relative  top-5 w-full  `}>
     
