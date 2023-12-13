@@ -77,7 +77,7 @@ const Navbar = () => {
               </p>
             </ScrollLink>
           ))}
-          <button type="button" className="nav-button">
+          <button type="button" className="btn-navbar">
           Let's Talk
         </button>
        
