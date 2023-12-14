@@ -23,7 +23,7 @@ const HomeBanner = () => {
               <p className=''>Boost Your Brand with Our Strategies </p>
             </div>
 
-            <p className="py-6 md:text-xl text-xs text-[#0C0367] font-semibold text-center mt-6">
+            <p className="py-6 text-xl  text-[#0C0367] font-semibold text-center mt-6">
               Give your brand a boost with our Bilbord Advertising agency.
               <br /> We get you a customer not just traffic.
             </p>
