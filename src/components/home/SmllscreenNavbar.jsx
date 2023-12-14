@@ -47,7 +47,7 @@ const SmllscreenNavbar = ({isOpens, onClose, }) => {
           </button>
           <div>
             <img
-                src="https://demo.7iquid.com/salepush/wp-content/uploads/2022/04/logo-1.png"
+                src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
               className="h-10 w-36"
               alt=""
             />
