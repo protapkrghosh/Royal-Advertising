@@ -42,19 +42,18 @@ const Navbar = () => {
     };
   }, []); 
   return (
-    <nav className={` max-w-[1300px] mx-auto z-10 md:relative  top-5 w-full  `}>
-    
+    <nav className={` max-w-[1300px]  mx-auto z-10 md:relative  top-5 w-full  `}>    
 
       <div className=" flex justify-between items-center">
 
         <div className="hidden md:flex items-center gap-x-5">
           <img
             src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
-            className="w-[200px] h-14"
+            className="w-[140px] h-20"
             alt=""
           />
         </div>
-        <div className={`md:hidden flex justify-between items-center w-full px-8 z-10 ${isFixed ? "bg-white text-black w-full  fixed mt-20 py-4" : ""}`}>
+        <div className={`md:hidden flex justify-between items-center w-full mt-5 px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[80px] py-4 duration-500 ease-in-out" : ""}`}>
   <div className=" ">
     <img
       src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
@@ -65,7 +64,7 @@ const Navbar = () => {
   <button
     type="button"
     onClick={toggleMenu}
-    className={`focus:outline-none ${isFixed ? " text-black " : " text-white"}`   }
+    className={`focus:outline-none ${isFixed ? " text-black " : " text-black"}`   }
   >
     <svg
       className="h-6 w-6 fill-current"
@@ -99,7 +98,7 @@ const Navbar = () => {
               onClick={() => handleSetActive(nav.item)}
               spy={true}
             >
-              <p href="" className="hover:text-[white] text-[white]">
+              <p href="" className="hover:text-[#0C0367]  text-black">
                 {nav.item}
               </p>
             </ScrollLink>

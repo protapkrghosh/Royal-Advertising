@@ -45,13 +45,6 @@ const SmllscreenNavbar = ({isOpens, onClose, }) => {
               ></path>
             </svg>
           </button>
-          <div>
-            <img
-                src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
-              className="h-10 w-36"
-              alt=""
-            />
-          </div>
         </div>
         <div className="mt-4 ">
           <HandleSmallScreenClosenavbar isOpens={isOpens} onClose={onClose} />
@@ -59,8 +52,8 @@ const SmllscreenNavbar = ({isOpens, onClose, }) => {
         <div className="mt-10">
           <hr className="w-full h-1 bg-black" />
           <div className="mt-10 text-2xl">
-            <p>+91-8858230920</p>
-            <p className="mt-4">info@reflectivedesign.in</p>
+            <p>+12-345678902</p>
+            <p className="mt-4">testemail@example.com</p>
           </div>
         </div>
       </nav>
