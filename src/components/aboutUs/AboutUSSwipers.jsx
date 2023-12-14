@@ -21,7 +21,7 @@ const AboutUSSwipers = () => {
         disableOnInteraction: false,
       }}
       modules={[FreeMode, Autoplay]}
-      className="mySwiper md:w-8/12 mx-auto mt-32 md:mt-0 mb-2 md:pl-[100px] "
+      className="mySwiper md:w-8/12 mx-auto mt-32 md:-mt-7 mb-2 md:pl-[100px] "
     >
       {companiesLogos.map((imge, index) => (
         <SwiperSlide key={index}>
