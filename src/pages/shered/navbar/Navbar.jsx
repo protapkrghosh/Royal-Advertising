@@ -42,19 +42,18 @@ const Navbar = () => {
     };
   }, []); 
   return (
-    <nav className={` max-w-[1300px] mx-auto z-10 md:relative  top-5 w-full  `}>
-    
+    <nav className={` max-w-[1300px]  mx-auto z-10 md:relative  top-5 w-full  `}>    
 
       <div className=" flex justify-between items-center">
 
         <div className="hidden md:flex items-center gap-x-5">
           <img
             src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
-            className="w-[200px] h-14"
+            className="w-[140px] h-20"
             alt=""
           />
         </div>
-        <div className={`md:hidden flex justify-between items-center w-full px-8 z-10 ${isFixed ? "bg-white text-black w-full  fixed mt-20 py-4" : ""}`}>
+        <div className={`md:hidden flex justify-between items-center w-full mt-5 px-8 z-10 ${isFixed ? "bg-white text-black w-full  fixed mt-[80px] py-4 duration-300 ease-in-out" : ""}`}>
   <div className=" ">
     <img
       src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"

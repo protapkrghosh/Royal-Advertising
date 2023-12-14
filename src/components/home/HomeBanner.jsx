@@ -5,11 +5,11 @@ const HomeBanner = () => {
   return (
     <div className="relative">
       <img
-        src="https://img.freepik.com/free-psd/empty-billboard-city_132075-5618.jpg?size=626&ext=jpg&ga=GA1.1.1466948822.1701212219&semt=ais"
-        className="absolute w-[100%] h-[100vh] object-cover z-[-1]"
+        src="https://images.unsplash.com/photo-1618333150660-bb31830aa1fc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        className="absolute lg:w-[100%] h-[600px] md:h-screen object-cover z-[-1]"
         alt=""
       />
-      <div data-testid="navbar-component" className="absolute top-0 left-0 w-[100%] h-[100vh] bg-black bg-opacity-30  z-0 shadow-lg" />
+      <div data-testid="navbar-component" className="absolute top-0 left-0 w-[100%] h-[600px] md:h-screen bg-black bg-opacity-30  z-0 shadow-lg" />
 
       {/* Navbar Component */}
       <Navbar />
@@ -19,7 +19,7 @@ const HomeBanner = () => {
           style={{ zIndex: 1 }}
         >
           <div>
-            <div className="text-6xl md:text-7xl text-black   font-bold text-center md:mt-20 ">
+            <div className="text-6xl md:text-7xl text-black font-bold text-center md:mt-20 ">
               <p>Boost Your Brand with Our Strategies </p>
             </div>
 
