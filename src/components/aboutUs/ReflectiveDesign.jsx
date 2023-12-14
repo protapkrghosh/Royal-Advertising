@@ -1,3 +1,4 @@
+import React from "react";
 import Lottie from "lottie-react";
 import aboutUs from "../../data/animations/aboutUs.json";
 import useAOSInit from "../../hooks/useAosInit";
@@ -12,27 +13,20 @@ const ReflectiveDesign = () => {
      backgroundSize: 'cover',
  };
   return (
-    <div style={imgeStyle}   className="mt-20 py-12" >
+    <div style={imgeStyle}   className=" py-12" >
       <h1  data-aos="fade-up" data-aos-duration="3000" className="text-primary text-center ">About Us</h1>
       <div className="hero my-16 max-w-[1320px] mx-auto ">
         <div className="hero-content flex flex-col lg:flex-row justify-between">
-          <div data-aos="zoom-in" data-aos-duration="3000" className="md:w-[50%]">
+          <div data-testid="lottie-animation" data-aos="zoom-in" data-aos-duration="3000" className="md:w-[50%]">
             <Lottie animationData={aboutUs} loop={true} />
           </div>
 
           <div data-aos="fade-left" data-aos-duration="3000" className="md:w-[50%] ">
-            <h6 className="font-semibold">ABOUT REFLECTIVE DESIGN</h6>
             <h1 className="text-secendary  ">
-              We Help Your Digital Business Grow
+            About Royel Advertising Redefining Excellence, Shaping Futures.
             </h1>
             <p className="py-6 text-slate-500 text-lg">
-              Reflective Design is a top digital marketing 
-              Lucknow, India. As the best digital marketing company in Lucknow, we
-              understand the importance of businesses adapting to digital channels
-              to achieve their short-term and long-term revenue, marketing, and
-              Lucknow, India. As the best digital marketing company in Lucknow, we
-              understand the importance of businesses adapting to digital channels
-              to achieve their short-term and long-term revenue, marketing, and
+            At Royel Advertising, we are more than just a marketing agency; we are architects of success stories. With a passion for creativity and a commitment to excellence, we embark on every project with the goal of elevating brands to new heights. Our dedicated team of experts thrives on innovation, employing cutting-edge strategies to ensure your message not only resonates but leaves a lasting impact. At the core of Royel Advertising is a belief in the power of collaboration and a relentless pursuit of perfection. Discover a partner that understands your vision and is devoted to bringing it to life. Welcome to Royel Advertising, where your success is our business."
             </p>
           </div>
         </div>

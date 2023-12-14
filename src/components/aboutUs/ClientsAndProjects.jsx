@@ -29,11 +29,10 @@ const ClientsAndProjects = () => {
             >
             </CountUp>
             <p className="mt-5">
-              We are best professional  marketing analysist with more than 25
-              years.
+            Crafting success, prioritizing you—Royel Advertising’s commitment to your growth.
             </p>
             <div className="skill my-8">
-              <div className="font-semibold text-[17px]">Graphic Design</div>
+              <div className="font-semibold text-[17px]">Prime Location Selection</div>
               <div className="skill-bar">
                 <div
                   className="skill-per text-black font-semibold"
@@ -43,7 +42,7 @@ const ClientsAndProjects = () => {
               </div>
             </div>
             <div className="skill mb-20 md:mb-0">
-              <div className="font-semibold text-[17px]">Web Design</div>
+              <div className="font-semibold text-[17px]">Strategic Campaign Planning</div>
               <div className="skill-bar">
                 <div
                   className="skill-per text-black font-semibold"
@@ -69,8 +68,8 @@ const ClientsAndProjects = () => {
               JOIN & GET BEST MARKETING STRATEGY
             </h5>
             <h2 className="text-xl md:text-3xl font-bold">
-              Let's Boost Up <br /> Your Digital <br />
-              Marketing !
+              Let's Boost Up <br /> Your Business  <br />
+              withe us !
             </h2>
           </div>
           <div className="flex justify-center gap-x-1">
@@ -87,28 +86,25 @@ const ClientsAndProjects = () => {
           <img src={dew} className=" h-[40px] w-[80px] -mx-[2px]" alt="" />
           <img src={dew} className=" h-[40px] w-[80px]" alt="" />
         </div>
-        <h1 className="text-5xl font-bold mb-5">
-          We Always Prioritize <br />
-          Your Development
+        <h1 className="text-5xl font-bold mb-5 ">
+        Empowering Growth Your Success, Our Priority at Royel Advertising.
         </h1>
         <p className="text-gray-500 mb-8">
-          Platea inventore feugiat laudantium, earum dis mauris <br />
-          repellendus. Nostra! Accusamus dui maecenas dolore nunc <br />
-          mollitia interdum aliquet. Voluptatibus delectus eget.
+        At Royel Advertising, we are dedicated to propelling your business towards unprecedented success. Our mission is simple yet powerful: to empower growth by making your success our topmost priority. We understand that every venture is unique, and that's why we tailor our innovative marketing strategies to meet your specific needs. With a team of seasoned professionals, we navigate the dynamic landscape of digital marketing, ensuring that your brand not only stands out but thrives. Your success is not just a goal; it's our commitment. Partner with Royel Advertising, where empowerment meets achievement, and watch your business soar to new heights
         </p>
         <div className="flex flex-col md:flex-row items-center md:gap-x-10">
           <div>
             <div className="flex items-center gap-x-2 mb-2">
               <CgChevronDoubleRight className="text-[#F85152]"></CgChevronDoubleRight>
-              <p>Veniam in alias tenetur earum</p>
+              <p> Your success is our top priority at Royel.</p>
             </div>
             <div className="flex items-center gap-x-2 mb-2">
               <CgChevronDoubleRight className="text-[#F85152]"></CgChevronDoubleRight>
-              <p>Mollis facere exercitation delectu</p>
+              <p>Your success, our focus</p>
             </div>
             <div className="flex items-center gap-x-2 mb-2">
               <CgChevronDoubleRight className="text-[#F85152]"></CgChevronDoubleRight>
-              <p>Platea inventore feugiat eget</p>
+              <p>Empower your growth with Royel Advertising.</p>
             </div>
             <button className="bg-[#BEE6FD] hover:bg-[#afdbf5] px-10 py-3 rounded-full uppercase font-semibold my-5 duration-100">
               More about us
