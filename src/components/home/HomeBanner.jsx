@@ -6,9 +6,10 @@ const HomeBanner = () => {
     <div className="relative">
       <img
         src="https://www.signpost.com/wp-content/uploads/2021/07/billboard-1024x683.jpeg"
-        className="absolute lg:w-[100%] h-screen object-cover z-[-1]"
+        className="absolute lg:w-[100%] h-[600px] md:h-screen object-cover z-[-1]"
         alt=""
       />
+      
 
       {/* Navbar Component */}
       <Navbar />
