@@ -19,11 +19,11 @@ const HomeBanner = () => {
           style={{ zIndex: 1 }}
         >
           <div>
-            <div className="text-4xl md:text-7xl text-[#0C0367] font-bold text-center md:mt-16 ">
-              <p>Boost Your Brand with Our Strategies </p>
+            <div className="text-4xl md:text-7xl text-[#070234] font-bold text-center md:mt-16 ">
+              <p className=''>Boost Your Brand with Our Strategies </p>
             </div>
 
-            <p className="py-6 text-xl text-black font-semibold text-center mt-6">
+            <p className="py-6 text-xl text-[#0C0367] font-semibold text-center mt-6">
               Give your brand a boost with our Bilbord Advertising agency.
               <br /> We get you a customer not just traffic.
             </p>
