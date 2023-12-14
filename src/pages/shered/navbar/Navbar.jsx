@@ -42,7 +42,7 @@ const Navbar = () => {
     };
   }, []); 
   return (
-    <nav className={` max-w-[1300px]  mx-auto z-10 md:relative  top-5 w-full  `}>    
+    <nav className={` max-w-[1300px]  mx-auto z-10 md:relative  top-5 w-full `}>    
 
       <div className=" flex justify-between items-center">
 
@@ -53,11 +53,11 @@ const Navbar = () => {
             alt=""
           />
         </div>
-        <div className={`md:hidden flex justify-between items-center w-full mt-5 px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[80px] py-4 duration-500 ease-in-out" : ""}`}>
+        <div className={`md:hidden flex justify-between items-center w-full mt-4 px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px] py-4 duration-500 ease-in-out" : ""}`}>
   <div className=" ">
     <img
       src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
-      className="w-24 h-12 -ml-4"
+      className="w-24 h-10 -ml-4"
       alt=""
     />
   </div>
@@ -87,22 +87,24 @@ const Navbar = () => {
     </svg>
   </button>
 </div>
-        <div className="hidden md:flex justify-center items-center gap-x-6">
-          {navdata.map((nav, index) => (
+        <div className="hidden md:flex justify-between items-center gap-x-6 ">
+         <div className="mr-44 md:flex justify-center items-center gap-x-6">
+         {navdata.map((nav, index) => (
             <ScrollLink
               key={index}
               to={nav.item}
               smooth={true}
               duration={500}
-              className={`font-bold cursor-pointer`}
+              className={`font-bold cursor-pointer `}
               onClick={() => handleSetActive(nav.item)}
               spy={true}
             >
-              <p href="" className="hover:text-[#0C0367]  text-black">
+              <p href="" className="hover:text-[#0C0367] text-xl   text-[#003049]">
                 {nav.item}
               </p>
             </ScrollLink>
           ))}
+         </div>
           <button type="button" className="btn-navbar">
           Let's Talk
         </button>
