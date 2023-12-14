@@ -21,11 +21,11 @@ const AboutUSSwipers = () => {
         disableOnInteraction: false,
       }}
       modules={[FreeMode, Autoplay]}
-      className="mySwiper md:w-8/12 mx-auto md:mt-16 md:pl-[100px] flex justify-between items-center"
+      className="mySwiper md:w-8/12 mx-auto mt-32 md:mt-0 mb-2 md:pl-[100px] "
     >
       {companiesLogos.map((imge, index) => (
         <SwiperSlide key={index}>
-          <div className="mt-12 md:mt-80 ">
+          <div className="pt-24 md:mt-52 ">
             <img src={imge} alt="" />
           </div>
         </SwiperSlide>

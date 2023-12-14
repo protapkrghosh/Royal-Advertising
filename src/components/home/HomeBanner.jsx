@@ -5,11 +5,11 @@ const HomeBanner = () => {
   return (
     <div className="relative">
       <img
-        src="https://images.unsplash.com/photo-1618333150660-bb31830aa1fc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://www.signpost.com/wp-content/uploads/2021/07/billboard-1024x683.jpeg"
         className="absolute lg:w-[100%] h-[600px] md:h-screen object-cover z-[-1]"
         alt=""
       />
-      <div data-testid="navbar-component" className="absolute top-0 left-0 w-[100%] h-[600px] md:h-screen bg-black bg-opacity-30  z-0 shadow-lg" />
+      <div data-testid="navbar-component" className="absolute top-0 left-0 w-[100%] h-[600px] md:h-screen   z-0 shadow-lg" />
 
       {/* Navbar Component */}
       <Navbar />
@@ -19,11 +19,11 @@ const HomeBanner = () => {
           style={{ zIndex: 1 }}
         >
           <div>
-            <div className="text-6xl md:text-7xl text-black font-bold text-center md:mt-20 ">
+            <div className="text-4xl md:text-7xl text-[#0C0367] font-bold text-center md:mt-16 ">
               <p>Boost Your Brand with Our Strategies </p>
             </div>
 
-            <p className="py-6 text-xl text-white font-semibold text-center mt-6">
+            <p className="py-6 text-xl text-black font-semibold text-center mt-6">
               Give your brand a boost with our Bilbord Advertising agency.
               <br /> We get you a customer not just traffic.
             </p>
