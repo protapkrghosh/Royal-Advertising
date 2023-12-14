@@ -6,10 +6,9 @@ const HomeBanner = () => {
     <div className="relative">
       <img
         src="https://www.signpost.com/wp-content/uploads/2021/07/billboard-1024x683.jpeg"
-        className="absolute lg:w-[100%] h-[600px] md:h-screen object-cover z-[-1]"
+        className="absolute lg:w-[100%] h-screen object-cover z-[-1]"
         alt=""
       />
-      <div data-testid="navbar-component" className="absolute top-0 left-0 w-[100%] h-[600px] md:h-screen   z-0 shadow-lg" />
 
       {/* Navbar Component */}
       <Navbar />
@@ -23,7 +22,7 @@ const HomeBanner = () => {
               <p className=''>Boost Your Brand with Our Strategies </p>
             </div>
 
-            <p className="py-6 text-xl text-[#0C0367] font-semibold text-center mt-6">
+            <p className="py-6 md:text-xl text-xs text-[#0C0367] font-semibold text-center mt-6">
               Give your brand a boost with our Bilbord Advertising agency.
               <br /> We get you a customer not just traffic.
             </p>
