@@ -5,7 +5,7 @@ const HomeBanner = () => {
   return (
     <div className="relative">
       <img
-        src="https://www.signpost.com/wp-content/uploads/2021/07/billboard-1024x683.jpeg"
+        src="https://png.pngtree.com/thumb_back/fw800/background/20230616/pngtree-blank-billboard-mockup-in-3d-rendering-against-a-white-backdrop-image_3624362.jpg"
         className="absolute lg:w-[100%] h-[600px] md:h-screen object-cover z-[-1]"
         alt=""
       />
