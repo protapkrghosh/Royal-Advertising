@@ -46,14 +46,14 @@ const Navbar = () => {
 
       <div className=" flex justify-between items-center">
 
-        <div className="hidden md:flex items-center gap-x-5">
+        <div className="hidden lg:flex items-center gap-x-5">
           <img
             src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
             className="w-[140px] h-20"
             alt=""
           />
         </div>
-        <div className={`md:hidden flex justify-between items-center w-full mt-4 px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px] py-4 duration-500 ease-in-out" : ""}`}>
+        <div className={`lg:hidden flex justify-between items-center w-full mt-4 px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px] py-4 duration-500 ease-in-out" : ""}`}>
   <div className=" ">
     <img
       src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
@@ -87,8 +87,8 @@ const Navbar = () => {
     </svg>
   </button>
 </div>
-        <div className="hidden md:flex justify-between items-center gap-x-6 ">
-         <div className="mr-44 md:flex justify-center items-center gap-x-6">
+        <div className="hidden lg:flex justify-between items-center gap-x-6 ">
+         
          {navdata.map((nav, index) => (
             <ScrollLink
               key={index}
@@ -99,15 +99,13 @@ const Navbar = () => {
               onClick={() => handleSetActive(nav.item)}
               spy={true}
             >
-              <p href="" className="hover:text-[#0C0367] text-xl   text-[#003049]">
+              <p href="" className="hover:text-[#0C0367] text-xl   text-[#000]">
                 {nav.item}
               </p>
             </ScrollLink>
           ))}
-         </div>
-          <button type="button" className="btn-navbar">
-          Let's Talk
-        </button>
+         
+        
        
         </div>
         
