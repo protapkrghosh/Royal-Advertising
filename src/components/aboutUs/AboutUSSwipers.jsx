@@ -25,7 +25,7 @@ const AboutUSSwipers = () => {
     >
       {companiesLogos.map((imge, index) => (
         <SwiperSlide key={index}>
-          <div className="pt-[200px]  lg:pt-[220px] lg:mt-52 ">
+          <div className="pt-[420px]  lg:pt-[220px] lg:mt-52 ">
             <img src={imge} alt="" />
           </div>
         </SwiperSlide>
