@@ -5,7 +5,7 @@ const HomeBanner = () => {
   return (
     <div className="relative">
       <img
-        src="https://i.ibb.co/bbF23py/download-1.png"
+        src="https://i.ibb.co/x5sjkvz/billboard.jpg"
         className="absolute w-full h-[800px]  md:h-screen object-cover z-[-1]"
         alt=""
       />
@@ -18,11 +18,15 @@ const HomeBanner = () => {
           className="hero-content flex-col lg:flex-row-reverse justify-center items-center"
           style={{ zIndex: 1 }}
         >
-          <div className=' lg:ml-[63px] md:mt-36 lg:mt-14 mt-32  text-center '>
+          <div className='  md:mt-36 lg:mt-8 mt-24  text-center '>
          <h1 className='text-[#070234] lg:text-6xl text-4xl font-bold'>Unlock the Power of <br /> Outdoor Brilliance</h1>
-         <p className='text-white md:text-lg mt-4'>Crafting Impressions, Connecting Spaces. <br /> Welcome to Royal Advertising</p>
+         <p className='text-[#291E97] md:text-xl md:mt-8 mt-6 font-semibold'>Crafting Impressions, Connecting Spaces. <br /> Welcome to Royal Advertising</p>
+         <button type="button" className="btn-navbar mt-2">
+          Let's Talk
+        </button>
           </div>
         </div>
+        
       </div>
     </div>
   );
