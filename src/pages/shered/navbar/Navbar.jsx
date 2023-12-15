@@ -99,15 +99,13 @@ const Navbar = () => {
               onClick={() => handleSetActive(nav.item)}
               spy={true}
             >
-              <p href="" className="hover:text-[#0C0367] text-xl   text-[#003049]">
+              <p href="" className="hover:text-[#0C0367] text-xl   text-[#000]">
                 {nav.item}
               </p>
             </ScrollLink>
           ))}
          
-         <button type="button" className="btn-navbar">
-          Let's Talk
-        </button>
+        
        
         </div>
         
