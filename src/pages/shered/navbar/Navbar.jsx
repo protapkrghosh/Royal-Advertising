@@ -88,7 +88,7 @@ const Navbar = () => {
   </button>
 </div>
         <div className="hidden md:flex justify-between items-center gap-x-6 ">
-         <div className="mr-44 md:flex justify-center items-center gap-x-6">
+         
          {navdata.map((nav, index) => (
             <ScrollLink
               key={index}
@@ -104,8 +104,8 @@ const Navbar = () => {
               </p>
             </ScrollLink>
           ))}
-         </div>
-          <button type="button" className="btn-navbar">
+         
+         <button type="button" className="btn-navbar">
           Let's Talk
         </button>
        
