@@ -18,7 +18,7 @@ const HomeBanner = () => {
           className="hero-content flex-col lg:flex-row-reverse justify-center items-center"
           style={{ zIndex: 1 }}
         >
-          <div className='  md:mt-36 lg:mt-4 mt-24  text-center '>
+          <div className='  md:mt-36 lg:mt-0 mt-24  text-center '>
          <h1 className='text-[#070234] lg:text-6xl text-4xl font-bold'>Unlock the Power of <br /> Outdoor Brilliance</h1>
          <p className='text-[#291E97] md:text-xl md:mt-8 mt-6 font-semibold'>Crafting Impressions, Connecting Spaces. <br /> Welcome to Royal Advertising</p>
          <button type="button" className="btn-navbar mt-2">
