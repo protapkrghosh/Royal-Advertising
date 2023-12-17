@@ -4,16 +4,22 @@ import Navbar from "../../pages/shered/navbar/Navbar";
 const HomeBanner = () => {
   return (
     <div className="relative">
-      <img
-        src="https://i.ibb.co/x5sjkvz/billboard.jpg"
-        className="absolute w-full h-[800px]  md:h-screen object-cover z-[-1]"
-        alt=""
-      />
-      
+<video
+        autoPlay
+        muted
+        loop
+        className="absolute w-full h-[800px] md:h-screen object-cover z-[-1]"
+      >
+        <source
+          src="https://media.istockphoto.com/id/521188514/video/traffic-car-on-busy-highway-near-to-the-skyscrapers-in-madrid.mp4?s=mp4-480x480-is&k=20&c=iAVRswaweN0Y1xkHMYqCxB0XnbVh9fYuMx3r6UQD5fo=" // Replace with the URL of your video file
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
 
       {/* Navbar Component */}
       <Navbar />
-      <div className="hero mt-20  relative">
+      <div className="hero  mt-24 relative">
         <div
           className="hero-content flex-col lg:flex-row-reverse justify-center items-center"
           style={{ zIndex: 1 }}
