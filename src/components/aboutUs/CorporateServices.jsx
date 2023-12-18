@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import useAOSInit from "../../hooks/useAosInit";
-
+import { Link as ScrollLink } from "react-scroll";
 const CorporateServices = () => {
   useAOSInit()
   const responsive =
@@ -94,7 +93,10 @@ const CorporateServices = () => {
           </div>
         ))}
       </div>
-      <button data-aos="fade-up" className="bg-[#0C0833] text-white px-12 py-4 rounded-full font-semibold hover:bg-[#1C1880] my-12">Contact Us Now For More Details</button>
+      <ScrollLink to="Contact Us" 
+      smooth={true}
+      duration={700}
+      data-aos="fade-up" className="bg-[#0C0833] text-white px-12 py-4 rounded-full font-semibold hover:bg-[#1C1880] my-12 cursor-pointer">Contact Us Now For More Details</ScrollLink>
     </div>
   );
 };
