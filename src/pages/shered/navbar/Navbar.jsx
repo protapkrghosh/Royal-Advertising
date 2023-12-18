@@ -45,12 +45,12 @@ const Navbar = () => {
     <nav className={` w-full mx-auto fixed z-10 `}>    
 
       <div className={` bg-[#FFF] bg-opacity-70 shadow-2xl `}>
-      <div className="md:w-9/12 mx-auto flex  justify-between items-center">
+      <div className="md:w-9/12 mx-auto flex  justify-between items-center ">
 
 <div className="hidden lg:flex items-center gap-x-5">
   <img
     src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
-    className="w-[140px] h-[70px]"
+    className="w-[140px] h-[70px] my-4"
     alt=""
   />
 </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
 <div className=" ">
 <img
 src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
-className="w-24 h-10 -ml-4"
+className="w-24 h-10 -ml-4 my-4"
 alt=""
 />
 </div>
