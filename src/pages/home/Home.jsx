@@ -8,11 +8,13 @@ import Images from "../../components/home/Images";
 import HomeBanner from "../../components/home/HomeBanner";
 import Testimonial from "../../components/testimonial/Testimonial";
 import Reason from "../reason/Reason";
+import Navbar from "../shered/navbar/Navbar";
 
 
 const Home = () => {
   return (
     <Element name="Home" className="element">
+      <Navbar />
      <HomeBanner />
       <AboutUs />
       <Servises />
