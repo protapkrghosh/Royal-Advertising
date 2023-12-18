@@ -44,8 +44,8 @@ const Navbar = () => {
   return (
     <nav className={` w-full mx-auto fixed z-10 `}>    
 
-      <div className={` bg-[#FFF] bg-opacity-70 shadow-2xl   ${isFixed ? "lg:bg-white text-black w-full shadow-2xl bg-opacity-100   py-4 duration-500 ease-in-out" : ""}`}>
-      <div className="lg:w-9/12 mx-auto flex  justify-between items-center ">
+      <div className={` bg-[#FFF] bg-opacity-70 shadow-2xl duration-500 ease-in-out  ${isFixed ? "lg:bg-white text-black w-full shadow-2xl bg-opacity-100   py-4 duration-500 ease-in-out" : ""}`}>
+      <div className="lg:w-10/12 mx-auto flex  justify-between items-center ">
 
 <div className="hidden lg:flex items-center gap-x-5">
   <img
