@@ -2,9 +2,16 @@ import React from 'react';
 import contact from "../../data/animations/Contact.json"
 import Lottie from "lottie-react";
 import useAOSInit from "../../hooks/useAosInit";
+import { useForm } from 'react-hook-form';
+
 
 const ContactForm = () => {
+  const { register, handleSubmit, watch, formState: { errors } } = useForm();
   useAOSInit()
+
+  const onSubmit = data => {
+    console.log(data)
+  }
 
   return (
     <div className="mt-24">
@@ -22,33 +29,38 @@ const ContactForm = () => {
 
           {/* Contact Form */}
           <div data-aos="fade-left" data-aos-duration="3000" className="mt-20  ">
-            <form action="">
+            <form onSubmit={handleSubmit(onSubmit)} action="">
               <div className="flex justify-center gap-3">
                 <div className="flex flex-col w-full">
                   <label htmlFor="name" className="text-[18px] text-[#787C8B]">Name <span className="text-[#F51843]">*</span></label>
-                  <input type="text" id="name" className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
+                  <input type="text" id="name" {...register("name", { required: true })} className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
+                  {errors.name?.type === 'required' && <p className="text-red-500">Name is required</p>}
                 </div>
                 <div className="flex flex-col w-full">
                   <label htmlFor="email" className="text-[18px] text-[#787C8B]">Email <span className="text-[#F51843]">*</span></label>
-                  <input type="text" id="email" className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
+                  <input type="text" id="email" {...register("email", { required: true })} className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
+                  {errors.email?.type === 'required' && <p className="text-red-500 mt-2">Email is required</p>}
                 </div>
               </div>
 
               <div className="flex justify-center gap-3 my-3">
                 <div className="flex flex-col w-full">
                   <label htmlFor="phone" className="text-[18px] text-[#787C8B]">Phone <span className="text-[#F51843]">*</span></label>
-                  <input type="text" id="phone" className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
+                  <input type="text" id="phone" {...register("phone", { required: true })}  className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
+                  {errors.phone?.type === 'required' && <p className="text-red-500">Phone is required</p>}
                 </div>
                 <div className="flex flex-col w-full">
-                  <label htmlFor="services" className="text-[18px] text-[#787C8B]">Services <span className="text-[#F51843]">*</span></label>
-                  <input type="text" id="services" className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
-                </div>
+                  <label htmlFor="services" className="text-[18px] text-[#787C8B]">Services<span className="text-[#F51843]">*</span></label>
+                  <input type="text" id="phone" {...register("services", { required: true })}  className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
+                  {errors.services?.type === 'required' && <p className="text-red-500">Services is required</p>}
+                </div>                
               </div>
 
               <div>
                 <div className="flex flex-col w-full">
-                  <label htmlFor="phone" className="text-[18px] text-[#787C8B]">Message <span className="text-[#F51843]">*</span></label>
-                  <textarea cols="5" rows="4" className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full p-1"></textarea>
+                  <label htmlFor="massage" className="text-[18px] text-[#787C8B]">Message <span className="text-[#F51843]">*</span></label>
+                  <textarea cols="5" rows="4" {...register("massage", { required: true })} className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full p-1"></textarea>
+                  {errors.massage?.type === 'required' && <p className="text-red-500">Email is required</p>}
                 </div>
               </div>
 
