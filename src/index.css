@@ -52,7 +52,7 @@ a.from-left:after {
 }
 
 .btn-link {
-  @apply text-white bg-[#8F6DFF] hover:bg-[##6E48E8] border-0 rounded-full px-8 py-4 font-bold
+  @apply text-white bg-[#8F6DFF] hover:bg-[#6E48E8] border-0 rounded-full px-8 py-4 font-bold
 }
 
 .text-primary {
