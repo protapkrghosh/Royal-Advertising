@@ -42,73 +42,75 @@ const Navbar = () => {
     };
   }, []); 
   return (
-    <nav className={` max-w-[1300px]  mx-auto z-10 md:relative  top-5 w-full `}>    
+    <nav className={` w-full mx-auto fixed z-10 `}>    
 
-      <div className=" flex justify-between items-center">
+      <div className={` bg-[#FFF] bg-opacity-70 shadow-2xl `}>
+      <div className="md:w-9/12 mx-auto flex  justify-between items-center">
 
-        <div className="hidden lg:flex items-center gap-x-5">
-          <img
-            src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
-            className="w-[140px] h-20"
-            alt=""
-          />
-        </div>
-        <div className={`lg:hidden flex justify-between items-center w-full mt-4 px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px] py-4 duration-500 ease-in-out" : ""}`}>
-  <div className=" ">
-    <img
-      src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
-      className="w-24 h-10 -ml-4"
-      alt=""
-    />
-  </div>
-  <button
-    type="button"
-    onClick={toggleMenu}
-    className={`focus:outline-none ${isFixed ? " text-black " : " text-black"}`   }
-  >
-    <svg
-      className="h-6 w-6 fill-current"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      {isOpen ? (
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M4 5h16v2H4V5zm0 6h16v2H4v-2zm16 4H4v2h16v-2z"
-        />
-      ) : (
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M4 5h16v2H4V5zm0 6h16v2H4v-2zm0 6h16v2H4v-2z"
-        />
-      )}
-    </svg>
-  </button>
+<div className="hidden lg:flex items-center gap-x-5">
+  <img
+    src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
+    className="w-[140px] h-[70px]"
+    alt=""
+  />
 </div>
-        <div className="hidden lg:flex justify-between items-center gap-x-6 ">
-         
-         {navdata.map((nav, index) => (
-            <ScrollLink
-              key={index}
-              to={nav.item}
-              smooth={true}
-              duration={500}
-              className={`font-bold cursor-pointer `}
-              onClick={() => handleSetActive(nav.item)}
-              spy={true}
-            >
-              <p href="" className="hover:text-[#0C0367] text-xl   text-[#000]">
-                {nav.item}
-              </p>
-            </ScrollLink>
-          ))}
-         
-        
-       
-        </div>
-        
+<div className={`lg:hidden flex justify-between items-center w-full  mt-2 px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px] py-4 duration-500 ease-in-out" : ""}`}>
+<div className=" ">
+<img
+src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
+className="w-24 h-10 -ml-4"
+alt=""
+/>
+</div>
+<button
+type="button"
+onClick={toggleMenu}
+className={`focus:outline-none ${isFixed ? " text-black " : " text-black"}`   }
+>
+<svg
+className="h-6 w-6 fill-current"
+viewBox="0 0 24 24"
+xmlns="http://www.w3.org/2000/svg"
+>
+{isOpen ? (
+<path
+  fillRule="evenodd"
+  clipRule="evenodd"
+  d="M4 5h16v2H4V5zm0 6h16v2H4v-2zm16 4H4v2h16v-2z"
+/>
+) : (
+<path
+  fillRule="evenodd"
+  clipRule="evenodd"
+  d="M4 5h16v2H4V5zm0 6h16v2H4v-2zm0 6h16v2H4v-2z"
+/>
+)}
+</svg>
+</button>
+</div>
+<div className="hidden lg:mt-[20px] py-2 lg:flex justify-between items-center gap-x-6 ">
+ 
+ {navdata.map((nav, index) => (
+    <ScrollLink
+      key={index}
+      to={nav.item}
+      smooth={true}
+      duration={500}
+      className={`font-bold cursor-pointer `}
+      onClick={() => handleSetActive(nav.item)}
+      spy={true}
+    >
+      <p href="" className="hover:text-[#070234] text-xl   text-[#0C0367]">
+        {nav.item}
+      </p>
+    </ScrollLink>
+  ))}
+ 
+
+
+</div>
+
+</div>
       </div>
 
       {isOpen && (
