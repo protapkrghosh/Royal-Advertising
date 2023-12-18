@@ -106,9 +106,6 @@ const ClientsAndProjects = () => {
               <CgChevronDoubleRight className="text-[#F85152]"></CgChevronDoubleRight>
               <p>Empower your growth with Royel Advertising.</p>
             </div>
-            <button className="bg-[#BEE6FD] hover:bg-[#afdbf5] px-10 py-3 rounded-full uppercase font-semibold my-5 duration-100">
-              More about us
-            </button>
           </div>
           <div className="border-[8px] border-[#FEE7E7] px-6 py-6 text-center rounded-2xl">
             <CountUp

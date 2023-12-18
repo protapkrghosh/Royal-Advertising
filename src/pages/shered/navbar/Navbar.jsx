@@ -20,7 +20,7 @@ const Navbar = () => {
   };
   useEffect(() => {
     const handleScroll = () => {
-      setIsFixed(window.scrollY > 0);
+      setIsFixed(window.scrollY > 200);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -32,7 +32,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsFixed(window.innerWidth <= 768 && window.scrollY > 0);
+      setIsFixed(window.innerWidth <= 768 && window.scrollY > 200);
     };
 
     window.addEventListener("resize", handleResize);
@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <nav className={` w-full mx-auto fixed z-10 `}>    
 
-      <div className={` bg-[#FFF] bg-opacity-70 shadow-2xl duration-1000 ease-in-out  ${isFixed ? "lg:bg-white text-black w-full shadow-2xl bg-opacity-100 duration-500 ease-in-out" : ""}`}>
+      <div className={` bg-[#FFF] bg-opacity-70 shadow-2xl duration-500 ease-in-out  ${isFixed ? "lg:bg-white text-black w-full shadow-2xl bg-opacity-100 ease-in-out" : ""}`}>
       <div className="lg:w-10/12 mx-auto flex  justify-between items-center ">
 
 <div className="hidden lg:flex items-center gap-x-5">
@@ -54,7 +54,7 @@ const Navbar = () => {
     alt=""
   />
 </div>
-<div className={`lg:hidden flex justify-between items-center w-full  mt-2 px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px] py-4 duration-500 ease-in-out" : ""}`}>
+<div className={`lg:hidden flex justify-between items-center w-full  px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px]" : ""}`}>
 <div className=" ">
 <img
 src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
