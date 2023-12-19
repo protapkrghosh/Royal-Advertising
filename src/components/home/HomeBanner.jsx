@@ -9,7 +9,7 @@ const HomeBanner = () => {
         className="hidden md:flex w-full h-[600px] md:h-screen"
         alt=""
       />
-      <div className="relative inline-block w-full h-[730px] md:hidden">
+      <div className="relative inline-block w-full h-[630px] md:hidden">
         <img
           src="https://images.squarespace-cdn.com/content/v1/608bf3b649215c2156c82cda/1620236465578-S0ONGH905OF8IQ87GUOA/outdoor-billboard-NJDS46H.jpg?format=1500w"
           className="h-full w-full object-cover bg-cover bg-no-repeat bg-center"
@@ -17,9 +17,9 @@ const HomeBanner = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.7)]"></div>
       </div>
-      <div className=" text-left absolute left-1 md:left-0 top-[250px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
+      <div className=" text-left absolute left-1 md:left-0 top-[180px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
         <div className="md:w-[600px]  " style={{ zIndex: 1 }}>
-          <h1 className="text-[#FFF] md:hidden text-[2.5rem] leading-tight font-bold text-center md:text-left">
+          <h1 className="text-yellow-400 md:hidden text-[2.5rem] leading-tight font-bold text-center md:text-left">
             Unlock the Power of Outdoor Brilliance
           </h1>
 
