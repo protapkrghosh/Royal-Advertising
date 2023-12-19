@@ -12,7 +12,7 @@ const Services = () => {
           <div
             className="skill-per text-black font-semibold"
             per="92%"
-            style={{ maxWidth:"92%" }}
+            style={{maxWidth:"92%" }}
           ></div>
         </div>
       </div>
