@@ -1,6 +1,5 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
-import mobileImage from "../../assets/3.jpg";
 
 const HomeBanner = () => {
   return (
@@ -11,13 +10,13 @@ const HomeBanner = () => {
         alt=""
       />
       <div
-      className="relative inline-block w-full h-[550px] md:hidden"
+      className="relative inline-block w-full h-[730px] md:hidden"
       >
-        <img src="https://thedrum-media.imgix.net/thedrum-prod/s3/news/tmp/349138/hero_-_castore_reflective_48_sheet.png?w=608&ar=default&fit=crop&crop=faces,edges&auto=format" className="h-full w-full object-cover bg-cover bg-no-repeat bg-center" alt="" />
-  <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.5)]"></div>
+        <img src="https://images.squarespace-cdn.com/content/v1/608bf3b649215c2156c82cda/1620236465578-S0ONGH905OF8IQ87GUOA/outdoor-billboard-NJDS46H.jpg?format=1500w" className="h-full w-full object-cover bg-cover bg-no-repeat bg-center" alt="" />
+  <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.7)]"></div>
       </div>
 
-      <div className="  absolute top-[150px] md:top-[180px]  lg:top-[230px] lg:left-[150px] ">
+      <div className="  absolute top-[250px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[150px] ">
         <div className="md:w-[600px] px-2" style={{ zIndex: 1 }}>
           <h1 className="text-[#FFF] lg:text-6xl text-4xl font-bold text-center md:text-left">
             Unlock the Power <br /> of Outdoor Brilliance
