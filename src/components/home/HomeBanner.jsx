@@ -15,12 +15,22 @@ const HomeBanner = () => {
         <img src="https://images.squarespace-cdn.com/content/v1/608bf3b649215c2156c82cda/1620236465578-S0ONGH905OF8IQ87GUOA/outdoor-billboard-NJDS46H.jpg?format=1500w" className="h-full w-full object-cover bg-cover bg-no-repeat bg-center" alt="" />
   <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.7)]"></div>
       </div>
-      <div className="  absolute top-[250px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[150px] ">
-        <div className="md:w-[600px] px-2" style={{ zIndex: 1 }}>
-          <h1 className="text-[#FFF] lg:text-6xl text-4xl font-bold text-center md:text-left">
-            Unlock the Power <br /> of Outdoor Brilliance
+      <div className=" text-left absolute top-[250px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[150px] ">
+        <div className="md:w-[600px]  " style={{ zIndex: 1 }}>
+          <h1 className="text-[#FFF] md:hidden  lg:text-6xl text-4xl font-bold text-center  md:text-left">
+            Unlock the Power  of <br /> Outdoor Brilliance
           </h1>
-          <p className="text-[#FFF] md:text-xl mt-6 font-semibold text-center md:text-justify">
+          <h1 className="text-[#FFF] hidden md:flex lg:text-6xl text-4xl font-bold text-center  md:text-left">
+            Unlock the Power <br />  of  Outdoor Brilliance
+          </h1>
+          <p className="text-[#FFF] md:hidden  md:text-xl mt-6 font-semibold text-center  md:text-justify">
+
+            Welcome to Royal Advertising, where we redefine <br /> the art of outdoor
+            promotion.  With <br />  a   commitment  to excellence and   a touch <br /> of royalty,
+            we craft bespoke <br /> advertising  solutions <br /> that elevate your brand to
+            new heights
+          </p>
+          <p className="text-[#FFF] hidden md:flex px-4 md:text-xl mt-6 font-semibold text-center  md:text-justify">
 
             Welcome to Royal Advertising, where we redefine the art of outdoor
             promotion. With a commitment to excellence and a touch of royalty,

@@ -13,10 +13,8 @@ export const navdata = [
   },
   {
     item: "Testimonial"
-  },
-  {
-    item: "Contact Us"
-  },
+  }
+ 
 
 ]
 export const ourservises = [
