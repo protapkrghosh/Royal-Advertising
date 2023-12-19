@@ -13,12 +13,12 @@ const HomeBanner = () => {
       <div className="relative inline-block w-full h-[700px] md:hidden">
         <img
           src="https://images.squarespace-cdn.com/content/v1/608bf3b649215c2156c82cda/1620236465578-S0ONGH905OF8IQ87GUOA/outdoor-billboard-NJDS46H.jpg?format=1500w"
-          className=" w-full object-cover bg-cover bg-no-repeat bg-center h-full"
+          className=" w-full   bg-no-repeat bg-center h-full"
           alt=""
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-[rgba(0,0,0,0.6)] to-transparent"></div>
       </div>
-      <div className=" text-left absolute left-1 md:left-0 top-[350px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
+      <div className=" text-left absolute left-1 md:left-0 top-[300px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
         <div className="md:w-[600px]" style={{ zIndex: 1 }}>
           <h1 className="text-white md:hidden  text-5xl leading-tight text-center md:text-left font-cursive font-semibold">
             Welcome to Royal Advertising
