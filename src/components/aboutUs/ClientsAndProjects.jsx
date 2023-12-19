@@ -90,10 +90,10 @@ const ClientsAndProjects = () => {
         <h1 className="text-5xl font-bold mb-5 ">
         Empowering Growth Your Success, Our Priority at Royel Advertising.
         </h1>
-        <p className="text-gray-500 mb-8">
+        <p className="text-gray-500 xl:mb-2">
         At Royel Advertising, we are dedicated to propelling your business towards unprecedented success. Our mission is simple yet powerful: to empower growth by making your success our topmost priority. We understand that every venture is unique, and that's why we tailor our innovative marketing strategies to meet your specific needs. With a team of seasoned professionals, we navigate the dynamic landscape of digital marketing, ensuring that your brand not only stands out but thrives. Your success is not just a goal; it's our commitment. Partner with Royel Advertising, where empowerment meets achievement, and watch your business soar to new heights
         </p>
-        <div className="lg:flex flex-col  items-center md:gap-x-10 ">
+        <div className="lg:flex flex-col lg:flex-row items-center lg:gap-x-2 xl:gap-x-10 ">
           <div>
             <div className="flex items-center gap-x-2 mb-2">
               <CgChevronDoubleRight className="text-[#F85152]"></CgChevronDoubleRight>
