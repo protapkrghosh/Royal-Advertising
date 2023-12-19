@@ -6,17 +6,12 @@ import Lottie from "lottie-react";
 import useAOSInit from "../../hooks/useAosInit";
 import emailjs from '@emailjs/browser';
 import { useForm } from 'react-hook-form';
+import toast from 'react-hot-toast';
 
 
 const ContactForm = () => {
-  const emptyCredentials = {
-    firstName: "",
-    lastName: "",
-    email: "",
-    phoneNo: "",
-    message: "",
-  };
-  const [credentials, setCredentials] = useState(emptyCredentials);
+
+
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   useAOSInit()
   const form = useRef();
@@ -25,7 +20,9 @@ const ContactForm = () => {
   const sendEmail = (data) => {
     emailjs.sendForm('service_pvmroq8', 'template_7hxjdqo', form.current, 'WoZaV_ZGijOfT8x-7')
       .then((result) => {
-        console.log(result.text);
+        if(result){
+          toast.success('Thanks for massage us')
+        }
         form.current.reset();
       }, (error) => {
         console.log(error.text);
@@ -93,10 +90,8 @@ const ContactForm = () => {
               <div>
                 <div className="flex flex-col w-full">
                   <label htmlFor="massage" className="text-[18px] text-[#787C8B]">Message <span className="text-[#F51843]">*</span></label>
-                  <textarea cols="5" rows="4" {...register("massage", { required: true,pattern: /^[A-Za-z]+$/i })} className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full p-1"></textarea>
+                  <textarea cols="5" rows="4" {...register("massage", { required: true })} className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full p-1"></textarea>
                   {errors.massage?.type === 'required' && <p className="text-red-500">Message is required</p>}
-                  {errors.massage?.type === 'pattern' && <p className="text-red-500">Please type only valid text </p>}
-
                 </div>
               </div>
               <button className="btn text-[17px] font-bold rounded-full bg-[#FF2E57] hover:bg-[#F51843] px-6 text-white mt-6">Send Message</button>

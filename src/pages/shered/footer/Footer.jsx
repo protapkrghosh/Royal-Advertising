@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
-
+import { Link as ScrollLink } from "react-scroll";
 const Footer = () => {
   const emojiSVG = `
     <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +27,7 @@ const Footer = () => {
   return (
     <div style={footerStyle} className="relative bg-no-repeat bg-cover bg-center h-[1400px] lg:h-[600px] flex justify-center mt-14">
       <footer className="absolute text-white bottom-0 p-5 lg:p-0">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 w-[95%] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-[100%] mx-auto">
           <div>
             <p className={footerHead}>Address:</p>
             <p className={footerText}>
@@ -40,24 +40,11 @@ const Footer = () => {
           <div>
             <header className={footerHead}>Visit Us</header>
             <div className={footerLinks}>
-              <a className="link no-underline hover:underline text-white w-fit">Home</a>
-              <a className="link no-underline hover:underline text-white w-fit">Services</a>
-              <a className="link no-underline hover:underline text-white w-fit">About Us</a>
-              <a className="link no-underline hover:underline text-white w-fit">Portfolio</a>
-              <a className="link no-underline hover:underline text-white w-fit">Contacts</a>
-              <a className="link no-underline hover:underline text-white w-fit">Blogs</a>
-            </div>
-          </div>
-
-          <div>
-            <header className={footerHead}>Our Services</header>
-            <div className={footerLinks}>
-              <a className="link no-underline hover:underline text-white w-fit">Social Media Marketing</a>
-              <a className="link no-underline hover:underline text-white w-fit">SEO</a>
-              <a className="link no-underline hover:underline text-white w-fit">Graphic Designing</a>
-              <a className="link no-underline hover:underline text-white w-fit">Website Designing</a>
-              <a className="link no-underline hover:underline text-white w-fit">3D Walkthrough</a>
-              <a className="link no-underline hover:underline text-white w-fit">Video Editing & Animation</a>
+              <ScrollLink to="Home"  className="link no-underline hover:underline text-white w-fit" smooth={true}  duration={500}>Home</ScrollLink>
+              <ScrollLink to="Services"  className="link no-underline hover:underline text-white w-fit" smooth={true}  duration={500}>Services</ScrollLink>
+              <ScrollLink to="About Us"  className="link no-underline hover:underline text-white w-fit" smooth={true}  duration={500}>About Us</ScrollLink>
+              <ScrollLink to="Contact Us"  className="link no-underline hover:underline text-white w-fit" smooth={true}  duration={500}>Contacts</ScrollLink>
+             
             </div>
           </div>
           

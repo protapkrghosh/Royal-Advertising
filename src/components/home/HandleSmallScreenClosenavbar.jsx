@@ -1,7 +1,7 @@
 
 import React from "react";
 import classNames from "classnames";
-import { navdata } from "../../data/data";
+import { navdata, smallNavdata } from "../../data/data";
 import { Link as ScrollLink } from "react-scroll";
 
 const HandleSmallScreenClosenavbar = ({ isOpens, onClose, activeTab, handleSetActive }) => {
@@ -11,7 +11,7 @@ const HandleSmallScreenClosenavbar = ({ isOpens, onClose, activeTab, handleSetAc
     });
     return (
         <div>
-            {navdata.map((nav, index) => (
+            {smallNavdata.map((nav, index) => (
                 <p className="">
                     <ScrollLink
                         key={index}

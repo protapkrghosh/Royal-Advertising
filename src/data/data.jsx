@@ -13,10 +13,30 @@ export const navdata = [
   },
   {
     item: "Testimonial"
+  }
+ 
+
+]
+export const smallNavdata = [
+  {
+    item: "Home"
+  },
+  {
+    item: "About Us"
+  },
+  {
+    item: "Services"
+  },
+  {
+    item: "Gallery"
+  },
+  {
+    item: "Testimonial"
   },
   {
     item: "Contact Us"
-  },
+  }
+ 
 
 ]
 export const ourservises = [
