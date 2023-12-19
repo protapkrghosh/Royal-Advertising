@@ -1,5 +1,6 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const HomeBanner = () => {
   return (
@@ -9,30 +10,25 @@ const HomeBanner = () => {
         className="hidden md:flex w-full h-[600px] md:h-screen"
         alt=""
       />
-      <div className="relative inline-block w-full h-[630px] md:hidden">
+      <div className="relative inline-block w-full h-[650px] md:hidden">
         <img
           src="https://images.squarespace-cdn.com/content/v1/608bf3b649215c2156c82cda/1620236465578-S0ONGH905OF8IQ87GUOA/outdoor-billboard-NJDS46H.jpg?format=1500w"
           className="h-full w-full object-cover bg-cover bg-no-repeat bg-center"
           alt=""
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-[rgba(0,0,0,0.5)]"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-[rgba(0,0,0,0.4)] to-transparent"></div>
       </div>
-      <div className=" text-left absolute left-1 md:left-0 top-[180px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
-        <div className="md:w-[600px]  " style={{ zIndex: 1 }}>
-          <h1 className="text-yellow-400 mb-10 md:hidden text-[2.5rem] leading-tight font-bold text-center md:text-left">
-            Unlock the Power of Outdoor Brilliance
+      <div className=" text-left absolute left-1 md:left-0 bottom-[50px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
+        <div className="md:w-[600px]" style={{ zIndex: 1 }}>
+          <h1 className="text-white md:hidden text-[2.5rem] leading-tight text-center md:text-left font-cursive font-semibold">
+            Welcome to Royal Advertising
           </h1>
 
           <h1 className="text-[#FFF] hidden md:flex lg:text-6xl text-4xl font-bold text-center  md:text-left">
             Unlock the Power of Outdoor Brilliance
           </h1>
-          <p className="text-[#FFF] mb-5 md:hidden  md:text-xl mt-6 font-thin text-center  md:text-justify">
-            Welcome to Royal Advertising, where we redefine the art of
-            outdoor promotion. With a commitment
-             to excellence and a touch of royalty, we
-            craft bespoke advertising solutions that elevate your brand
-            to
-             new heights
+          <p className="text-gray-300 md:hidden  md:text-xl mt-6 font-thin text-center  md:text-justify">
+          Elevate your brand with Royal Advertising—where outdoor promotion meets unparalleled elegance for lasting impressions.
           </p>
           <p className="text-[#FFF] hidden md:flex md:text-xl mt-6 font-semibold text-center  md:text-justify">
             Welcome to Royal Advertising, where we redefine the art of outdoor
@@ -46,8 +42,8 @@ const HomeBanner = () => {
             smooth={true}
             duration={500}
           >
-            <button type="button" className="btn-navbar mt-4">
-              Let's Talk
+            <button type="button" className="bg-gradient-to-br from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 ease-in-out flex justify-center items-center gap-x-3 mt-4">
+              <FaPhoneAlt></FaPhoneAlt> Let's Talk
             </button>
           </ScrollLink>
         </div>
