@@ -5,10 +5,8 @@ import { Link as ScrollLink } from "react-scroll";
 const HomeBanner = () => {
   return (
     <div className="relative "> 
-      <img src="https://cdn-edjcg.nitrocdn.com/VBWSxyKIMetGynBOPkcprlqWleWuyTij/assets/images/optimized/rev-9f1d91c/www.blipbillboards.com/wp-content/uploads/image-11-1.png" className='w-full h-[600px] md:h-screen' alt="" />
-
-      
-      <div className="  absolute top-[180px]  lg:top-[230px] lg:left-[150px] ">
+      <img src="https://cdn-edjcg.nitrocdn.com/VBWSxyKIMetGynBOPkcprlqWleWuyTij/assets/images/optimized/rev-9f1d91c/www.blipbillboards.com/wp-content/uploads/image-11-1.png" className='w-full  md:h-screen' alt="" />
+      <div className="md:absolute top-[180px]  lg:top-[230px] lg:left-[150px] ">
         <div
           className="md:w-[600px] px-2"
           style={{ zIndex: 1 }}

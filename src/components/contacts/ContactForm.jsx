@@ -6,17 +6,12 @@ import Lottie from "lottie-react";
 import useAOSInit from "../../hooks/useAosInit";
 import emailjs from '@emailjs/browser';
 import { useForm } from 'react-hook-form';
+import toast from 'react-hot-toast';
 
 
 const ContactForm = () => {
-  const emptyCredentials = {
-    firstName: "",
-    lastName: "",
-    email: "",
-    phoneNo: "",
-    message: "",
-  };
-  const [credentials, setCredentials] = useState(emptyCredentials);
+
+
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   useAOSInit()
   const form = useRef();
@@ -25,7 +20,9 @@ const ContactForm = () => {
   const sendEmail = (data) => {
     emailjs.sendForm('service_pvmroq8', 'template_7hxjdqo', form.current, 'WoZaV_ZGijOfT8x-7')
       .then((result) => {
-        console.log(result.text);
+        if(result){
+          toast.success('Thanks for massage us')
+        }
         form.current.reset();
       }, (error) => {
         console.log(error.text);
