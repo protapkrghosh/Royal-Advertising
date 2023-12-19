@@ -90,10 +90,8 @@ const ContactForm = () => {
               <div>
                 <div className="flex flex-col w-full">
                   <label htmlFor="massage" className="text-[18px] text-[#787C8B]">Message <span className="text-[#F51843]">*</span></label>
-                  <textarea cols="5" rows="4" {...register("massage", { required: true,pattern: /^[A-Za-z]+$/i })} className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full p-1"></textarea>
+                  <textarea cols="5" rows="4" {...register("massage", { required: true })} className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full p-1"></textarea>
                   {errors.massage?.type === 'required' && <p className="text-red-500">Message is required</p>}
-                  {errors.massage?.type === 'pattern' && <p className="text-red-500">Please type only valid text </p>}
-
                 </div>
               </div>
               <button className="btn text-[17px] font-bold rounded-full bg-[#FF2E57] hover:bg-[#F51843] px-6 text-white mt-6">Send Message</button>

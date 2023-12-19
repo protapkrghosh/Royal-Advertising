@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 const CorporateServices = () => {
   useAOSInit()
   const responsive =
-    "grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 lg:grid-cols-3 gap-y-14 lg:w-[1300px] mx-auto my-12 px-2 lg:px-0";
+    "grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-14 xl:w-[1300px] mx-auto my-12 px-2 lg:px-0";
   const heading = "text-2xl lg:text-3xl font-bold lg:tracking-wider mb-4";
   const para = "text-gray-400 tracking-wide text-lg";
 

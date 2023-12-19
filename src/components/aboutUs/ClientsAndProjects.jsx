@@ -15,7 +15,8 @@ const ClientsAndProjects = () => {
     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHByZXNlcnZlQXNwZWN0UmF0aW89J25vbmUnIG92ZXJmbG93PSd2aXNpYmxlJyBoZWlnaHQ9JzEwMCUnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nbm9uZScgc3Ryb2tlPSdibGFjaycgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0nc3F1YXJlJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnPjxwYXRoIGQ9J00wLDZjNiwwLDYsMTMsMTIsMTNTMTgsNiwyNCw2Jy8+PC9zdmc+";
     
   return (
-    <div    className="md:flex justify-between gap-x-24 items-center px-5 md:px-0 lg:w-9/12 mt-10 lg:mt-0 mx-auto mb-16 md:pt-36 ">
+    <div className="md:flex justify-between gap-x-24 items-center px-5 md:px-0 xl:w-9/12 mt-10 lg:mt-0  lg:mx-5 xl:mx-auto mb-16 md:pt-36 ">
+
       <div data-aos="flip-left" data-aos-duration="3000" className="md:w-[50%]">
         <div  className="md:flex items-center gap-x-12">
           <div>
@@ -92,7 +93,7 @@ const ClientsAndProjects = () => {
         <p className="text-gray-500 mb-8">
         At Royel Advertising, we are dedicated to propelling your business towards unprecedented success. Our mission is simple yet powerful: to empower growth by making your success our topmost priority. We understand that every venture is unique, and that's why we tailor our innovative marketing strategies to meet your specific needs. With a team of seasoned professionals, we navigate the dynamic landscape of digital marketing, ensuring that your brand not only stands out but thrives. Your success is not just a goal; it's our commitment. Partner with Royel Advertising, where empowerment meets achievement, and watch your business soar to new heights
         </p>
-        <div className="flex flex-col md:flex-row items-center md:gap-x-10">
+        <div className="lg:flex flex-col  items-center md:gap-x-10 ">
           <div>
             <div className="flex items-center gap-x-2 mb-2">
               <CgChevronDoubleRight className="text-[#F85152]"></CgChevronDoubleRight>
