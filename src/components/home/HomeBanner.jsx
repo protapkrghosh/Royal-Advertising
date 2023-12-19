@@ -15,11 +15,11 @@ const HomeBanner = () => {
           className="h-full w-full object-cover bg-cover bg-no-repeat bg-center"
           alt=""
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.7)]"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-[rgba(0,0,0,0.5)]"></div>
       </div>
       <div className=" text-left absolute left-1 md:left-0 top-[180px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
         <div className="md:w-[600px]  " style={{ zIndex: 1 }}>
-          <h1 className="text-yellow-400 mb-16 md:hidden text-[2.5rem] leading-tight font-bold text-center md:text-left">
+          <h1 className="text-yellow-400 mb-24 md:hidden text-[2.5rem] leading-tight font-bold text-center md:text-left">
             Unlock the Power of Outdoor Brilliance
           </h1>
 
