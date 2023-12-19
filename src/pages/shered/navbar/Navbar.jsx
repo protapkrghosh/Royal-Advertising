@@ -100,9 +100,10 @@ xmlns="http://www.w3.org/2000/svg"
       onClick={() => handleSetActive(nav.item)}
       spy={true}
     >
-      <p href="" className="hover:text-[#070234] text-xl   text-[#0C0367]">
-        {nav.item}
-      </p>
+       <p href="" className="relative inline-block text-xl text-[#0C0367] group overflow-hidden">
+  {nav.item}
+  <span className="absolute bottom-0 left-0 w-full h-1 bg-[#0C0367] origin-left transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
+</p>
     </ScrollLink>
   ))}
  

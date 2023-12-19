@@ -17,7 +17,6 @@ a:after {
   display: block;
   content: '';
   width: inherit;
-  border-bottom: solid 4px #0C0367;
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
