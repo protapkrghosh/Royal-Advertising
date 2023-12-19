@@ -78,7 +78,7 @@ const CorporateServices = () => {
       <div data-aos="fade-up" data-aos-duration="3000" className="pb-8">
         <h6 data-aos="fade-up" data-aos-duration="3000" className="text-third">CORPORATE SERVICE</h6>
         <h3 className="text-primary">Why Us</h3>
-        <p className="text-third">
+        <p className="text-third px-5 md:px-0">
           We appreciate your trust greatly! Our clients choose us and our products
           because they know we're the best.
         </p>
