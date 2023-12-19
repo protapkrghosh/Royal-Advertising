@@ -42,7 +42,6 @@ const ReflectiveDesign = () => {
         </div>
       </div>
     </div>
-  </div>
   );
 };
 
