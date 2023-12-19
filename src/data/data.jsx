@@ -33,9 +33,7 @@ export const smallNavdata = [
   {
     item: "Testimonial"
   },
-  {
-    item: "Contact Us"
-  }
+ 
  
 
 ]

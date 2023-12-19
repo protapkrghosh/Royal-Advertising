@@ -15,7 +15,7 @@ const HomeBanner = () => {
           className="h-full w-full object-cover bg-cover bg-no-repeat bg-center"
           alt=""
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.9)]"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-[rgba(0,0,0,0.3)] to-transparent"></div>
       </div>
       <div className=" text-left absolute left-1 md:left-0 bottom-[50px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
         <div className="md:w-[600px]" style={{ zIndex: 1 }}>
