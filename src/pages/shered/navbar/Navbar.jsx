@@ -112,7 +112,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
             >
-              <button type="button" className="btn-navbar mb-3">
+              <button type="button" className="bg-gradient-to-br from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-4 rounded-md shadow-lg transition duration-300 ease-in-out">
                 Contact Us
               </button>
             </ScrollLink>
