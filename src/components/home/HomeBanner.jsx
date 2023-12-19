@@ -1,38 +1,56 @@
-import React from 'react';
-import Navbar from "../../pages/shered/navbar/Navbar";
+import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 
 const HomeBanner = () => {
   return (
-    <div className="relative">
-<video
-        autoPlay
-        muted
-        loop
-        className="absolute w-full h-[800px] md:h-screen object-cover z-[-1]"
-      >
-        <source
-          src="https://media.istockphoto.com/id/521188514/video/traffic-car-on-busy-highway-near-to-the-skyscrapers-in-madrid.mp4?s=mp4-480x480-is&k=20&c=iAVRswaweN0Y1xkHMYqCxB0XnbVh9fYuMx3r6UQD5fo=" // Replace with the URL of your video file
-          type="video/mp4"
+    <div className="relative ">
+      <img
+        src="https://cdn-edjcg.nitrocdn.com/VBWSxyKIMetGynBOPkcprlqWleWuyTij/assets/images/optimized/rev-9f1d91c/www.blipbillboards.com/wp-content/uploads/image-11-1.png"
+        className="hidden md:flex w-full h-[600px] md:h-screen"
+        alt=""
+      />
+      <div className="relative inline-block w-full h-[630px] md:hidden">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/608bf3b649215c2156c82cda/1620236465578-S0ONGH905OF8IQ87GUOA/outdoor-billboard-NJDS46H.jpg?format=1500w"
+          className="h-full w-full object-cover bg-cover bg-no-repeat bg-center"
+          alt=""
         />
-        Your browser does not support the video tag.
-      </video>
+        <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-[rgba(0,0,0,0.5)]"></div>
+      </div>
+      <div className=" text-left absolute left-1 md:left-0 top-[180px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
+        <div className="md:w-[600px]  " style={{ zIndex: 1 }}>
+          <h1 className="text-yellow-400 mb-10 md:hidden text-[2.5rem] leading-tight font-bold text-center md:text-left">
+            Unlock the Power of Outdoor Brilliance
+          </h1>
 
-      {/* Navbar Component */}
-      <Navbar />
-      <div className="hero  mt-24 relative">
-        <div
-          className="hero-content flex-col lg:flex-row-reverse justify-center items-center"
-          style={{ zIndex: 1 }}
-        >
-          <div className='  md:mt-36 lg:mt-0 mt-24  text-center '>
-         <h1 className='text-[#070234] lg:text-6xl text-4xl font-bold'>Unlock the Power of <br /> Outdoor Brilliance</h1>
-         <p className='text-[#291E97] md:text-xl md:mt-8 mt-6 font-semibold'>Crafting Impressions, Connecting Spaces. <br /> Welcome to Royal Advertising</p>
-         <button type="button" className="btn-navbar mt-2 cursor-pointer">
-          Let's Talk
-        </button>
-          </div>
+          <h1 className="text-[#FFF] hidden md:flex lg:text-6xl text-4xl font-bold text-center  md:text-left">
+            Unlock the Power of Outdoor Brilliance
+          </h1>
+          <p className="text-[#FFF] mb-5 md:hidden  md:text-xl mt-6 font-thin text-center  md:text-justify">
+            Welcome to Royal Advertising, where we redefine the art of
+            outdoor promotion. With a commitment
+             to excellence and a touch of royalty, we
+            craft bespoke advertising solutions that elevate your brand
+            to
+             new heights
+          </p>
+          <p className="text-[#FFF] hidden md:flex md:text-xl mt-6 font-semibold text-center  md:text-justify">
+            Welcome to Royal Advertising, where we redefine the art of outdoor
+            promotion. With a commitment to excellence and a touch of royalty,
+            we craft bespoke advertising solutions that elevate your brand to
+            new heights
+          </p>
+          <ScrollLink
+            to="Contact Us"
+            className="flex justify-center items-center md:block"
+            smooth={true}
+            duration={500}
+          >
+            <button type="button" className="btn-navbar mt-4">
+              Let's Talk
+            </button>
+          </ScrollLink>
         </div>
-        
       </div>
     </div>
   );

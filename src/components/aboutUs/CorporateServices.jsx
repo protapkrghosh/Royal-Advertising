@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import useAOSInit from "../../hooks/useAosInit";
-
+import { Link as ScrollLink } from "react-scroll";
 const CorporateServices = () => {
   useAOSInit()
   const responsive =
-    "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-14 lg:w-[1300px] mx-auto my-12 px-2 lg:px-0";
+    "grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-14 xl:w-[1300px] mx-auto my-12 px-2 lg:px-0";
   const heading = "text-2xl lg:text-3xl font-bold lg:tracking-wider mb-4";
   const para = "text-gray-400 tracking-wide text-lg";
 
@@ -79,7 +78,7 @@ const CorporateServices = () => {
       <div data-aos="fade-up" data-aos-duration="3000" className="pb-8">
         <h6 data-aos="fade-up" data-aos-duration="3000" className="text-third">CORPORATE SERVICE</h6>
         <h3 className="text-primary">Why Us</h3>
-        <p className="text-third">
+        <p className="text-third px-3">
           We appreciate your trust greatly! Our clients choose us and our products
           because they know we're the best.
         </p>
@@ -94,7 +93,10 @@ const CorporateServices = () => {
           </div>
         ))}
       </div>
-      <button data-aos="fade-up" className="bg-[#0C0833] text-white px-12 py-4 rounded-full font-semibold hover:bg-[#1C1880] my-12">Contact Us Now For More Details</button>
+      <ScrollLink to="Contact Us" 
+      smooth={true}
+      duration={700}
+      data-aos="fade-up" className="bg-[#0C0833] text-white px-12 py-4 rounded-full font-semibold hover:bg-[#1C1880] my-12 cursor-pointer">Contact Us Now For More Details</ScrollLink>
     </div>
   );
 };
