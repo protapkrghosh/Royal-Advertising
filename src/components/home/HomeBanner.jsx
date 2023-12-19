@@ -19,7 +19,7 @@ const HomeBanner = () => {
       </div>
       <div className=" text-left absolute left-1 md:left-0 top-[180px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
         <div className="md:w-[600px]  " style={{ zIndex: 1 }}>
-          <h1 className="text-yellow-400 md:hidden text-[2.5rem] leading-tight font-bold text-center md:text-left">
+          <h1 className="text-yellow-400 mb-16 md:hidden text-[2.5rem] leading-tight font-bold text-center md:text-left">
             Unlock the Power of Outdoor Brilliance
           </h1>
 
