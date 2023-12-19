@@ -14,7 +14,6 @@ const Navbar = () => {
     setActiveTab(to);
   };
 
-
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -43,10 +42,17 @@ const Navbar = () => {
   }, []);
   return (
     <nav className={` w-full mx-auto fixed z-10 `}>
-
-      <div className={` bg-[#FFF] shadow-2xl duration-500 ease-in-out  ${isFixed ? "lg:bg-white text-black w-full shadow-2xl bg-opacity-100 ease-in-out" : ""}`}>
+      <div
+        className={` bg-[#FFF] shadow-2xl duration-500 ease-in-out  ${
+          isFixed
+            ? "lg:bg-white text-black w-full shadow-2xl bg-opacity-100 ease-in-out"
+            : ""
+        }`}
+      >
         <div className="lg:w-10/12 mx-auto flex  justify-between items-center ">
 
+
+      
           <div className="hidden lg:flex items-center gap-x-5">
             <img
               src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
@@ -54,7 +60,14 @@ const Navbar = () => {
               alt=""
             />
           </div>
-          <div className={`lg:hidden flex justify-between items-center w-full  px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px]" : ""}`}>
+          <div
+            className={`lg:hidden flex justify-between items-center w-full  px-8 z-10 ${
+              isFixed
+                ? "bg-white text-black w-full shadow-md  fixed mt-[70px]"
+                : ""
+            }`}
+          >
+
             <div className=" ">
               <img
                 src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
@@ -65,7 +78,10 @@ const Navbar = () => {
             <button
               type="button"
               onClick={toggleMenu}
-              className={`focus:outline-none ${isFixed ? " text-black " : " text-black"}`}
+              className={`focus:outline-none ${
+                isFixed ? " text-black " : " text-black"
+              }`}
+
             >
               <svg
                 className="h-6 w-6 fill-current"
@@ -100,7 +116,11 @@ const Navbar = () => {
                 onClick={() => handleSetActive(nav.item)}
                 spy={true}
               >
-                <p href="" className="relative inline-block text-xl text-[#0C0367] group overflow-hidden">
+                <p
+                  href=""
+                  className="relative inline-block text-xl text-[#0C0367] group overflow-hidden"
+                >
+
                   {nav.item}
                   <span className="absolute bottom-0 left-0 w-full h-1 bg-[#0C0367] origin-left transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
                 </p>
@@ -113,11 +133,10 @@ const Navbar = () => {
               smooth={true}
               duration={500}
             >
-              <button type="button" className="btn-navbar mb-3">
+              <button type="button" className="bg-gradient-to-br from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-4 rounded-md shadow-lg transition-colors duration-300 ease-in-out mb-3">
                 Contact Us
               </button>
             </ScrollLink>
-
           </div>
 
         </div>

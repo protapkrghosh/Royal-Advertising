@@ -17,6 +17,28 @@ export const navdata = [
  
 
 ]
+export const smallNavdata = [
+  {
+    item: "Home"
+  },
+  {
+    item: "About Us"
+  },
+  {
+    item: "Services"
+  },
+  {
+    item: "Gallery"
+  },
+  {
+    item: "Testimonial"
+  },
+  {
+    item: "Contact Us"
+  }
+ 
+
+]
 export const ourservises = [
   {
     img: "https://reflectivedesign.in/wp-content/uploads/2021/11/aim-small.svg",
