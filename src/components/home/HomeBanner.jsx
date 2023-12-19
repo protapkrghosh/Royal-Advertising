@@ -19,14 +19,14 @@ const HomeBanner = () => {
       </div>
       <div className=" text-left absolute left-1 md:left-0 top-[180px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
         <div className="md:w-[600px]  " style={{ zIndex: 1 }}>
-          <h1 className="text-yellow-400 mb-24 md:hidden text-[2.5rem] leading-tight font-bold text-center md:text-left">
+          <h1 className="text-yellow-400 mb-10 md:hidden text-[2.5rem] leading-tight font-bold text-center md:text-left">
             Unlock the Power of Outdoor Brilliance
           </h1>
 
           <h1 className="text-[#FFF] hidden md:flex lg:text-6xl text-4xl font-bold text-center  md:text-left">
             Unlock the Power of Outdoor Brilliance
           </h1>
-          <p className="text-[#FFF] md:hidden  md:text-xl mt-6 font-thin text-center  md:text-justify">
+          <p className="text-[#FFF] mb-5 md:hidden  md:text-xl mt-6 font-thin text-center  md:text-justify">
             Welcome to Royal Advertising, where we redefine the art of
             outdoor promotion. With a commitment
              to excellence and a touch of royalty, we
