@@ -50,6 +50,9 @@ const Navbar = () => {
         }`}
       >
         <div className="lg:w-10/12 mx-auto flex  justify-between items-center ">
+
+
+      
           <div className="hidden lg:flex items-center gap-x-5">
             <img
               src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
@@ -64,6 +67,7 @@ const Navbar = () => {
                 : ""
             }`}
           >
+
             <div className=" ">
               <img
                 src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
@@ -77,6 +81,7 @@ const Navbar = () => {
               className={`focus:outline-none ${
                 isFixed ? " text-black " : " text-black"
               }`}
+
             >
               <svg
                 className="h-6 w-6 fill-current"
@@ -100,6 +105,7 @@ const Navbar = () => {
             </button>
           </div>
           <div className="hidden lg:mt-[20px] py-2 lg:flex justify-between items-center gap-x-6 ">
+
             {navdata.map((nav, index) => (
               <ScrollLink
                 key={index}
@@ -114,10 +120,12 @@ const Navbar = () => {
                   href=""
                   className="relative inline-block text-xl text-[#0C0367] group overflow-hidden"
                 >
+
                   {nav.item}
                   <span className="absolute bottom-0 left-0 w-full h-1 bg-[#0C0367] origin-left transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
                 </p>
               </ScrollLink>
+
             ))}
             <ScrollLink
               to="Contact Us"
@@ -130,6 +138,7 @@ const Navbar = () => {
               </button>
             </ScrollLink>
           </div>
+
         </div>
       </div>
 
