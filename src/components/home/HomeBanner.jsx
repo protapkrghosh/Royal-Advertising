@@ -21,7 +21,7 @@ const HomeBanner = () => {
           <h1 className="text-[#FFF] lg:text-6xl text-4xl font-bold text-center md:text-left">
             Unlock the Power <br /> of Outdoor Brilliance
           </h1>
-          <p className="text-[#FFF] md:text-xl mt-6 font-semibold text-center md:text-justify">
+          <p className="text-[#FFF] md:text-xl mt-6 font-semibold text-justify md:text-justify">
             Welcome to Royal Advertising, where we redefine the art of outdoor
             promotion. With a commitment to excellence and a touch of royalty,
             we craft bespoke advertising solutions that elevate your brand to
