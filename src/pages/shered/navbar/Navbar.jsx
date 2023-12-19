@@ -104,7 +104,6 @@ xmlns="http://www.w3.org/2000/svg"
   {nav.item}
   <span className="absolute bottom-0 left-0 w-full h-1 bg-[#0C0367] origin-left transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
 </p>
-
     </ScrollLink>
   ))}
  
