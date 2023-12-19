@@ -46,7 +46,6 @@ const Navbar = () => {
 
       <div className={` bg-[#FFF] shadow-2xl duration-500 ease-in-out  ${isFixed ? "lg:bg-white text-black w-full shadow-2xl bg-opacity-100 ease-in-out" : ""}`}>
         <div className="lg:w-10/12 mx-auto flex  justify-between items-center ">
-
           <div className="hidden lg:flex items-center gap-x-5">
             <img
               src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
@@ -54,7 +53,7 @@ const Navbar = () => {
               alt=""
             />
           </div>
-          <div className={lg:hidden flex justify-between items-center w-full  px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px]" : ""}}>
+          <div className={`lg:hidden flex justify-between items-center w-full  px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px]" : ""}`}>
             <div className=" ">
               <img
                 src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
@@ -65,7 +64,7 @@ const Navbar = () => {
             <button
               type="button"
               onClick={toggleMenu}
-              className={focus:outline-none ${isFixed ? " text-black " : " text-black"}}
+              className={`focus:outline-none ${isFixed ? " text-black " : " text-black"}`}
             >
               <svg
                 className="h-6 w-6 fill-current"
