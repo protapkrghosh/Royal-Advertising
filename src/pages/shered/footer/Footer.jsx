@@ -25,7 +25,7 @@ const Footer = () => {
   };
 
   return (
-    <div style={footerStyle} className="relative bg-no-repeat bg-cover bg-center h-[900px] md:h-[500px] lg:h-[450px] xl:h-[540px] flex justify-center mt-14">
+    <div style={footerStyle} className="relative bg-no-repeat bg-cover bg-center h-[900px] md:h-[500px] lg:h-[450px] xl:h-[580px] flex justify-center mt-14">
       <footer className="absolute text-white bottom-0 p-5 lg:p-0">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 w-[100%] mx-auto">
           {/* Address */}
