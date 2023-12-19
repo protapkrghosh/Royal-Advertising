@@ -8,6 +8,9 @@ export default {
             'pcHero': "url('@assets/WhatsApp Image 2023-12-18 at 21.14.32_77d66093.jpg')"
           }
       },
+      fontFamily: {
+         'cursive': ['Kanit', "sans-serif"]
+       }
    },
    plugins: [require("daisyui")],
 };

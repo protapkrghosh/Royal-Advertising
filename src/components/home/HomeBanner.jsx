@@ -1,5 +1,6 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const HomeBanner = () => {
   return (
@@ -15,18 +16,18 @@ const HomeBanner = () => {
           className="h-full w-full object-cover bg-cover bg-no-repeat bg-center"
           alt=""
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-[rgba(0,0,0,0.3)] to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-[rgba(0,0,0,0.4)] to-transparent"></div>
       </div>
       <div className=" text-left absolute left-1 md:left-0 bottom-[50px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
         <div className="md:w-[600px]" style={{ zIndex: 1 }}>
-          <h1 className="text-white md:hidden text-[2.5rem] leading-tight font-bold text-center md:text-left font-Permanent Marker">
+          <h1 className="text-white md:hidden text-[2.5rem] leading-tight text-center md:text-left font-cursive font-semibold">
             Welcome to Royal Advertising
           </h1>
 
           <h1 className="text-[#FFF] hidden md:flex lg:text-6xl text-4xl font-bold text-center  md:text-left">
             Unlock the Power of Outdoor Brilliance
           </h1>
-          <p className="text-[#FFF] mb-5 md:hidden  md:text-xl mt-6 font-thin text-center  md:text-justify">
+          <p className="text-gray-300 md:hidden  md:text-xl mt-6 font-thin text-center  md:text-justify">
           Elevate your brand with Royal Advertising—where outdoor promotion meets unparalleled elegance for lasting impressions.
           </p>
           <p className="text-[#FFF] hidden md:flex md:text-xl mt-6 font-semibold text-center  md:text-justify">
@@ -41,8 +42,8 @@ const HomeBanner = () => {
             smooth={true}
             duration={500}
           >
-            <button type="button" className="btn-navbar mt-4">
-              Let's Talk
+            <button type="button" className="bg-gradient-to-br from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 ease-in-out flex justify-center items-center gap-x-3 mt-4">
+              <FaPhoneAlt></FaPhoneAlt> Let's Talk
             </button>
           </ScrollLink>
         </div>
