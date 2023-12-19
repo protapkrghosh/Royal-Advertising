@@ -25,9 +25,10 @@ const Footer = () => {
   };
 
   return (
-    <div style={footerStyle} className="relative bg-no-repeat bg-cover bg-center h-[1400px] lg:h-[600px] flex justify-center mt-14">
+    <div style={footerStyle} className="relative bg-no-repeat bg-cover bg-center h-[900px] md:h-[500px] lg:h-[450px] xl:h-[540px] flex justify-center mt-14">
       <footer className="absolute text-white bottom-0 p-5 lg:p-0">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-[100%] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 w-[100%] mx-auto">
+          {/* Address */}
           <div>
             <p className={footerHead}>Address:</p>
             <p className={footerText}>
@@ -37,18 +38,22 @@ const Footer = () => {
             <p className={footerText}>+12-345678902 +12-345678901</p>
           </div>
 
-          <div>
-            <header className={footerHead}>Visit Us</header>
-            <div className={footerLinks}>
-              <ScrollLink to="Home"  className="link no-underline hover:underline text-white w-fit" smooth={true}  duration={500}>Home</ScrollLink>
-              <ScrollLink to="Services"  className="link no-underline hover:underline text-white w-fit" smooth={true}  duration={500}>Services</ScrollLink>
-              <ScrollLink to="About Us"  className="link no-underline hover:underline text-white w-fit" smooth={true}  duration={500}>About Us</ScrollLink>
-              <ScrollLink to="Contact Us"  className="link no-underline hover:underline text-white w-fit" smooth={true}  duration={500}>Contacts</ScrollLink>
-             
+          {/* Visit Us */}
+          <div className='md:flex justify-center'>
+            <div>
+              <header className={footerHead}>Visit Us</header>
+              <div className={footerLinks}>
+                <ScrollLink to="Home" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>Home</ScrollLink>
+                <ScrollLink to="Services" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>Services</ScrollLink>
+                <ScrollLink to="About Us" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>About Us</ScrollLink>
+                <ScrollLink to="Contact Us" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>Contacts</ScrollLink>
+
+              </div>
             </div>
           </div>
-          
-          <div>
+
+          {/* Newsletter */}
+          <div className='mt-5 md:mt-0'>
             <header className={footerHead}>Newsletter</header>
             <div className={footerLinks}>
               <div className="flex gap-5 items-center">
