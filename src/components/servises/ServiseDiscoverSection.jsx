@@ -10,7 +10,6 @@ const ServiseDiscoverSection = () => {
           <div data-aos="fade-right" data-aos-duration="3000">
             <h1 className="text-secendary">Elevate Your Brand with Tailored Excellence.</h1>
             <p className="text-third">At Royel Advertising, discover a suite of services meticulously crafted to redefine your brand's success. From strategic planning to captivating design and seamless execution, we are your dedicated partners in achieving impactful results. Explore the realm of possibilities with our tailored services, where innovation meets success.</p>
-            <button className="btn btn-primary">Discover Now</button>
           </div>
         </div>
       </div>
