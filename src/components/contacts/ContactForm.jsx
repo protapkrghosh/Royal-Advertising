@@ -10,7 +10,7 @@ import { Controls, Player } from '@lottiefiles/react-lottie-player';
 const ContactForm = () => {
 
 
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
+  const { register, handleSubmit, formState: { errors } } = useForm();
   useAOSInit()
   const form = useRef();
 
@@ -27,9 +27,7 @@ const ContactForm = () => {
       });
   };
   const onSubmit = data => {
-    const { email, massage, name, services, phone } = data;
-    sendEmail(data);
-    console.log(data)
+    sendEmail(data)
   }
 
   return (
