@@ -76,7 +76,7 @@ const CorporateServices = () => {
   return (
     <div style={imgeStyle} className="text-center mb-[100px] pt-12">
       <div data-aos="fade-up" data-aos-duration="3000" className="pb-8">
-        <h6 data-aos="fade-up" data-aos-duration="3000" className="text-third">CORPORATE SERVICE</h6>
+        <h1 data-aos="fade-up" data-aos-duration="3000" className="text-third">CORPORATE SERVICE</h1>
         <h3 className="text-primary">Why Us</h3>
         <p className="text-third px-3">
           We appreciate your trust greatly! Our clients choose us and our products
