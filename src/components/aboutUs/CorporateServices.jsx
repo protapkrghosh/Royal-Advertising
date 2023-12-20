@@ -96,7 +96,7 @@ const CorporateServices = () => {
       <ScrollLink to="Contact Us" 
       smooth={true}
       duration={700}
-      data-aos="fade-up" className="bg-[#0C0833] text-white px-12 py-4 rounded-full font-semibold hover:bg-[#1C1880] my-12 cursor-pointer">Contact Us Now For More Details</ScrollLink>
+      data-aos="fade-up" ><p className="bg-[#0C0833] text-white px-12 py-4 rounded-full font-semibold hover:bg-[#1C1880] my-12 cursor-pointer">Contact Us Now For More Details</p></ScrollLink>
     </div>
   );
 };

@@ -29,11 +29,10 @@ const ReflectiveDesign = () => {
             </p>
             <ScrollLink
             to="Contact Us"
-            className="flex justify-center items-center md:block"
             smooth={true}
             duration={500}
           >
-            <button type="button" className="btn-navbar mt-4">
+            <button type="button" className="btn-navbar mt-4 flex justify-center items-center md:block">
               Let's Talk
             </button>
           </ScrollLink>

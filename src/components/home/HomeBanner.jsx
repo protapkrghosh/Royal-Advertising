@@ -42,12 +42,12 @@ const HomeBanner = () => {
           </p>
           <ScrollLink
             to="Contact Us"
-            className="flex justify-center items-center md:block"
             smooth={true}
             duration={500}
           >
-            <button type="button" className="bg-gradient-to-br from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 ease-in-out flex justify-center items-center gap-x-3 mt-4">
-              <FaPhoneAlt></FaPhoneAlt> Let's Talk
+            
+            <button type="button" className="bg-gradient-to-br   md:block from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 ease-in-out flex justify-center items-center gap-x-3 mt-4">
+       Let's Talk
             </button>
           </ScrollLink>
         </div>
