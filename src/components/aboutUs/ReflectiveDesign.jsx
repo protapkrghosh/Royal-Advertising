@@ -3,6 +3,7 @@ import Lottie from "lottie-react";
 import aboutUs from "../../data/animations/aboutUs.json";
 import useAOSInit from "../../hooks/useAosInit";
 import { Link as ScrollLink } from "react-scroll";
+
 const ReflectiveDesign = () => {
  useAOSInit()
   return (
