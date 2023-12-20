@@ -10,7 +10,7 @@ import { companiesLogos } from "../../data/data";
 const AboutUSSwipers = () => {
   return (
     <Swiper
-      slidesPerView={4}
+      slidesPerView={6}
       spaceBetween={30}
       freeMode={true}
       pagination={{
@@ -21,12 +21,12 @@ const AboutUSSwipers = () => {
         disableOnInteraction: false,
       }}
       modules={[FreeMode, Autoplay]}
-      className="mySwiper lg:w-8/12 mx-auto  lg:pl-[100px] "
+      className="mySwiper lg:w-11/12 mx-auto px-3 md:px-0 mb-5 lg:pl-[100px] "
     >
       {companiesLogos.map((imge, index) => (
         <SwiperSlide key={index}>
-          <div className="pt-[20px]    ">
-            <img src={imge} alt="" />
+          <div className="pt-[20px]">
+            <img src={imge} alt="company images" className="w-28 h-[55px] md:h-[100px] flex items-center" loading="lazy" />
           </div>
         </SwiperSlide>
       ))}

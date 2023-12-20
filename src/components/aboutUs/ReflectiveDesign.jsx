@@ -13,7 +13,7 @@ const ReflectiveDesign = () => {
      backgroundSize: 'cover',
  };
   return (
-    <div style={imgeStyle}   className=" py-12" >
+    <div style={imgeStyle}   className="pt-20 pb-10" >
     <h1  data-aos="fade-up" data-aos-duration="3000" className="text-primary text-center ">About Us</h1>
     <div className="hero my-16 max-w-[1320px] mx-auto ">
       <div className="hero-content flex flex-col lg:flex-row justify-between">
@@ -29,11 +29,11 @@ const ReflectiveDesign = () => {
             </p>
             <ScrollLink
             to="Contact Us"
-            className="flex justify-center items-center md:block"
+            href="#"
             smooth={true}
             duration={500}
           >
-            <button type="button" className="btn-navbar mt-4">
+            <button type="button" className="btn-navbar mt-4 flex justify-center items-center md:block">
               Let's Talk
             </button>
           </ScrollLink>

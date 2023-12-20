@@ -79,7 +79,7 @@ const ContactForm = () => {
                 </div>
                 <div className="flex flex-col w-full">
                   <label htmlFor="services" className="text-[18px] text-[#787C8B]">Services<span className="text-[#F51843]">*</span></label>
-                  <input type="text" id="phone" {...register("services", { required: true,pattern: /^[A-Za-z]+$/i })}  className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
+                  <input type="text" id="services" {...register("services", { required: true,pattern: /^[A-Za-z]+$/i })}  className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full max-w-xs p-1" />
                   {errors.services?.type === 'required' && <p className="text-red-500">Services is required</p>}
                   {errors.services?.type === 'pattern' && <p className="text-red-500">Please type only valid text  </p>}
                 </div>                
@@ -88,7 +88,7 @@ const ContactForm = () => {
               <div>
                 <div className="flex flex-col w-full">
                   <label htmlFor="massage" className="text-[18px] text-[#787C8B]">Message <span className="text-[#F51843]">*</span></label>
-                  <textarea cols="5" rows="4" {...register("massage", { required: true })} className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full p-1"></textarea>
+                  <textarea aria-label="massage" cols="5" rows="4" {...register("massage", { required: true })} className="outline-none border-b border-[#69727D] focus:border-[#D8D9E5] w-full p-1"></textarea>
                   {errors.massage?.type === 'required' && <p className="text-red-500">Message is required</p>}
                 </div>
               </div>
