@@ -3,12 +3,13 @@ import Lottie from "lottie-react";
 import aboutUs from "../../data/animations/aboutUs.json";
 import useAOSInit from "../../hooks/useAosInit";
 import { Link as ScrollLink } from "react-scroll";
+
 const ReflectiveDesign = () => {
  useAOSInit()
  const imge = "https://images.unsplash.com/photo-1619252584172-a83a949b6efd?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D"
 
  const imgeStyle = {
-     backgroundImage: `url(${imge})`,
+   backgroundImage: `url(${imge})`,
      backgroundRepeat: 'no-repeat',
      backgroundSize: 'cover',
  };
