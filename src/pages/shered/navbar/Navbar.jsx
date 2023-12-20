@@ -99,11 +99,10 @@ const Navbar = () => {
                 to={nav.item}
                 smooth={true}
                 duration={500}
-                className={`font-bold cursor-pointer `}
                 onClick={() => handleSetActive(nav.item)}
                 spy={true}
               >
-                <p href="" className="relative inline-block text-xl text-[#0C0367] group overflow-hidden">
+                <p href="" className="relative inline-block text-xl font-bold cursor-pointer text-[#0C0367] group overflow-hidden">
                   {nav.item}
                   <span className="absolute bottom-0 left-0 w-full h-1 bg-[#0C0367] origin-left transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
                 </p>
