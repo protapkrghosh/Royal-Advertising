@@ -14,6 +14,12 @@ import w7 from '../assets/w-7.png'
 import w8 from '../assets/w-8.png'
 import w9 from '../assets/w-9.png'
 import w10 from '../assets/w-10.png'
+import w11 from '../assets/w-11.jpg'
+import w12 from '../assets/w-12.png'
+import w13 from '../assets/w-13.jpg'
+import w14 from '../assets/w-14.jpg'
+import w15 from '../assets/w-15.jpg'
+import w16 from '../assets/w-16.png'
 import t1 from '../assets/download.jpg'
 import t2 from '../assets/download (1).jpg'
 import t3 from '../assets/download (2).jpg'
@@ -101,7 +107,7 @@ export const ourservises = [
 
 ]
 export const companiesLogos = [
-  w1, w2, w3,w4,w5,w6, w7, w8,w9, w10,
+  w1, w2, w3, w4, w5, w6, w7, w8, w9, w10, w11, w12, w13, w14, w15, w16,
 ];
 export const testimonialInfo = [
   {
