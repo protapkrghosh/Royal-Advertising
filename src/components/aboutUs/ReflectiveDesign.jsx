@@ -18,7 +18,7 @@ const ReflectiveDesign = () => {
     <div className="hero my-16 max-w-[1320px] mx-auto ">
       <div className="hero-content flex flex-col lg:flex-row justify-between">
         <div data-testid="lottie-animation" data-aos="zoom-in" data-aos-duration="3000" className="md:w-[50%]">
-          <Lottie animationData={aboutUs} loop={true} />
+            <Lottie animationData={aboutUs} loop={true} loading="lazy"/>
         </div>
           <div data-aos="fade-left" data-aos-duration="3000" className="md:w-[50%] ">
             <h1 className="text-secendary  ">
