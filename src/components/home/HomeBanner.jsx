@@ -13,13 +13,14 @@ const HomeBanner = () => {
         className="hidden md:flex w-full h-[600px] md:h-screen"
         alt="home banner"
         loading="lazy"
-        width="100" height="10"
+        
       />
       <div className="relative inline-block w-full h-[720px] md:hidden">
         <img
           src={mobileBanner}
           className=" w-full object-cover  h-full"
-          alt=""
+          alt="phone banner"
+          width="100" height="10"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-[rgba(0,0,0,0.6)] to-transparent"></div>
       </div>
