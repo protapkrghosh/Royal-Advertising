@@ -1,12 +1,10 @@
 
 import React, { useState,useRef } from 'react';
-
-import contact from "../../data/animations/Contact.json"
-import Lottie from "lottie-react";
 import useAOSInit from "../../hooks/useAosInit";
 import emailjs from '@emailjs/browser';
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
+import { Controls, Player } from '@lottiefiles/react-lottie-player';
 
 
 const ContactForm = () => {
@@ -44,9 +42,27 @@ const ContactForm = () => {
       <div className='mt-14 mb-32 w-[85%] mx-auto p-4'>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
-          <div data-aos="zoom-in-up" data-aos-duration="3000">
-            <Lottie animationData={contact} loop={true} />
-          </div>
+        <div  data-aos="zoom-in" data-aos-duration="3000" className=" ">
+                        <Player
+                            autoplay
+                            speed={1.5}
+                            loop
+                            src="https://lottie.host/0dccab9a-8719-480a-9acd-5e2e5252035b/x3nFVy5sG3.json"
+                            style={{ height: "full", width: "full" }}
+                        >
+                            <Controls
+
+                                buttons={[
+                                    "play",
+                                    "repeat",
+                                    "frame",
+                                    "debug",
+                                    "snapshot",
+                                    "background"
+                                ]}
+                            />
+                        </Player>
+                    </div>
 
           {/* Contact Form */}
           <div data-aos="fade-left" data-aos-duration="3000" className="mt-20  ">

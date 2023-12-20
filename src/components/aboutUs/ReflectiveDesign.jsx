@@ -1,6 +1,5 @@
 import React from "react";
-import Lottie from "lottie-react";
-import aboutUs from "../../data/animations/aboutUs.json";
+import { Controls, Player } from "@lottiefiles/react-lottie-player";
 import useAOSInit from "../../hooks/useAosInit";
 import { Link as ScrollLink } from "react-scroll";
 const ReflectiveDesign = () => {
@@ -15,11 +14,29 @@ const ReflectiveDesign = () => {
   return (
     <div style={imgeStyle}   className="pt-20 pb-10" >
     <h1  data-aos="fade-up" data-aos-duration="3000" className="text-primary text-center ">About Us</h1>
-    <div className="hero my-16 max-w-[1320px] mx-auto ">
+    <div className="hero my-16  mx-auto ">
       <div className="hero-content flex flex-col lg:flex-row justify-between">
-        <div data-testid="lottie-animation" data-aos="zoom-in" data-aos-duration="3000" className="md:w-[50%]">
-          <Lottie animationData={aboutUs} loop={true} />
-        </div>
+      <div  data-aos="zoom-in" data-aos-duration="3000" className="md:w-[50%] ">
+                        <Player
+                            autoplay
+                            speed={1.5}
+                            loop
+                            src="https://lottie.host/49badd09-94c8-4349-a07d-2a36a14faf29/g5G86OBuA1.json"
+                            style={{ height: "full", width: "full" }}
+                        >
+                            <Controls
+
+                                buttons={[
+                                    "play",
+                                    "repeat",
+                                    "frame",
+                                    "debug",
+                                    "snapshot",
+                                    "background"
+                                ]}
+                            />
+                        </Player>
+                    </div>
           <div data-aos="fade-left" data-aos-duration="3000" className="md:w-[50%] ">
             <h1 className="text-secendary  ">
             About Royel Advertising Redefining Excellence, Shaping Futures.
