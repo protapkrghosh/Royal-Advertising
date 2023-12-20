@@ -35,7 +35,7 @@ const Footer = () => {
             123 Test Street, <br /> Sample City <br /> Test State - 12345
             </p>
             <p className={footerText}>testemail@example.com</p>
-            <p className={footerText}>+12-345678902 +12-345678901</p>
+            <p className={footerText}>+880-1345678902 <br /> +880-1756789018</p>
           </div>
 
           {/* Visit Us */}
