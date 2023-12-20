@@ -60,6 +60,7 @@ const ClientsAndProjects = () => {
               alt="Image"
               className="absolute -top-10 md:top-0 left-5 md:left-0 -mt-6 -ml-6 border-[8px] border-white rounded-2xl"
               loading="lazy"
+              width="640" height="360"
             />
           </div>
         </div>
@@ -84,9 +85,9 @@ const ClientsAndProjects = () => {
       
       <div data-aos="fade-down-left" data-aos-duration="3000" className="md:w-[50%] mt-10 md:mt-0">
         <div className="flex mb-10">
-          <img src={dew} className=" h-[40px] w-[80px]" alt="" />
-          <img src={dew} className=" h-[40px] w-[80px] -mx-[2px]" alt="" />
-          <img src={dew} className=" h-[40px] w-[80px]" alt="" />
+          <img src={dew} className=" h-[40px] w-[80px]" alt="dew1" />
+          <img src={dew} className=" h-[40px] w-[80px] -mx-[2px]" alt="dew2"  />
+          <img src={dew} className=" h-[40px] w-[80px]" alt="dew3"  />
         </div>
         <h1 className="text-5xl font-bold mb-5 ">
         Empowering Growth Your Success, Our Priority at Royel Advertising.
