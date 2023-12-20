@@ -13,6 +13,7 @@ const HomeBanner = () => {
         className="hidden md:flex w-full h-[600px] md:h-screen"
         alt="home banner"
         loading="lazy"
+        width="100" height="10"
       />
       <div className="relative inline-block w-full h-[720px] md:hidden">
         <img

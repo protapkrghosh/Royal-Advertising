@@ -52,6 +52,7 @@ const Navbar = () => {
               className="w-[140px] h-[70px] my-4"
               alt="logo"
               loading="lazy"
+              width="100" height="10"
             />
           </div>
           <div className={`lg:hidden flex justify-between items-center w-full  px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px]" : ""}`}>
@@ -61,6 +62,7 @@ const Navbar = () => {
                 className="w-24 h-10 -ml-4 my-4"
                 alt="logo"
                 loading="lazy"
+                width="100" height="10"
               />
             </div>
             <button
