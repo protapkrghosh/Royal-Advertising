@@ -43,10 +43,10 @@ const Footer = () => {
             <div>
               <header className={footerHead}>Visit Us</header>
               <div className={footerLinks}>
-                <ScrollLink to="Home" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>Home</ScrollLink>
-                <ScrollLink to="Services" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>Services</ScrollLink>
-                <ScrollLink to="About Us" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>About Us</ScrollLink>
-                <ScrollLink to="Contact Us" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>Contacts</ScrollLink>
+                <ScrollLink href="#" to="Home" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>Home</ScrollLink>
+                <ScrollLink href="#" to="Services" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>Services</ScrollLink>
+                <ScrollLink href="#" to="About Us" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>About Us</ScrollLink>
+                <ScrollLink href="#" to="Contact Us" className="link no-underline hover:underline text-white w-fit" smooth={true} duration={500}>Contacts</ScrollLink>
 
               </div>
             </div>

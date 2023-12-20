@@ -15,6 +15,7 @@ const HandleSmallScreenClosenavbar = ({ isOpens, onClose, activeTab, handleSetAc
                 <p className="">
                     <ScrollLink
                         key={index}
+                        href="#"
                         to={nav.item}
                         smooth={true}
                         duration={500}
@@ -29,11 +30,12 @@ const HandleSmallScreenClosenavbar = ({ isOpens, onClose, activeTab, handleSetAc
             ))}
              <ScrollLink
               to="Contact Us"
+              href="#"
               className=""
               smooth={true}
               duration={500}
             >
-              <button type="button" className="bg-gradient-to-br from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-4 rounded-md shadow-lg transition duration-300 ease-in-out">
+              <button href="#" type="button" className="bg-gradient-to-br from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-4 rounded-md shadow-lg transition duration-300 ease-in-out">
                 Contact Us
               </button>
             </ScrollLink>

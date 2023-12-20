@@ -29,6 +29,7 @@ const ReflectiveDesign = () => {
             </p>
             <ScrollLink
             to="Contact Us"
+            href="#"
             smooth={true}
             duration={500}
           >
