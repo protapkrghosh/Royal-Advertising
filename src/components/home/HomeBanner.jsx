@@ -34,9 +34,9 @@ const HomeBanner = () => {
             Unlock the Power of Outdoor Brilliance
           </h1>
           <p data-aos="fade-up" className="text-gray-300 md:hidden  md:text-xl mt-6 font-thin text-center  md:text-justify">
-          Elevate your brand with Royal Advertising—where outdoor promotion meets unparalleled elegance for lasting impressions.
+            Elevate your brand with Royal Advertising—where outdoor promotion meets unparalleled elegance for lasting impressions.
           </p>
-          <p className="text-[#FFF] hidden md:flex md:text-xl mt-6 font-semibold text-center  md:text-justify">
+          <p className="text-[#FFF] hidden md:flex md:text-xl mt-6 mb-3 font-semibold text-center  md:text-justify">
             Welcome to Royal Advertising, where we redefine the art of outdoor
             promotion. With a commitment to excellence and a touch of royalty,
             we craft bespoke advertising solutions that elevate your brand to
@@ -47,10 +47,11 @@ const HomeBanner = () => {
             href="#"
             smooth={true}
             duration={500}
+            className="flex md:flex-none justify-center md:justify-start"
           >
-            
-            <button type="button" className="bg-gradient-to-br   md:block from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 ease-in-out flex justify-center items-center gap-x-3 mt-4">
-       Let's Talk
+
+            <button type="button" className="bg-gradient-to-br md:block from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 ease-in-out flex justify-center items-center gap-x-3 mt-4">
+              Let's Talk
             </button>
           </ScrollLink>
         </div>
