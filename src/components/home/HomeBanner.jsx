@@ -1,6 +1,8 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { FaPhoneAlt } from "react-icons/fa";
+import { GrEmergency } from "react-icons/gr";
+import { BiSupport } from "react-icons/bi";
 
 const HomeBanner = () => {
   return (
@@ -19,6 +21,7 @@ const HomeBanner = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-black via-[rgba(0,0,0,0.4)] to-transparent"></div>
       </div>
       <div className=" text-left absolute left-1 md:left-0 bottom-[50px] md:top-[180px] lg:top-[130px] xl:top-[230px] lg:left-[100px] xl:left-[150px] ">
+
         <div className="md:w-[600px]" style={{ zIndex: 1 }}>
           <h1 className="text-white md:hidden text-[2.5rem] leading-tight text-center md:text-left font-cursive font-semibold">
             Welcome to Royal Advertising
