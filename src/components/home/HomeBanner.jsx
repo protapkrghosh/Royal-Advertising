@@ -2,7 +2,7 @@ import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { FaPhoneAlt } from "react-icons/fa";
 import useAOSInit from "../../hooks/useAosInit";
-import pcHero from "../../assets/WhatsApp Image 2023-12-18 at 21.14.32_77d66093.jpg"
+import pcHero from "../../assets/homeBanner.jpg"
 import mobileBanner from "../../assets/mobile-banner.jpg"
 const HomeBanner = () => {
   useAOSInit()
