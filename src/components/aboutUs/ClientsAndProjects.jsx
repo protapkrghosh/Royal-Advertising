@@ -33,7 +33,7 @@ const ClientsAndProjects = () => {
             Crafting success, prioritizing you—Royel Advertising’s commitment to your growth.
             </p>
             <div className="skill my-8">
-              <div className="font-semibold text-[17px]">Prime Location Selection</div>
+              <div className="font-semibold text-[15px]">Prime Location Selection</div>
               <div className="skill-bar">
                 <div
                   className="skill-per text-black font-semibold"
@@ -43,7 +43,7 @@ const ClientsAndProjects = () => {
               </div>
             </div>
             <div className="skill mb-20 md:mb-0">
-              <div className="font-semibold text-[17px]">Strategic Campaign Planning</div>
+              <div className="font-semibold text-[15px]">Strategic Campaign <br /> Planning</div>
               <div className="skill-bar">
                 <div
                   className="skill-per text-black font-semibold"
@@ -54,20 +54,22 @@ const ClientsAndProjects = () => {
             </div>
           </div>
           <div className="relative">
-            <img src={shapeImg2} alt="" className="w-[300px] md:w-[400px] h-auto rounded-3xl mx-auto" />
+            <img src={shapeImg2} loading="lazy" alt="" width="640" height="360"  className="w-[300px] md:w-[400px] h-auto rounded-3xl mx-auto" />
             <img
               src={shapeImg1}
               alt="Image"
               className="absolute -top-10 md:top-0 left-5 md:left-0 -mt-6 -ml-6 border-[8px] border-white rounded-2xl"
+              loading="lazy"
+              width="640" height="360"
             />
           </div>
         </div>
 
         <div className="w-full bg-gradient-to-b from-sky-200 to-gray-200 flex justify-between p-8 md:p-10 rounded-[40px] mt-10">
           <div>
-            <h5 className="md:text-xl text-[#f75a5a] mb-3">
+            <h1 className="md:text-xl text-[#f75a5a] mb-3">
               JOIN & GET BEST MARKETING STRATEGY
-            </h5>
+            </h1>
             <h2 className="text-xl md:text-3xl font-bold">
               Let's Boost Up <br /> Your Business  <br />
               withe us !
@@ -83,9 +85,9 @@ const ClientsAndProjects = () => {
       
       <div data-aos="fade-down-left" data-aos-duration="3000" className="md:w-[50%] mt-10 md:mt-0">
         <div className="flex mb-10">
-          <img src={dew} className=" h-[40px] w-[80px]" alt="" />
-          <img src={dew} className=" h-[40px] w-[80px] -mx-[2px]" alt="" />
-          <img src={dew} className=" h-[40px] w-[80px]" alt="" />
+          <img src={dew} className=" h-[40px] w-[80px]" alt="dew1" />
+          <img src={dew} className=" h-[40px] w-[80px] -mx-[2px]" alt="dew2"  />
+          <img src={dew} className=" h-[40px] w-[80px]" alt="dew3"  />
         </div>
         <h1 className="text-5xl font-bold mb-5 ">
         Empowering Growth Your Success, Our Priority at Royel Advertising.

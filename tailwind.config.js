@@ -1,12 +1,18 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
    theme: {
       extend: {
          backgroundImage: {
-            'mobileHero': "url('@assets/WhatsApp Image 2023-12-18 at 21.14.56_6891f69b.jpg')",
-            'pcHero': "url('@assets/WhatsApp Image 2023-12-18 at 21.14.32_77d66093.jpg')"
-          }
+            aboutus: "url('./src/assets/aboutUs.jpg')",
+            whyUs: "url('./src/assets/whyus.jpg')",
+            servicesDescriptions: "url('https://i.ibb.co/7S22kzL/services-Descriptions.jpg')",
+            whyChouseUs: "url('./src/assets/whyChooseUs.jpg')",
+         },
+      },
+      fontFamily: {
+         cursive: ["Kanit", "sans-serif"],
       },
    },
    plugins: [require("daisyui")],

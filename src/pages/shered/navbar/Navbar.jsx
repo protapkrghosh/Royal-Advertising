@@ -50,19 +50,25 @@ const Navbar = () => {
             <img
               src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
               className="w-[140px] h-[70px] my-4"
-              alt=""
+              alt="logo"
+              loading="lazy"
+              width="100" height="10"
             />
           </div>
           <div className={`lg:hidden flex justify-between items-center w-full  px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px]" : ""}`}>
-            <div className=" ">
+            <div>
               <img
                 src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
                 className="w-24 h-10 -ml-4 my-4"
-                alt=""
+                alt="logo"
+                loading="lazy"
+                width="100" height="10"
               />
             </div>
             <button
               type="button"
+              id="navbar-button"
+              aria-label="navbar-button"
               onClick={toggleMenu}
               className={`focus:outline-none ${isFixed ? " text-black " : " text-black"}`}
             >
@@ -92,14 +98,14 @@ const Navbar = () => {
             {navdata.map((nav, index) => (
               <ScrollLink
                 key={index}
+                href="#"
                 to={nav.item}
                 smooth={true}
                 duration={500}
-                className={`font-bold cursor-pointer `}
                 onClick={() => handleSetActive(nav.item)}
                 spy={true}
               >
-                <p href="" className="relative inline-block text-xl text-[#0C0367] group overflow-hidden">
+                <p href="" className="relative inline-block text-xl font-bold cursor-pointer text-[#0C0367] group overflow-hidden">
                   {nav.item}
                   <span className="absolute bottom-0 left-0 w-full h-1 bg-[#0C0367] origin-left transform scale-x-0 transition-transform group-hover:scale-x-100"></span>
                 </p>
@@ -108,11 +114,11 @@ const Navbar = () => {
             ))}
             <ScrollLink
               to="Contact Us"
-              className=""
               smooth={true}
               duration={500}
+              href="#"
             >
-              <button type="button" className="bg-gradient-to-br from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-4 rounded-md shadow-lg transition duration-300 ease-in-out">
+              <button href="#" type="button" className="bg-gradient-to-br from-blue-500 to-purple-600 hover:from-purple-500 hover:to-pink-600 text-white font-bold py-2 px-4 rounded-md shadow-lg transition duration-300 ease-in-out">
                 Contact Us
               </button>
             </ScrollLink>

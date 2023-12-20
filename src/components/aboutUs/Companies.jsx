@@ -19,7 +19,7 @@ const Companies = () => {
         className="mySwiper max-w-[1265px] mx-auto"
       >
       {companiesLogos.map(
-        (companyLogo => <SwiperSlide><img src={companyLogo} alt="" /></SwiperSlide>)
+        (companyLogo => <SwiperSlide><img src={companyLogo} loading="lazy" alt="company swiper" /></SwiperSlide>)
       )}
     </Swiper>
   );

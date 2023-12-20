@@ -75,9 +75,9 @@ const CorporateServices = () => {
   };
   return (
     <div style={imgeStyle} className="text-center mb-[100px] pt-12">
-      <div data-aos="fade-up" data-aos-duration="3000" className="pb-8">
-        <h6 data-aos="fade-up" data-aos-duration="3000" className="text-third">CORPORATE SERVICE</h6>
-        <h3 className="text-primary">Why Us</h3>
+      <div data-aos="fade-up" data-aos-duration="3000" className="pb-5">
+        <p data-aos="fade-up" data-aos-duration="3000" className="text-third">CORPORATE SERVICE</p>
+        <h1 className="text-primary">Why Us</h1>
         <p className="text-third px-3">
           We appreciate your trust greatly! Our clients choose us and our products
           because they know we're the best.
@@ -87,16 +87,17 @@ const CorporateServices = () => {
         {firstDatas.map((data, index) => (
           <div key={index}>
             <div>
-              <h3 className="text-fifth">{data.h3}</h3>
+              <h1 className="text-fifth">{data.h3}</h1>
               <p className="text-third">{data.p}</p>
             </div>
           </div>
         ))}
       </div>
       <ScrollLink to="Contact Us" 
+      href="#"
       smooth={true}
       duration={700}
-      data-aos="fade-up" className="bg-[#0C0833] text-white px-12 py-4 rounded-full font-semibold hover:bg-[#1C1880] my-12 cursor-pointer">Contact Us Now For More Details</ScrollLink>
+      data-aos="fade-up" ><p className="bg-[#0C0833] text-white px-12 py-4 rounded-full font-semibold hover:bg-[#1C1880] mb-14 cursor-pointer">Contact Us Now For More Details</p></ScrollLink>
     </div>
   );
 };
