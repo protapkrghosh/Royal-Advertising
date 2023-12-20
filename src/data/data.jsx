@@ -46,7 +46,67 @@ export const navdata = [
   }
  
 
-]
+];
+
+export const firstDatas = [
+  {
+    h3: "CREATIVE IDEAS",
+    p: (
+      <p>
+        By stretching our thinking capacity, we <br /> can come up with
+        creative and different <br /> ideas.
+      </p>
+    ),
+  },
+  {
+    h3: "DISTINCT WORK PROCESS",
+    p: (
+      <p>
+        Our creative process begins with the
+        <br /> drawing of ideas and ends with the
+        <br /> approval of the design.
+      </p>
+    ),
+  },
+  {
+    h3: "EFFECTIVE STRATEGIES",
+    p: (
+      <p>
+        Creating lead-generation strategies that
+        <br /> generate sales and leads is what <br />
+        reflective design does best.
+      </p>
+    ),
+  },
+  {
+    h3: "RESULT-ORIENTED SERVICES",
+    p: (
+      <p>
+        Every penny counts, so we use a result <br />oriented approach when
+        providing <br /> services.
+      </p>
+    ),
+  },
+  {
+    h3: "COST-EFFECTIVE SERVICES",
+    p: (
+      <p>
+        Whatever the investment, we deliver <br /> effective and cost-effective
+        <br /> results.
+      </p>
+    ),
+  },
+  {
+    h3: "TIME MANAGEMENT",
+    p: (
+      <p>
+        We prioritize tasks according to the goals,<br/>  which helps manage
+        time  <br />effectively.
+      </p>
+    ),
+  },
+];
+
 export const smallNavdata = [
   {
     item: "Home"

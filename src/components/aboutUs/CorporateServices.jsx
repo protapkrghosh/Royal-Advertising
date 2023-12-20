@@ -1,71 +1,12 @@
 import React from "react";
 import useAOSInit from "../../hooks/useAosInit";
 import { Link as ScrollLink } from "react-scroll";
+import { firstDatas } from "../../data/data";
 const CorporateServices = () => {
   useAOSInit()
   const responsive =
-    "grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-14 xl:w-[1300px] mx-auto my-12 px-2 lg:px-0";
-  const heading = "text-2xl lg:text-3xl font-bold lg:tracking-wider mb-4";
-  const para = "text-gray-400 tracking-wide text-lg";
+    "";
 
-  const firstDatas = [
-    {
-      h3: "CREATIVE IDEAS",
-      p: (
-        <p>
-          By stretching our thinking capacity, we <br /> can come up with
-          creative and different <br /> ideas.
-        </p>
-      ),
-    },
-    {
-      h3: "DISTINCT WORK PROCESS",
-      p: (
-        <p>
-          Our creative process begins with the
-          <br /> drawing of ideas and ends with the
-          <br /> approval of the design.
-        </p>
-      ),
-    },
-    {
-      h3: "EFFECTIVE STRATEGIES",
-      p: (
-        <p>
-          Creating lead-generation strategies that
-          <br /> generate sales and leads is what <br />
-          reflective design does best.
-        </p>
-      ),
-    },
-    {
-      h3: "RESULT-ORIENTED SERVICES",
-      p: (
-        <p>
-          Every penny counts, so we use a result <br />oriented approach when
-          providing <br /> services.
-        </p>
-      ),
-    },
-    {
-      h3: "COST-EFFECTIVE SERVICES",
-      p: (
-        <p>
-          Whatever the investment, we deliver <br /> effective and cost-effective
-          <br /> results.
-        </p>
-      ),
-    },
-    {
-      h3: "TIME MANAGEMENT",
-      p: (
-        <p>
-          We prioritize tasks according to the goals,<br/>  which helps manage
-          time  <br />effectively.
-        </p>
-      ),
-    },
-  ];
   const imge = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKmKHNnp2eayRYGL8JBBtIW-FR2I0tr_VBB8iDP94o6FXFwMRejzFnD1Ov2-cDAPRtinQ&usqp=CAU"
 
   const imgeStyle = {
@@ -83,7 +24,7 @@ const CorporateServices = () => {
           because they know we're the best.
         </p>
       </div>
-      <div data-aos="fade-left" data-aos-duration="3000" className={responsive}>
+      <div data-aos="fade-left" data-aos-duration="3000" className="responsive">
         {firstDatas.map((data, index) => (
           <div key={index}>
             <div>
