@@ -1,18 +1,22 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { FaPhoneAlt } from "react-icons/fa";
-
+import useAOSInit from "../../hooks/useAosInit";
+import pcHero from "../../assets/WhatsApp Image 2023-12-18 at 21.14.32_77d66093.jpg"
+import mobileBanner from "../../assets/mobile-banner.jpg"
 const HomeBanner = () => {
+  useAOSInit()
   return (
     <div className="relative ">
       <img
-        src="https://cdn-edjcg.nitrocdn.com/VBWSxyKIMetGynBOPkcprlqWleWuyTij/assets/images/optimized/rev-9f1d91c/www.blipbillboards.com/wp-content/uploads/image-11-1.png"
+        src={pcHero}
         className="hidden md:flex w-full h-[600px] md:h-screen"
-        alt=""
+        alt="home banner"
+        loading="lazy"
       />
       <div className="relative inline-block w-full h-[720px] md:hidden">
         <img
-          src="https://images.squarespace-cdn.com/content/v1/608bf3b649215c2156c82cda/1620236465578-S0ONGH905OF8IQ87GUOA/outdoor-billboard-NJDS46H.jpg?format=1500w"
+          src={mobileBanner}
           className=" w-full object-cover  h-full"
           alt=""
         />
@@ -27,7 +31,7 @@ const HomeBanner = () => {
           <h1 className="text-[#FFF] hidden md:flex lg:text-6xl text-4xl font-bold text-center  md:text-left">
             Unlock the Power of Outdoor Brilliance
           </h1>
-          <p className="text-gray-300 md:hidden  md:text-xl mt-6 font-thin text-center  md:text-justify">
+          <p data-aos="fade-up" className="text-gray-300 md:hidden  md:text-xl mt-6 font-thin text-center  md:text-justify">
           Elevate your brand with Royal Advertising—where outdoor promotion meets unparalleled elegance for lasting impressions.
           </p>
           <p className="text-[#FFF] hidden md:flex md:text-xl mt-6 font-semibold text-center  md:text-justify">

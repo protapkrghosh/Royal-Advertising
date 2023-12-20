@@ -33,7 +33,7 @@ const ClientsAndProjects = () => {
             Crafting success, prioritizing you—Royel Advertising’s commitment to your growth.
             </p>
             <div className="skill my-8">
-              <div className="font-semibold text-[17px]">Prime Location Selection</div>
+              <div className="font-semibold text-[15px]">Prime Location Selection</div>
               <div className="skill-bar">
                 <div
                   className="skill-per text-black font-semibold"
@@ -43,7 +43,7 @@ const ClientsAndProjects = () => {
               </div>
             </div>
             <div className="skill mb-20 md:mb-0">
-              <div className="font-semibold text-[17px]">Strategic Campaign Planning</div>
+              <div className="font-semibold text-[15px]">Strategic Campaign <br /> Planning</div>
               <div className="skill-bar">
                 <div
                   className="skill-per text-black font-semibold"
@@ -54,11 +54,12 @@ const ClientsAndProjects = () => {
             </div>
           </div>
           <div className="relative">
-            <img src={shapeImg2} alt="" className="w-[300px] md:w-[400px] h-auto rounded-3xl mx-auto" />
+            <img src={shapeImg2} loading="lazy" alt="" className="w-[300px] md:w-[400px] h-auto rounded-3xl mx-auto" />
             <img
               src={shapeImg1}
               alt="Image"
               className="absolute -top-10 md:top-0 left-5 md:left-0 -mt-6 -ml-6 border-[8px] border-white rounded-2xl"
+              loading="lazy"
             />
           </div>
         </div>

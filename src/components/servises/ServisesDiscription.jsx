@@ -15,7 +15,7 @@ const imgeStyle = {
     backgroundSize: 'cover', 
 };
   return (
-    <div style={imgeStyle} className="py-14">
+    <div  className="py-14 bg-servisesDiscriptins bg-cover bg-no-repeat">
              <h1 data-aos="fade-down" data-aos-duration="3000" className="text-primary text-center  my-10">Services We Provide</h1>
             <VerticalTimeline>
                 {ourservises.map((ourservis, index) => (
@@ -29,7 +29,7 @@ const imgeStyle = {
                     lineColor='#070234'
                 >
                  <div className=' text-center'>
-                 <img src={ourservis.img} className='mx-auto p-4' alt="" />
+                 <img src={ourservis.img} loading='lazy' className='mx-auto p-4' alt="servises images" />
                     <h3 className="text-secendary">{ourservis.title}</h3>
                     <p className='text-third'>{ourservis.discription}</p>
                  </div>
