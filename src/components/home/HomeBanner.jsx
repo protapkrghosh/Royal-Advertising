@@ -30,7 +30,7 @@ const HomeBanner = () => {
             Welcome to Royal Advertising
           </h1>
 
-          <h1 className="text-[#FFF] hidden md:flex lg:text-6xl text-4xl font-bold text-center  md:text-left">
+          <h1 className="text-[#FFF]  hidden md:flex lg:text-6xl text-4xl font-bold text-center  md:text-left">
             Unlock the Power of Outdoor Brilliance
           </h1>
           <p data-aos="fade-up" className="text-gray-300 md:hidden  md:text-xl mt-6 font-thin text-center  md:text-justify">
