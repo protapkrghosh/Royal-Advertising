@@ -37,6 +37,7 @@ const ReflectiveDesign = () => {
                             />
                         </Player>
                     </div>
+
           <div data-aos="fade-left" data-aos-duration="3000" className="md:w-[50%] ">
             <h1 className="text-secendary  ">
             About Royel Advertising Redefining Excellence, Shaping Futures.
