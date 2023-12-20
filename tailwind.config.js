@@ -5,15 +5,15 @@ export default {
    theme: {
       extend: {
          backgroundImage: {
-            'aboutus': "url('./src/assets/aboutUs.jpg')",
-            'whyUs': "url('./src/assets/whyus.avif')",
-            'servisesDiscriptins': "url('./src/assets/servisesDiscriptions.jpg')",
-            'whyChouseUs': "url('./src/assets/whyChooseUs.avif')"
-          }
+            aboutus: "url('./src/assets/aboutUs.jpg')",
+            whyUs: "url('./src/assets/whyus.jpg')",
+            servicesDescriptions: "url('https://i.ibb.co/7S22kzL/services-Descriptions.jpg')",
+            whyChouseUs: "url('./src/assets/whyChooseUs.jpg')",
+         },
       },
       fontFamily: {
-         'cursive': ['Kanit', "sans-serif"]
-       }
+         cursive: ["Kanit", "sans-serif"],
+      },
    },
    plugins: [require("daisyui")],
 };
