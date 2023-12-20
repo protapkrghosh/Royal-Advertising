@@ -15,7 +15,7 @@ const imgeStyle = {
     backgroundSize: 'cover', 
 };
   return (
-    <div  className="py-14 bg-servisesDiscriptins bg-cover bg-no-repeat">
+    <div className="py-14 bg-servicesDescriptions bg-cover bg-no-repeat">
              <h1 data-aos="fade-down" data-aos-duration="3000" className="text-primary text-center  my-10">Services We Provide</h1>
             <VerticalTimeline>
                 {ourservises.map((ourservis, index) => (
