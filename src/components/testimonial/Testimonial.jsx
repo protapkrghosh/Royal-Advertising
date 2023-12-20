@@ -48,7 +48,7 @@ const Testimonial = () => {
               <SwiperSlide key={index}>
                 {/* Slide content */}
                 <div className='flex flex-col justify-center items-center'>
-                  <img src={testimonial?.img} alt="Person Image" className='w-24 h-24 rounded-full ' />
+                  <img src={testimonial?.img} loading='lazy' alt="Person Image" className='w-24 h-24 rounded-full ' />
                   <p className='w-[90%] md:w-[70%] mx-auto text-justify md:text-center tracking-tighter md:tracking-normal text-[20px] my-4 md:my-10'>{testimonial?.description}</p>
                   <FaQuoteLeft className='text-4xl text-[#8F6DFF]' />
                   <h3 className='text-2xl font-bold mt-3 md:mt-7 md:mb-2'>{testimonial?.name}</h3>

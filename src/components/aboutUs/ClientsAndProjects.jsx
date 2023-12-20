@@ -54,11 +54,12 @@ const ClientsAndProjects = () => {
             </div>
           </div>
           <div className="relative">
-            <img src={shapeImg2} alt="" className="w-[300px] md:w-[400px] h-auto rounded-3xl mx-auto" />
+            <img src={shapeImg2} loading="lazy" alt="" className="w-[300px] md:w-[400px] h-auto rounded-3xl mx-auto" />
             <img
               src={shapeImg1}
               alt="Image"
               className="absolute -top-10 md:top-0 left-5 md:left-0 -mt-6 -ml-6 border-[8px] border-white rounded-2xl"
+              loading="lazy"
             />
           </div>
         </div>
