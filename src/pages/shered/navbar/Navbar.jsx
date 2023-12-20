@@ -56,7 +56,7 @@ const Navbar = () => {
             />
           </div>
           <div className={`lg:hidden flex justify-between items-center w-full  px-8 z-10 ${isFixed ? "bg-white text-black w-full shadow-md  fixed mt-[70px]" : ""}`}>
-            <div className=" ">
+            <div>
               <img
                 src="https://i.ibb.co/Zf5cgxT/sdsd-1.png"
                 className="w-24 h-10 -ml-4 my-4"
@@ -114,7 +114,6 @@ const Navbar = () => {
             ))}
             <ScrollLink
               to="Contact Us"
-              className=""
               smooth={true}
               duration={500}
               href="#"
