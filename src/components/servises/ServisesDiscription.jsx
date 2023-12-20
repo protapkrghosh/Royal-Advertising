@@ -29,7 +29,7 @@ const imgeStyle = {
                     lineColor='#070234'
                 >
                  <div className=' text-center'>
-                 <img src={ourservis.img} loading='lazy' className='mx-auto p-4' alt="servises images" />
+                 <img src={ourservis.img} loading='lazy' width="100" height="10" className='mx-auto p-4' alt="servises images" />
                     <h3 className="text-secendary">{ourservis.title}</h3>
                     <p className='text-third'>{ourservis.discription}</p>
                  </div>
