@@ -87,7 +87,7 @@ const CorporateServices = () => {
         {firstDatas.map((data, index) => (
           <div key={index}>
             <div>
-              <h3 className="text-fifth">{data.h3}</h3>
+              <h1 className="text-fifth">{data.h3}</h1>
               <p className="text-third">{data.p}</p>
             </div>
           </div>
