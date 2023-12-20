@@ -65,6 +65,8 @@ const Navbar = () => {
             </div>
             <button
               type="button"
+              id="navbar-button"
+              aria-label="navbar-button"
               onClick={toggleMenu}
               className={`focus:outline-none ${isFixed ? " text-black " : " text-black"}`}
             >
