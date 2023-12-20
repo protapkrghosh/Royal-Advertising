@@ -30,7 +30,7 @@ const ClientsAndProjects = () => {
             >
             </CountUp>
             <p className="mt-5">
-            Crafting success, prioritizing you—Royel Advertising’s commitment to your growth.
+            Crafting success, prioritizing you—Royal Advertising’s commitment to your growth.
             </p>
             <div className="skill my-8">
               <div className="font-semibold text-[15px]">Prime Location Selection</div>
@@ -54,7 +54,7 @@ const ClientsAndProjects = () => {
             </div>
           </div>
           <div className="relative">
-            <img src={shapeImg2} loading="lazy" alt="" width="640" height="360"  className="w-[300px] md:w-[400px] h-auto rounded-3xl mx-auto" />
+            <img src={shapeImg2} loading="lazy" alt="" width="640" height="360"  className="w-[360px] md:w-[400px] h-auto rounded-3xl mx-auto" />
             <img
               src={shapeImg1}
               alt="Image"
@@ -65,7 +65,7 @@ const ClientsAndProjects = () => {
           </div>
         </div>
 
-        <div className="w-full bg-gradient-to-b from-sky-200 to-gray-200 flex justify-between p-8 md:p-10 rounded-[40px] mt-10">
+        <div className="w-full bg-gradient-to-b from-sky-200 to-gray-200 flex justify-between p-8 md:p-9 rounded-[40px] mt-10">
           <div>
             <h1 className="md:text-xl text-[#f75a5a] mb-3">
               JOIN & GET BEST MARKETING STRATEGY
