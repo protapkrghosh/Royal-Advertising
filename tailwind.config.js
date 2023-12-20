@@ -7,7 +7,7 @@ export default {
          backgroundImage: {
             aboutus: "url('./src/assets/aboutUs.jpg')",
             whyUs: "url('./src/assets/whyus.jpg')",
-            servisesDiscriptins: "url('./src/assets/servisesDiscriptions.jpg')",
+            servicesDescriptions: "url('./src/assets/servicesDescriptions.jpg')",
             whyChouseUs: "url('./src/assets/whyChooseUs.jpg')",
          },
       },
