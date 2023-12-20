@@ -67,9 +67,9 @@ const ClientsAndProjects = () => {
 
         <div className="w-full bg-gradient-to-b from-sky-200 to-gray-200 flex justify-between p-8 md:p-10 rounded-[40px] mt-10">
           <div>
-            <h5 className="md:text-xl text-[#f75a5a] mb-3">
+            <h1 className="md:text-xl text-[#f75a5a] mb-3">
               JOIN & GET BEST MARKETING STRATEGY
-            </h5>
+            </h1>
             <h2 className="text-xl md:text-3xl font-bold">
               Let's Boost Up <br /> Your Business  <br />
               withe us !
